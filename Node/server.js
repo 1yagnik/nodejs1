@@ -27,6 +27,8 @@ server.use(express.urlencoded({ extended: true }));
 
 const viewsPath = path.join(__dirname, "src", "views");
 
+server.use(express.static(path.join(__dirname, 'public')));
+
 server.use(express.static(viewsPath));
 
 server.set("view engine", "ejs");
