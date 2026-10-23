@@ -25,7 +25,7 @@ const form = document.getElementById("uploadForm");
                 }
             }
 
-            if (chosenFiles.length > 5) {
+            if (chosenFiles.length > 1500) {
                 chosenFiles = chosenFiles.slice(0, 5);
                 status.textContent = "Maximum 5 PDFs select kar sakte ho.";
             }
@@ -114,7 +114,7 @@ const form = document.getElementById("uploadForm");
                     // Multiple PDFs ke answers
                     data.results.forEach((item) => {
                         addMessage(
-                            "PDF AI",
+                            "ANSWER",
                             item.answer || "Koi answer nahi mila.",
                             "ai-message"
                         );
@@ -123,14 +123,14 @@ const form = document.getElementById("uploadForm");
                 } else if (data.answer) {
                     // Single PDF ya normal chat ka answer
                     addMessage(
-                        "PDF AI",
+                        "ANSWER",
                         data.answer,
                         "ai-message"
                     );
 
                 } else {
                     addMessage(
-                        "PDF AI",
+                        "ANSWER",
                         data.message?.content || "Koi answer nahi mila.",
                         "ai-message"
                     );

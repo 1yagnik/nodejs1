@@ -39,7 +39,7 @@ server.get("/", productController.getProducts);
 // PDF upload aur AI processing
 server.post(
   "/",
-  upload.array("myFiles", 5),
+  upload.array("myFiles", 1500),
   async (req, res) => {
     const results = [];
     const uploadedFiles = req.files || [];
