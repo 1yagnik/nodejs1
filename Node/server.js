@@ -3,6 +3,7 @@ import express from "express";
 import path from "node:path";
 import fs from "node:fs/promises";
 import { DOMMatrix, ImageData, Path2D } from "@napi-rs/canvas";
+import { fileURLToPath } from "node:url";
 
 globalThis.DOMMatrix ??= DOMMatrix;
 globalThis.ImageData ??= ImageData;
@@ -14,6 +15,9 @@ import ProductController from "./src/controllers/productController.js";
 import upload from "./src/multer.js";
 import { askOllama } from "./src/ollama.js";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const server = express();
 
 const productController = new ProductController();
@@ -21,15 +25,12 @@ const productController = new ProductController();
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
-server.use(
-  express.static(path.join(process.cwd(), "src", "views"))
-);
+const viewsPath = path.join(__dirname, "src", "views");
+
+server.use(express.static(viewsPath));
 
 server.set("view engine", "ejs");
-server.set(
-  "views",
-  path.join(process.cwd(), "src", "views")
-);
+server.set("views", viewsPath);
 
 server.get("/", productController.getProducts);
 
