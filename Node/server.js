@@ -11,6 +11,7 @@ globalThis.Path2D ??= Path2D;
 
 const { PDFParse } = await import("pdf-parse");
 
+
 import ProductController from "./src/controllers/productController.js";
 import upload from "./src/multer.js";
 import { askOllama } from "./src/ollama.js";
@@ -19,6 +20,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const server = express();
+const aiFilePath = process.env.VERCEL
+  ? "/tmp/ai.txt"
+  : path.join(process.cwd(), "ai.txt");
 
 const productController = new ProductController();
 
@@ -120,15 +124,15 @@ server.post(
         try {
           // Pehle se saved content read karo
           const existingContent = await fs
-            .readFile("ai.txt", "utf8")
+            .readFile(aiFilePath, "utf8")
             .catch(() => "");
 
           if (existingContent.trim() === "") {
             // File empty hai, naya content save karo
-            await fs.writeFile("ai.txt", content, "utf8");
+            await fs.writeFile(aiFilePath, content, "utf8");
           } else {
             // File mein content hai, naya content append karo
-            await fs.appendFile("ai.txt", "\n\n" + content, "utf8");
+            await fs.appendFile(aiFilePath, "\n\n" + content, "utf8");
           }
 
           // Updated file ka poora content dobara read karo

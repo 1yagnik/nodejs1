@@ -1,9 +1,13 @@
 
 import "dotenv/config";
 import fs from "node:fs/promises";
+import path from "node:path";
 
 export async function askOllama(content = "", question = "") {
-  const allContent = await fs.readFile("ai.txt", "utf8");
+  const aiFilePath = process.env.VERCEL
+  ? "/tmp/ai.txt"
+  : path.join(process.cwd(), "ai.txt");
+  const allContent = await fs.readFile(aiFilePath, "utf8");
   
 
   if(content.trim() === ""){
