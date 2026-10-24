@@ -1,7 +1,19 @@
 
 import "dotenv/config";
+import fs from "node:fs/promises";
 
 export async function askOllama(content = "", question = "") {
+  const allContent = await fs.readFile("ai.txt", "utf8");
+  
+
+  if(content.trim() === ""){
+    content = allContent
+    console.log("true");
+    
+  }
+
+
+
   const pdfContent = content?.trim()
     ? `PDF ka content:\n\n${content.trim()}`
     : "Koi PDF upload nahi ki gayi.";

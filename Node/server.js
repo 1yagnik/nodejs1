@@ -59,10 +59,13 @@ server.post(
         return res.status(200).json({ answer });
       }
 
+
       // Har uploaded PDF ko process karo
       for (const uploadedFile of uploadedFiles) {
         let parser;
         let pdfText = "";
+
+
 
         try {
           const buffer = await fs.readFile(uploadedFile.path);
@@ -74,6 +77,8 @@ server.post(
 
             // Parser result mila to text use karo
             pdfText = result?.text?.trim() || "";
+
+
           } catch (parseError) {
             // Parser fail ho to bhi AI ko question bhejenge
             console.error(
@@ -100,11 +105,36 @@ server.post(
           }
         }
 
+
+
+
         // Text empty ho tab bhi Ollama call hoga
         const content = pdfText ||
           "PDF se text extract nahi ho saka. PDF scanned/image-based ya unreadable ho sakti hai.";
 
+
+
+
+        //this is fs readfile okay done  
+
         try {
+          // Pehle se saved content read karo
+          const existingContent = await fs
+            .readFile("ai.txt", "utf8")
+            .catch(() => "");
+
+          if (existingContent.trim() === "") {
+            // File empty hai, naya content save karo
+            await fs.writeFile("ai.txt", content, "utf8");
+          } else {
+            // File mein content hai, naya content append karo
+            await fs.appendFile("ai.txt", "\n\n" + content, "utf8");
+          }
+
+          // Updated file ka poora content dobara read karo
+
+
+          // Ab poora saved content Ollama ko bhejo
           const answer = await askOllama(content, question);
 
           results.push({
@@ -114,9 +144,10 @@ server.post(
           });
         } finally {
           // Temporary file delete karo
-          await fs.unlink(uploadedFile.path).catch(() => {});
+          await fs.unlink(uploadedFile.path).catch(() => { });
         }
       }
+      
 
       return res.status(200).json({
         message: "PDF processing complete.",
@@ -128,7 +159,7 @@ server.post(
 
       await Promise.all(
         uploadedFiles.map(file =>
-          fs.unlink(file.path).catch(() => {})
+          fs.unlink(file.path).catch(() => { })
         )
       );
 
