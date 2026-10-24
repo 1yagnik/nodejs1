@@ -4,7 +4,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 export async function askOllama(content = "", question = "") {
-  const aiFilePath = process.env.VERCEL
+  const isVercel = process.env.VERCEL === "1";
+  const aiFilePath = isVercel
   ? "/tmp/ai.txt"
   : path.join(process.cwd(), "ai.txt");
   const allContent = await fs.readFile(aiFilePath, "utf8");

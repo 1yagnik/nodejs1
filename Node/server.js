@@ -59,6 +59,8 @@ server.post(
         }
 
         const answer = await askOllama("", question);
+        console.log(answer);
+        
 
         return res.status(200).json({ answer });
       }
