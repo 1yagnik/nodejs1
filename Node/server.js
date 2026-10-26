@@ -16,6 +16,7 @@ import ProductController from "./src/controllers/productController.js";
 import upload from "./src/multer.js";
 import { askOllama } from "./src/ollama.js";
 
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -38,6 +39,8 @@ server.use(express.static(viewsPath));
 server.set("view engine", "ejs");
 server.set("views", viewsPath);
 
+
+server.get("/pdf",productController.getPdf)
 server.get("/", productController.getProducts);
 
 // PDF upload aur AI processing
@@ -59,7 +62,9 @@ server.post(
         }
 
         const answer = await askOllama("", question);
-        console.log(answer);
+       
+       
+       
         
 
         return res.status(200).json({ answer });
@@ -142,7 +147,8 @@ server.post(
 
           // Ab poora saved content Ollama ko bhejo
           const answer = await askOllama(content, question);
-
+          
+          
           results.push({
             fileName: uploadedFile.originalname,
             question,

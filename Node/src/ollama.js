@@ -10,6 +10,8 @@ export async function askOllama(content = "", question = "") {
   : path.join(process.cwd(), "ai.txt");
   const allContent = await fs.readFile(aiFilePath, "utf8");
   
+  console.log(content);
+  
 
   if(content.trim() === ""){
     content = allContent

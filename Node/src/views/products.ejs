@@ -1,37 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="hi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF AI Research</title>
+
+    <title>YAGNIK AI Research</title>
+
     <link rel="stylesheet" href="/css/styles.css">
 
-   
+    <!-- PDF.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc =
+            "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    </script>
 </head>
 
 <body>
+
     <div class="app">
 
+        <!-- LEFT SIDEBAR -->
         <aside class="sidebar">
-            <button class="new-chat" id="newChat">＋ New chat</button>
+
+            <button class="new-chat" id="newChat">
+                ＋ New chat
+            </button>
 
             <p class="history-title">Recent research</p>
 
             <div class="history" id="history">
-                <div class="history-item">Abhi koi research nahi hai.</div>
+                <div class="history-item">
+                    Abhi koi research nahi hai.
+                </div>
             </div>
 
             <div class="sidebar-bottom">
+
                 <button class="sidebar-button" id="themeButton">
                     ☾ Dark mode
                 </button>
+
                 <button class="sidebar-button" id="clearButton">
                     🗑 Clear chat
                 </button>
+
             </div>
+
         </aside>
 
+
+        <!-- MAIN CHAT SECTION -->
         <main class="main">
 
             <header class="topbar">
@@ -40,59 +65,100 @@
 
             <section class="chat-area" id="chatArea">
 
+                <!-- WELCOME SCREEN -->
                 <div class="welcome" id="welcome">
+
                     <div class="logo">✳</div>
+
                     <h1>What can I help with?</h1>
 
                     <div class="welcome-grid">
+
                         <div class="welcome-card">
                             <h3>📄 PDF Research</h3>
-                            <p>Multiple PDFs upload karo aur unke content se answers pao.</p>
+                            <p>
+                                Multiple PDFs upload karo aur
+                                unke content se answers pao.
+                            </p>
                         </div>
 
                         <div class="welcome-card">
                             <h3>🔍 Ask Questions</h3>
-                            <p>Documents ke baare mein apna sawaal likho.</p>
+                            <p>
+                                Documents ke baare mein
+                                apna sawaal likho.
+                            </p>
                         </div>
 
                         <div class="welcome-card">
                             <h3>💡 Analyze Documents</h3>
-                            <p>Important information, summaries aur comparisons nikalo.</p>
+                            <p>
+                                Important information,
+                                summaries aur comparisons nikalo.
+                            </p>
                         </div>
+
                     </div>
+
                 </div>
 
+                <!-- CHAT MESSAGES -->
                 <div class="messages" id="messages"></div>
 
             </section>
 
+
+            <!-- CHAT INPUT SECTION -->
             <section class="input-wrapper">
+
                 <form id="uploadForm" class="composer">
 
+                    <!-- SELECTED PDF FILES -->
                     <div class="selected-files" id="selectedFiles"></div>
 
-                    <textarea class="question-input" id="question" name="question"
-                        placeholder="Apna sawaal likho... jaise: In PDFs ka summary batao" ></textarea>
+                    <!-- QUESTION INPUT -->
+                    <textarea
+                        class="question-input"
+                        id="question"
+                        name="question"
+                        placeholder="Apna sawaal likho... jaise: In PDFs ka summary batao"
+                    ></textarea>
 
                     <div class="composer-bottom">
 
                         <div class="left-actions">
-                            <label for="pdfFiles" class="upload-button">
+
+                            <label
+                                for="pdfFiles"
+                                class="upload-button"
+                            >
                                 ＋ PDF upload
                             </label>
 
-                            <input type="file" id="pdfFiles" name="myFiles" accept=".pdf,application/pdf" multiple>
-
+                            <input
+                                type="file"
+                                id="pdfFiles"
+                                name="myFiles"
+                                accept=".pdf,application/pdf"
+                                multiple
+                            >
+                          
                             <span class="file-count" id="fileCount">
                                 0 PDFs selected
                             </span>
+
                         </div>
 
-                        <button class="send-button" id="sendButton" type="submit">
+                        <button
+                            class="send-button"
+                            id="sendButton"
+                            type="submit"
+                        >
                             Send ↑
                         </button>
 
                     </div>
+
                 </form>
 
                 <p class="status" id="status">
@@ -102,12 +168,115 @@
                 <p class="footer-note">
                     AI ke answers ko important decisions se pehle verify karein.
                 </p>
+
             </section>
 
         </main>
+
+
+        <!-- RIGHT SIDE PDF VIEWER -->
+        <aside class="pdf-viewer" id="pdfViewer">
+
+            <!-- VIEWER HEADER -->
+            <div class="pdf-viewer-header">
+
+                <div class="pdf-title">
+
+                    <span class="pdf-icon">📄</span>
+
+                    <div class="pdf-title-info">
+                        <h2>PDF Viewer</h2>
+                        <p id="pdfName">
+                            Koi PDF select nahi hai
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="pdf-controls">
+
+                    <button
+                        type="button"
+                        id="prevPage"
+                        title="Previous page"
+                    >
+                        ‹
+                    </button>
+
+                    <span id="pageInfo">0 / 0</span>
+
+                    <button
+                        type="button"
+                        id="nextPage"
+                        title="Next page"
+                    >
+                        ›
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PDF TOOLBAR -->
+            
+
+
+            <!-- PDF DOCUMENT DISPLAY AREA -->
+            <div
+                class="pdf-document-area"
+                id="pdfDocumentArea"
+            >
+
+                <!-- EMPTY STATE -->
+                <div
+                    class="pdf-empty-state"
+                    id="pdfEmptyState"
+                >
+
+                    <div class="empty-pdf-icon">📑</div>
+
+                    <h3>PDF yahan dikhegi</h3>
+
+                    <p>
+                        Chat mein PDF upload karne ke baad
+                        document yahan view kar sakte ho.
+                    </p>
+
+                </div>
+
+
+                <!-- PDF PAGE CANVAS -->
+                <div
+                    class="pdf-page-container"
+                    id="pdfPageContainer"
+                    hidden
+                >
+
+                    <canvas id="pdfCanvas"></canvas>
+
+                </div>
+
+            </div>
+
+
+            <!-- VIEWER FOOTER -->
+            <div class="pdf-viewer-footer">
+
+                <span id="pdfStatus">Ready</span>
+
+                <span>PDF Reader</span>
+
+            </div>
+
+        </aside>
+
     </div>
 
-    <script src="JS/index.js"> </script>
+
+    <!-- YOUR EXISTING JAVASCRIPT -->
+    <script src="/JS/index.js"></script>
+    
 
 </body>
 

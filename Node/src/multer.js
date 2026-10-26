@@ -7,7 +7,7 @@ const isVercel = process.env.VERCEL === "1";
 
 // Vercel par temporary storage; local par project ka uploads folder
 const uploadDir = isVercel
-  ? "/tmp/uploads"
+  ? "/tmp/2"
   : path.join(process.cwd(), "uploads");
 
 // Folder ko safely create karo

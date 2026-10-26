@@ -8,6 +8,11 @@ export default class ProductController {
 
         res.render("products")
     }
+    getPdf(req, res) {
+
+
+        res.render("pdf")
+    }
     setProducts(req, res) {
 
 
