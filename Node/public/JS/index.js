@@ -334,11 +334,7 @@ async function searchWord(searchText) {
 
     console.log("Total matches:", found);
 
-    if (found === 0) {
-        alert("Koi bhi word PDF mein nahi mila.");
-    } else {
-        alert("Total words matched: " + found);
-    }
+    
 }
 
 

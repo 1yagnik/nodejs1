@@ -23,5 +23,8 @@
     "pdf-dist": "^1.0.0",
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^6.4.299"
+  },
+  "devDependencies": {
+    "prettier-standard": "^16.4.1"
   }
 }
