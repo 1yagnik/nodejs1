@@ -33,6 +33,9 @@ export default class ProductController {
           }
 
           const answer = await askOllama('', question);
+          console.log("THIS IS NO CONTENT ANSWER",answer);
+          
+
 
           return res.status(200).json({ answer });
         }
@@ -63,7 +66,7 @@ export default class ProductController {
               try {
                 await parser.destroy();
               } catch (destroyError) {
-                console.error('Parser cleanup error:', destroyError.message);
+                console.ereror('Parser cleanup error:', destroyError.message);
               }
             }
           }
@@ -91,6 +94,7 @@ export default class ProductController {
 
             // Ab poora saved content Ollama ko bhejo
             const answer = await askOllama(content, question);
+            console.log("THIS IS  CONTENT ANSWER",answer);
 
             results.push({
               fileName: uploadedFile.originalname,

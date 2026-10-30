@@ -178,3 +178,1316 @@ Authorised Signatory
 This is a Computer Generated Document
 
 -- 1 of 1 --
+
+OM ENTERPRISE
+Survey No.:46,
+Plot No. 33,
+Opp.Ice Factory,
+Near Tulsi Industries,
+Vavdi,
+Rajkot-360005
+Contact : +91-982587886
+E-Mail : om.enterprise@gmail.com
+Earth Ortho Pvt Ltd
+Ledger Account
+25 3rd Floor Shri Siddheshwar Plaza
+Near Sakar Complex Next Sardar Es
+New Vip Road Vadodara
+390022
+1-Apr-20 to 3-Oct-26
+Page 1
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+15-Mar-22 	Cr 	Sales Account 	32,397.74 Dr	32,397.74	476	Sales
+22-Mar-22 	Cr 	Sales Account 	49,591.48 Dr	17,193.74	484	Sales
+49,591.48
+Dr 	Closing Balance 	49,591.48
+49,591.48	49,591.48
+1-Apr-22 	Cr 	Opening Balance 	49,591.48
+22-May-22 	Cr 	Sales Account 	1,04,049.48 Dr	54,458.00	056	Sales
+Cr 	Sales Account 	1,36,263.48 Dr	32,214.00	057	Sales
+23-May-22 	Cr 	Sales Account 	1,49,703.48 Dr	13,440.00	058	Sales
+24-May-22 	Cr 	Sales Account 	1,79,922.48 Dr	30,219.00	060	Sales
+30-May-22 	Cr 	Sales Account 	1,87,309.48 Dr	7,387.00	067	Sales
+6-Jun-22 	Cr 	Sales Account 	2,35,184.48 Dr	47,875.00	074	Sales
+9-Jun-22 	Dr 	Sales Account 	2,32,165.48 Dr	3,019.00	3	Credit Note
+Dr 	HDFC BANK 50200055194435 	1,82,164.48 Dr	50,001.00	39	Receipt
+13-Jun-22 	Cr 	Sales Account 	2,95,874.48 Dr	1,13,710.00	081	Sales
+21-Jun-22 	Cr 	Sales Account 	3,48,201.48 Dr	52,327.00	087	Sales
+8-Jul-22 	Dr 	HDFC BANK 50200055194435 	3,23,201.48 Dr	25,000.00	55	Receipt
+11-Jul-22 	Cr 	Sales Account 	3,51,588.48 Dr	28,387.00	111	Sales
+Cr 	Sales Account 	3,60,100.48 Dr	8,512.00	112	Sales
+16-Jul-22 	Cr 	Sales Account 	3,90,503.48 Dr	30,403.00	129	Sales
+25-Jul-22 	Cr 	Sales Account 	3,94,808.48 Dr	4,305.00	142	Sales
+26-Jul-22 	Cr 	Sales Account 	4,15,708.48 Dr	20,900.00	146	Sales
+1-Aug-22 	Dr 	HDFC BANK 50200055194435 	3,65,708.48 Dr	50,000.00	71	Receipt
+9-Aug-22 	Cr 	Sales Account 	4,41,586.48 Dr	75,878.00	165	Sales
+16-Aug-22 	Dr 	HDFC BANK 50200055194435 	4,01,586.48 Dr	40,000.00	79	Receipt
+22-Aug-22 	Cr 	Sales Account 	4,52,096.48 Dr	50,510.00	175	Sales
+Cr 	Sales Account 	4,72,676.48 Dr	20,580.00	176	Sales
+Cr 	Sales Account 	5,35,393.48 Dr	62,717.00	177	Sales
+25-Aug-22 	Cr 	Sales Account 	5,69,602.48 Dr	34,209.00	182	Sales
+Cr 	Sales Account 	5,80,060.48 Dr	10,458.00	188	Sales
+Dr 	HDFC BANK 50200055194435 	5,30,060.48 Dr	50,000.00	85	Receipt
+Dr 	HDFC BANK 50200055194435 	4,80,060.48 Dr	50,000.00	86	Receipt
+1-Sep-22 	Cr 	Sales Account 	5,00,168.48 Dr	20,108.00	195	Sales
+15-Sep-22 	Cr 	Sales Account 	5,77,240.48 Dr	77,072.00	215	Sales
+29-Sep-22 	Cr 	Sales Account 	5,96,119.48 Dr	18,879.00	235	Sales
+Cr 	Sales Account 	6,09,559.48 Dr	13,440.00	236	Sales
+Carried Over 	2,68,020.00	8,77,579.48
+continued ...
+
+-- 1 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 2
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	2,68,020.00	8,77,579.48
+29-Sep-22 	Dr 	HDFC BANK 50200055194435 	5,59,559.48 Dr	50,000.00	109	Receipt
+30-Sep-22 	Cr 	Sales Account 	5,67,329.48 Dr	7,770.00	237	Sales
+10-Oct-22 	Cr 	Sales Account 	6,10,505.48 Dr	43,176.00	253	Sales
+11-Oct-22 	Dr 	HDFC BANK 50200055194435 	4,10,505.48 Dr	2,00,000.00	119	Receipt
+14-Oct-22 	Cr 	Sales Account 	5,01,078.48 Dr	90,573.00	263	Sales
+Cr 	Sales Account 	5,14,742.48 Dr	13,664.00	264	Sales
+19-Dec-22 	Cr 	Sales Account 	5,64,612.48 Dr	49,870.00	324	Sales
+20-Dec-22 	Cr 	Sales Account 	5,65,242.48 Dr	630.00	325	Sales
+26-Dec-22 	Dr 	HDFC BANK 50200055194435 	5,15,242.48 Dr	50,000.00	170	Receipt
+31-Dec-22 	Cr 	Sales Account 	5,54,176.48 Dr	38,934.00	340	Sales
+3-Jan-23 	Cr 	Sales Account 	6,18,651.48 Dr	64,475.00	345	Sales
+9-Jan-23 	Cr 	Sales Account 	6,62,938.48 Dr	44,287.00	358	Sales
+12-Jan-23 	Dr 	HDFC BANK 50200055194435 	6,12,938.48 Dr	50,000.00	180	Receipt
+16-Jan-23 	Cr 	Sales Account 	6,35,338.48 Dr	22,400.00	362	Sales
+17-Jan-23 	Cr 	Sales Account 	7,22,845.48 Dr	87,507.00	364	Sales
+Cr 	Sales Account 	7,55,400.48 Dr	32,555.00	365	Sales
+2-Feb-23 	Cr 	Sales Account 	7,62,792.48 Dr	7,392.00	390	Sales
+9-Feb-23 	Cr 	Sales Account 	7,64,908.48 Dr	2,116.00	399	Sales
+24-Feb-23 	Cr 	Sales Account 	7,67,874.48 Dr	2,966.00	411	Sales
+1-Mar-23 	Dr 	Sales Account 	7,66,721.48 Dr	1,153.00	11	Credit Note
+Dr 	Purchase 	7,65,568.48 Dr	1,153.00	220	Purchase
+6,20,326.00	13,85,894.48
+Dr 	Closing Balance 	7,65,568.48
+13,85,894.48	13,85,894.48
+1-Apr-23 	Cr 	Opening Balance 	7,65,568.48
+23-May-23 	Dr 	HDFC BANK 50200055194435 	7,15,568.48 Dr	50,000.00	30	Receipt
+26-May-23 	Cr 	Sales Account 	7,43,766.48 Dr	28,198.00	075	Sales
+30-May-23 	Cr 	Sales Account 	7,51,158.48 Dr	7,392.00	079	Sales
+2-Jun-23 	Cr 	Sales Account 	7,52,523.48 Dr	1,365.00	087	Sales
+6-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,96,523.48 Dr	56,000.00	37	Receipt
+8-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,36,523.48 Dr	60,000.00	38	Receipt
+Cr 	Sales Account 	6,47,338.48 Dr	10,815.00	099	Sales
+Cr 	Sales Account 	6,71,418.48 Dr	24,080.00	100	Sales
+10-Jun-23 	Cr 	Sales Account 	6,97,806.48 Dr	26,388.00	103	Sales
+13-Jun-23 	Cr 	Sales Account 	7,21,956.48 Dr	24,150.00	110	Sales
+15-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,71,956.48 Dr	50,000.00	42	Receipt
+17-Jun-23 	Cr 	Sales Account 	6,94,673.48 Dr	22,717.00	113	Sales
+Cr 	Sales Account 	7,03,297.48 Dr	8,624.00	114	Sales
+18-Jun-23 	Cr 	Sales Account 	7,07,907.48 Dr	4,610.00	120	Sales
+20-Jun-23 	Cr 	Sales Account 	7,39,050.48 Dr	31,143.00	122	Sales
+24-Jul-23 	Dr 	Sales Account 	7,34,430.48 Dr	4,620.00	5	Credit Note
+18-Aug-23 	Dr 	HDFC BANK 50200055194435 	7,09,430.48 Dr	25,000.00	84	Receipt
+1-Sep-23 	Dr 	HDFC BANK 50200055194435 	7,01,660.48 Dr	7,770.00	98	Receipt
+7-Feb-24 	Dr 	HDFC BANK 50200055194435 	6,96,660.48 Dr	5,000.00	220	Receipt
+2,58,390.00	9,55,050.48
+Dr 	Closing Balance 	6,96,660.48
+9,55,050.48	9,55,050.48
+1-Apr-24 	Cr 	Opening Balance 	6,96,660.48
+1-Jan-25 	Dr 	Cash 	6,88,660.48 Dr	8,000.00	256	Receipt
+31-Jan-25 	Dr 	Cash 	6,80,660.48 Dr	8,000.00	257	Receipt
+Carried Over 	16,000.00	6,96,660.48
+continued ...
+
+-- 2 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 3
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	16,000.00	6,96,660.48
+1-Feb-25 	Dr 	Cash 	6,70,660.48 Dr	10,000.00	258	Receipt
+22-Feb-25 	Cr 	Sales Account 	7,34,847.48 Dr	64,187.00	319	Sales 01-Jan-25
+28-Feb-25 	Dr 	Cash 	7,26,847.48 Dr	8,000.00	262	Receipt
+11-Mar-25 	Cr 	Sales Account 	8,20,815.48 Dr	93,968.00	340	Sales 01-Jan-25
+28-Mar-25 	Dr 	HDFC BANK 50200055194435 	7,20,815.48 Dr	1,00,000.00	199	Receipt
+31-Mar-25 	Dr 	Cash 	7,12,815.48 Dr	8,000.00	263	Receipt
+1,42,000.00	8,54,815.48
+Dr 	Closing Balance 	7,12,815.48
+8,54,815.48	8,54,815.48
+1-Apr-25 	Cr 	Opening Balance 	7,12,815.48
+1-Apr-25 	Dr 	Cash 	7,02,815.48 Dr	10,000.00	202	Receipt
+1-May-25 	Dr 	Cash 	6,92,815.48 Dr	10,000.00	203	Receipt
+21-May-25 	Dr 	Cash 	6,84,815.48 Dr	8,000.00	207	Receipt
+1-Jun-25 	Dr 	Cash 	6,74,815.48 Dr	10,000.00	204	Receipt
+1-Jul-25 	Dr 	Cash 	6,64,815.48 Dr	10,000.00	205	Receipt
+1-Aug-25 	Dr 	Cash 	6,54,815.48 Dr	10,000.00	206	Receipt
+14-Aug-25 	Dr 	HDFC BANK 50200055194435 	5,54,815.48 Dr	1,00,000.00	166	Receipt
+22-Aug-25 	Cr 	Sales Account 	6,42,724.48 Dr	87,909.00	115	Sales 01-Jan-25
+Cr 	Sales Account 	6,55,881.48 Dr	13,157.00	116	Sales 01-Jan-25
+Cr 	Sales Account 	6,87,959.48 Dr	32,078.00	117	Sales 01-Jan-25
+Cr 	Sales Account 	7,10,751.48 Dr	22,792.00	118	Sales 01-Jan-25
+23-Aug-25 	Cr 	Sales Account 	7,15,712.48 Dr	4,961.00	119	Sales 01-Jan-25
+Cr 	Sales Account 	7,45,716.48 Dr	30,004.00	120	Sales 01-Jan-25
+29-Aug-25 	Cr 	Sales Account 	7,85,380.48 Dr	39,664.00	126	Sales 01-Jan-25
+Cr 	Sales Account 	8,84,694.48 Dr	99,314.00	128	Sales 01-Jan-25
+1-Sep-25 	Cr 	Sales Account 	9,35,204.48 Dr	50,510.00	138	Sales 01-Jan-25
+4-Sep-25 	Dr 	HDFC BANK 50200055194435 	8,85,204.48 Dr	50,000.00	208	Receipt
+16-Sep-25 	Cr 	Sales Account 	9,12,110.48 Dr	26,906.00	157	Sales 01-Jan-25
+Cr 	Sales Account 	9,76,108.48 Dr	63,998.00	158	Sales 01-Jan-25
+Cr 	Sales Account 	9,97,134.80 Dr	21,026.32	156	Sales 01-Jan-25
+19-Sep-25 	Cr 	Sales Account 	9,99,602.80 Dr	2,468.00	164	Sales 01-Jan-25
+23-Sep-25 	Dr 	HDFC BANK 50200055194435 	9,49,602.80 Dr	50,000.00	217	Receipt
+26-Sep-25 	Cr 	Sales Account 	9,77,375.80 Dr	27,773.00	172	Sales 01-Jan-25
+Cr 	Sales Account 	10,11,500.80 Dr	34,125.00	173	Sales 01-Jan-25
+29-Sep-25 	Cr 	Sales Account 	10,17,170.80 Dr	5,670.00	175	Sales 01-Jan-25
+3-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,67,170.80 Dr	1,50,000.00	219	Receipt
+4-Oct-25 	Cr 	Sales Account 	9,01,216.80 Dr	34,046.00	183	Sales 01-Jan-25
+6-Oct-25 	Cr 	Sales Account 	9,35,845.80 Dr	34,629.00	187	Sales 01-Jan-25
+11-Oct-25 	Cr 	Sales Account 	9,50,167.80 Dr	14,322.00	190	Sales 01-Jan-25
+15-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,50,167.80 Dr	1,00,000.00	256	Receipt
+16-Oct-25 	Cr 	Sales Account 	9,09,933.80 Dr	59,766.00	192	Sales 01-Jan-25
+Cr 	Sales Account 	9,12,380.80 Dr	2,447.00	193	Sales 01-Jan-25
+Cr 	Sales Account 	9,21,095.84 Dr	8,715.04	194	Sales 01-Jan-25
+30-Oct-25 	Cr 	Sales Account 	10,06,696.84 Dr	85,601.00	199	Sales 01-Jan-25
+31-Oct-25 	Cr 	Sales Account 	10,57,201.84 Dr	50,505.00	201	Sales 01-Jan-25
+1-Nov-25 	Cr 	Sales Account 	10,78,516.84 Dr	21,315.00	203	Sales 01-Jan-25
+6-Nov-25 	Cr 	Sales Account 	10,87,021.84 Dr	8,505.00	205	Sales 01-Jan-25
+28-Nov-25 	Cr 	Sales Account 	11,23,362.84 Dr	36,341.00	221	Sales 01-Jan-25
+1-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,73,362.84 Dr	50,000.00	323	Receipt
+4-Dec-25 	Cr 	Sales Account 	11,02,127.84 Dr	28,765.00	228	Sales 01-Jan-25
+Cr 	Sales Account 	11,25,590.10 Dr	23,462.26	229	Sales 01-Jan-25
+Carried Over 	5,58,000.00	16,83,590.10
+continued ...
+
+-- 3 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 4
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	5,58,000.00	16,83,590.10
+5-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,25,590.10 Dr	1,00,000.00	326	Receipt
+8-Dec-25 	Cr 	Sales Account 	10,28,026.10 Dr	2,436.00	235	Sales 01-Jan-25
+23-Dec-25 	Dr 	HDFC BANK 50200055194435 	9,28,026.10 Dr	1,00,000.00	348	Receipt
+26-Dec-25 	Cr 	Sales Account 	10,07,222.10 Dr	79,196.00	261	Sales 01-Jan-25
+27-Dec-25 	Cr 	Sales Account 	10,20,641.10 Dr	13,419.00	265	Sales 01-Jan-25
+1-Jan-26 	Cr 	Sales Account 	10,91,789.10 Dr	71,148.00	268	Sales 01-Jan-25
+13-Jan-26 	Dr 	HDFC BANK 50200055194435 	9,91,789.10 Dr	1,00,000.00	404	Receipt
+15-Jan-26 	Cr 	Sales Account 	12,14,179.10 Dr	2,22,390.00	277	Sales 01-Jan-25
+Dr 	HDFC BANK 50200055194435 	10,14,179.10 Dr	2,00,000.00	405	Receipt
+19-Jan-26 	Cr 	Sales Account 	10,26,706.10 Dr	12,527.00	284	Sales 01-Jan-25
+22-Jan-26 	Cr 	Sales Account 	10,34,214.10 Dr	7,508.00	287	Sales 01-Jan-25
+6-Mar-26 	Cr 	Sales Account 	10,41,302.10 Dr	7,088.00	318	Sales 01-Jan-25
+19-Mar-26 	Dr 	HDFC BANK 50200055194435 	9,41,302.10 Dr	1,00,000.00	482	Receipt
+11,58,000.00	20,99,302.10
+Dr 	Closing Balance 	9,41,302.10
+20,99,302.10	20,99,302.10
+1-Apr-26 	Cr 	Opening Balance 	9,41,302.10
+15-Apr-26 	Dr 	HDFC BANK 50200055194435 	7,41,302.10 Dr	2,00,000.00	3	Receipt
+3-May-26 	Cr 	Sales Account 	9,78,235.10 Dr	2,36,933.00	31	Sales 01-Jan-25
+4-May-26 	Dr 	HDFC BANK 50200055194435 	8,78,235.10 Dr	1,00,000.00	9	Receipt
+10-May-26 	Cr 	Sales Account 	9,00,495.10 Dr	22,260.00	38	Sales 01-Jan-25
+1-Jun-26 	Cr 	Sales Account 	10,96,845.10 Dr	1,96,350.00	53	Sales 01-Jan-25
+30-Jun-26 	Dr 	HDFC BANK 50200055194435 	8,96,845.10 Dr	2,00,000.00	114	Receipt
+14-Aug-26 	Dr 	HDFC BANK 50200055194435 	6,96,845.10 Dr	2,00,000.00	136	Receipt
+15-Aug-26 	Cr 	Sales Account 	8,60,645.10 Dr	1,63,800.00	123	Sales 01-Jan-25
+18-Aug-26 	Cr 	Sales Account 	8,64,268.10 Dr	3,623.00	130	Sales 01-Jan-25
+22-Aug-26 	Cr 	Sales Account 	9,38,136.10 Dr	73,868.00	136	Sales 01-Jan-25
+24-Sep-26 	Dr 	HDFC BANK 50200055194435 	9,13,136.10 Dr	25,000.00	187	Receipt
+27-Sep-26 	Cr 	Sales Account 	10,11,154.10 Dr	98,018.00	171	Sales 01-Jan-25
+29-Sep-26 	Cr 	Sales Account 	10,36,154.10 Dr	25,000.00	176	Sales 01-Jan-25
+7,25,000.00	17,61,154.10
+Dr 	Closing Balance 	10,36,154.10
+17,61,154.10	17,61,154.10
+
+-- 4 of 4 --
+
+OM ENTERPRISE
+Survey No.:46,
+Plot No. 33,
+Opp.Ice Factory,
+Near Tulsi Industries,
+Vavdi,
+Rajkot-360005
+Contact : +91-982587886
+E-Mail : om.enterprise@gmail.com
+Earth Ortho Pvt Ltd
+Ledger Account
+25 3rd Floor Shri Siddheshwar Plaza
+Near Sakar Complex Next Sardar Es
+New Vip Road Vadodara
+390022
+1-Apr-20 to 3-Oct-26
+Page 1
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+15-Mar-22 	Cr 	Sales Account 	32,397.74 Dr	32,397.74	476	Sales
+22-Mar-22 	Cr 	Sales Account 	49,591.48 Dr	17,193.74	484	Sales
+49,591.48
+Dr 	Closing Balance 	49,591.48
+49,591.48	49,591.48
+1-Apr-22 	Cr 	Opening Balance 	49,591.48
+22-May-22 	Cr 	Sales Account 	1,04,049.48 Dr	54,458.00	056	Sales
+Cr 	Sales Account 	1,36,263.48 Dr	32,214.00	057	Sales
+23-May-22 	Cr 	Sales Account 	1,49,703.48 Dr	13,440.00	058	Sales
+24-May-22 	Cr 	Sales Account 	1,79,922.48 Dr	30,219.00	060	Sales
+30-May-22 	Cr 	Sales Account 	1,87,309.48 Dr	7,387.00	067	Sales
+6-Jun-22 	Cr 	Sales Account 	2,35,184.48 Dr	47,875.00	074	Sales
+9-Jun-22 	Dr 	Sales Account 	2,32,165.48 Dr	3,019.00	3	Credit Note
+Dr 	HDFC BANK 50200055194435 	1,82,164.48 Dr	50,001.00	39	Receipt
+13-Jun-22 	Cr 	Sales Account 	2,95,874.48 Dr	1,13,710.00	081	Sales
+21-Jun-22 	Cr 	Sales Account 	3,48,201.48 Dr	52,327.00	087	Sales
+8-Jul-22 	Dr 	HDFC BANK 50200055194435 	3,23,201.48 Dr	25,000.00	55	Receipt
+11-Jul-22 	Cr 	Sales Account 	3,51,588.48 Dr	28,387.00	111	Sales
+Cr 	Sales Account 	3,60,100.48 Dr	8,512.00	112	Sales
+16-Jul-22 	Cr 	Sales Account 	3,90,503.48 Dr	30,403.00	129	Sales
+25-Jul-22 	Cr 	Sales Account 	3,94,808.48 Dr	4,305.00	142	Sales
+26-Jul-22 	Cr 	Sales Account 	4,15,708.48 Dr	20,900.00	146	Sales
+1-Aug-22 	Dr 	HDFC BANK 50200055194435 	3,65,708.48 Dr	50,000.00	71	Receipt
+9-Aug-22 	Cr 	Sales Account 	4,41,586.48 Dr	75,878.00	165	Sales
+16-Aug-22 	Dr 	HDFC BANK 50200055194435 	4,01,586.48 Dr	40,000.00	79	Receipt
+22-Aug-22 	Cr 	Sales Account 	4,52,096.48 Dr	50,510.00	175	Sales
+Cr 	Sales Account 	4,72,676.48 Dr	20,580.00	176	Sales
+Cr 	Sales Account 	5,35,393.48 Dr	62,717.00	177	Sales
+25-Aug-22 	Cr 	Sales Account 	5,69,602.48 Dr	34,209.00	182	Sales
+Cr 	Sales Account 	5,80,060.48 Dr	10,458.00	188	Sales
+Dr 	HDFC BANK 50200055194435 	5,30,060.48 Dr	50,000.00	85	Receipt
+Dr 	HDFC BANK 50200055194435 	4,80,060.48 Dr	50,000.00	86	Receipt
+1-Sep-22 	Cr 	Sales Account 	5,00,168.48 Dr	20,108.00	195	Sales
+15-Sep-22 	Cr 	Sales Account 	5,77,240.48 Dr	77,072.00	215	Sales
+29-Sep-22 	Cr 	Sales Account 	5,96,119.48 Dr	18,879.00	235	Sales
+Cr 	Sales Account 	6,09,559.48 Dr	13,440.00	236	Sales
+Carried Over 	2,68,020.00	8,77,579.48
+continued ...
+
+-- 1 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 2
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	2,68,020.00	8,77,579.48
+29-Sep-22 	Dr 	HDFC BANK 50200055194435 	5,59,559.48 Dr	50,000.00	109	Receipt
+30-Sep-22 	Cr 	Sales Account 	5,67,329.48 Dr	7,770.00	237	Sales
+10-Oct-22 	Cr 	Sales Account 	6,10,505.48 Dr	43,176.00	253	Sales
+11-Oct-22 	Dr 	HDFC BANK 50200055194435 	4,10,505.48 Dr	2,00,000.00	119	Receipt
+14-Oct-22 	Cr 	Sales Account 	5,01,078.48 Dr	90,573.00	263	Sales
+Cr 	Sales Account 	5,14,742.48 Dr	13,664.00	264	Sales
+19-Dec-22 	Cr 	Sales Account 	5,64,612.48 Dr	49,870.00	324	Sales
+20-Dec-22 	Cr 	Sales Account 	5,65,242.48 Dr	630.00	325	Sales
+26-Dec-22 	Dr 	HDFC BANK 50200055194435 	5,15,242.48 Dr	50,000.00	170	Receipt
+31-Dec-22 	Cr 	Sales Account 	5,54,176.48 Dr	38,934.00	340	Sales
+3-Jan-23 	Cr 	Sales Account 	6,18,651.48 Dr	64,475.00	345	Sales
+9-Jan-23 	Cr 	Sales Account 	6,62,938.48 Dr	44,287.00	358	Sales
+12-Jan-23 	Dr 	HDFC BANK 50200055194435 	6,12,938.48 Dr	50,000.00	180	Receipt
+16-Jan-23 	Cr 	Sales Account 	6,35,338.48 Dr	22,400.00	362	Sales
+17-Jan-23 	Cr 	Sales Account 	7,22,845.48 Dr	87,507.00	364	Sales
+Cr 	Sales Account 	7,55,400.48 Dr	32,555.00	365	Sales
+2-Feb-23 	Cr 	Sales Account 	7,62,792.48 Dr	7,392.00	390	Sales
+9-Feb-23 	Cr 	Sales Account 	7,64,908.48 Dr	2,116.00	399	Sales
+24-Feb-23 	Cr 	Sales Account 	7,67,874.48 Dr	2,966.00	411	Sales
+1-Mar-23 	Dr 	Sales Account 	7,66,721.48 Dr	1,153.00	11	Credit Note
+Dr 	Purchase 	7,65,568.48 Dr	1,153.00	220	Purchase
+6,20,326.00	13,85,894.48
+Dr 	Closing Balance 	7,65,568.48
+13,85,894.48	13,85,894.48
+1-Apr-23 	Cr 	Opening Balance 	7,65,568.48
+23-May-23 	Dr 	HDFC BANK 50200055194435 	7,15,568.48 Dr	50,000.00	30	Receipt
+26-May-23 	Cr 	Sales Account 	7,43,766.48 Dr	28,198.00	075	Sales
+30-May-23 	Cr 	Sales Account 	7,51,158.48 Dr	7,392.00	079	Sales
+2-Jun-23 	Cr 	Sales Account 	7,52,523.48 Dr	1,365.00	087	Sales
+6-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,96,523.48 Dr	56,000.00	37	Receipt
+8-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,36,523.48 Dr	60,000.00	38	Receipt
+Cr 	Sales Account 	6,47,338.48 Dr	10,815.00	099	Sales
+Cr 	Sales Account 	6,71,418.48 Dr	24,080.00	100	Sales
+10-Jun-23 	Cr 	Sales Account 	6,97,806.48 Dr	26,388.00	103	Sales
+13-Jun-23 	Cr 	Sales Account 	7,21,956.48 Dr	24,150.00	110	Sales
+15-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,71,956.48 Dr	50,000.00	42	Receipt
+17-Jun-23 	Cr 	Sales Account 	6,94,673.48 Dr	22,717.00	113	Sales
+Cr 	Sales Account 	7,03,297.48 Dr	8,624.00	114	Sales
+18-Jun-23 	Cr 	Sales Account 	7,07,907.48 Dr	4,610.00	120	Sales
+20-Jun-23 	Cr 	Sales Account 	7,39,050.48 Dr	31,143.00	122	Sales
+24-Jul-23 	Dr 	Sales Account 	7,34,430.48 Dr	4,620.00	5	Credit Note
+18-Aug-23 	Dr 	HDFC BANK 50200055194435 	7,09,430.48 Dr	25,000.00	84	Receipt
+1-Sep-23 	Dr 	HDFC BANK 50200055194435 	7,01,660.48 Dr	7,770.00	98	Receipt
+7-Feb-24 	Dr 	HDFC BANK 50200055194435 	6,96,660.48 Dr	5,000.00	220	Receipt
+2,58,390.00	9,55,050.48
+Dr 	Closing Balance 	6,96,660.48
+9,55,050.48	9,55,050.48
+1-Apr-24 	Cr 	Opening Balance 	6,96,660.48
+1-Jan-25 	Dr 	Cash 	6,88,660.48 Dr	8,000.00	256	Receipt
+31-Jan-25 	Dr 	Cash 	6,80,660.48 Dr	8,000.00	257	Receipt
+Carried Over 	16,000.00	6,96,660.48
+continued ...
+
+-- 2 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 3
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	16,000.00	6,96,660.48
+1-Feb-25 	Dr 	Cash 	6,70,660.48 Dr	10,000.00	258	Receipt
+22-Feb-25 	Cr 	Sales Account 	7,34,847.48 Dr	64,187.00	319	Sales 01-Jan-25
+28-Feb-25 	Dr 	Cash 	7,26,847.48 Dr	8,000.00	262	Receipt
+11-Mar-25 	Cr 	Sales Account 	8,20,815.48 Dr	93,968.00	340	Sales 01-Jan-25
+28-Mar-25 	Dr 	HDFC BANK 50200055194435 	7,20,815.48 Dr	1,00,000.00	199	Receipt
+31-Mar-25 	Dr 	Cash 	7,12,815.48 Dr	8,000.00	263	Receipt
+1,42,000.00	8,54,815.48
+Dr 	Closing Balance 	7,12,815.48
+8,54,815.48	8,54,815.48
+1-Apr-25 	Cr 	Opening Balance 	7,12,815.48
+1-Apr-25 	Dr 	Cash 	7,02,815.48 Dr	10,000.00	202	Receipt
+1-May-25 	Dr 	Cash 	6,92,815.48 Dr	10,000.00	203	Receipt
+21-May-25 	Dr 	Cash 	6,84,815.48 Dr	8,000.00	207	Receipt
+1-Jun-25 	Dr 	Cash 	6,74,815.48 Dr	10,000.00	204	Receipt
+1-Jul-25 	Dr 	Cash 	6,64,815.48 Dr	10,000.00	205	Receipt
+1-Aug-25 	Dr 	Cash 	6,54,815.48 Dr	10,000.00	206	Receipt
+14-Aug-25 	Dr 	HDFC BANK 50200055194435 	5,54,815.48 Dr	1,00,000.00	166	Receipt
+22-Aug-25 	Cr 	Sales Account 	6,42,724.48 Dr	87,909.00	115	Sales 01-Jan-25
+Cr 	Sales Account 	6,55,881.48 Dr	13,157.00	116	Sales 01-Jan-25
+Cr 	Sales Account 	6,87,959.48 Dr	32,078.00	117	Sales 01-Jan-25
+Cr 	Sales Account 	7,10,751.48 Dr	22,792.00	118	Sales 01-Jan-25
+23-Aug-25 	Cr 	Sales Account 	7,15,712.48 Dr	4,961.00	119	Sales 01-Jan-25
+Cr 	Sales Account 	7,45,716.48 Dr	30,004.00	120	Sales 01-Jan-25
+29-Aug-25 	Cr 	Sales Account 	7,85,380.48 Dr	39,664.00	126	Sales 01-Jan-25
+Cr 	Sales Account 	8,84,694.48 Dr	99,314.00	128	Sales 01-Jan-25
+1-Sep-25 	Cr 	Sales Account 	9,35,204.48 Dr	50,510.00	138	Sales 01-Jan-25
+4-Sep-25 	Dr 	HDFC BANK 50200055194435 	8,85,204.48 Dr	50,000.00	208	Receipt
+16-Sep-25 	Cr 	Sales Account 	9,12,110.48 Dr	26,906.00	157	Sales 01-Jan-25
+Cr 	Sales Account 	9,76,108.48 Dr	63,998.00	158	Sales 01-Jan-25
+Cr 	Sales Account 	9,97,134.80 Dr	21,026.32	156	Sales 01-Jan-25
+19-Sep-25 	Cr 	Sales Account 	9,99,602.80 Dr	2,468.00	164	Sales 01-Jan-25
+23-Sep-25 	Dr 	HDFC BANK 50200055194435 	9,49,602.80 Dr	50,000.00	217	Receipt
+26-Sep-25 	Cr 	Sales Account 	9,77,375.80 Dr	27,773.00	172	Sales 01-Jan-25
+Cr 	Sales Account 	10,11,500.80 Dr	34,125.00	173	Sales 01-Jan-25
+29-Sep-25 	Cr 	Sales Account 	10,17,170.80 Dr	5,670.00	175	Sales 01-Jan-25
+3-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,67,170.80 Dr	1,50,000.00	219	Receipt
+4-Oct-25 	Cr 	Sales Account 	9,01,216.80 Dr	34,046.00	183	Sales 01-Jan-25
+6-Oct-25 	Cr 	Sales Account 	9,35,845.80 Dr	34,629.00	187	Sales 01-Jan-25
+11-Oct-25 	Cr 	Sales Account 	9,50,167.80 Dr	14,322.00	190	Sales 01-Jan-25
+15-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,50,167.80 Dr	1,00,000.00	256	Receipt
+16-Oct-25 	Cr 	Sales Account 	9,09,933.80 Dr	59,766.00	192	Sales 01-Jan-25
+Cr 	Sales Account 	9,12,380.80 Dr	2,447.00	193	Sales 01-Jan-25
+Cr 	Sales Account 	9,21,095.84 Dr	8,715.04	194	Sales 01-Jan-25
+30-Oct-25 	Cr 	Sales Account 	10,06,696.84 Dr	85,601.00	199	Sales 01-Jan-25
+31-Oct-25 	Cr 	Sales Account 	10,57,201.84 Dr	50,505.00	201	Sales 01-Jan-25
+1-Nov-25 	Cr 	Sales Account 	10,78,516.84 Dr	21,315.00	203	Sales 01-Jan-25
+6-Nov-25 	Cr 	Sales Account 	10,87,021.84 Dr	8,505.00	205	Sales 01-Jan-25
+28-Nov-25 	Cr 	Sales Account 	11,23,362.84 Dr	36,341.00	221	Sales 01-Jan-25
+1-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,73,362.84 Dr	50,000.00	323	Receipt
+4-Dec-25 	Cr 	Sales Account 	11,02,127.84 Dr	28,765.00	228	Sales 01-Jan-25
+Cr 	Sales Account 	11,25,590.10 Dr	23,462.26	229	Sales 01-Jan-25
+Carried Over 	5,58,000.00	16,83,590.10
+continued ...
+
+-- 3 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 4
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	5,58,000.00	16,83,590.10
+5-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,25,590.10 Dr	1,00,000.00	326	Receipt
+8-Dec-25 	Cr 	Sales Account 	10,28,026.10 Dr	2,436.00	235	Sales 01-Jan-25
+23-Dec-25 	Dr 	HDFC BANK 50200055194435 	9,28,026.10 Dr	1,00,000.00	348	Receipt
+26-Dec-25 	Cr 	Sales Account 	10,07,222.10 Dr	79,196.00	261	Sales 01-Jan-25
+27-Dec-25 	Cr 	Sales Account 	10,20,641.10 Dr	13,419.00	265	Sales 01-Jan-25
+1-Jan-26 	Cr 	Sales Account 	10,91,789.10 Dr	71,148.00	268	Sales 01-Jan-25
+13-Jan-26 	Dr 	HDFC BANK 50200055194435 	9,91,789.10 Dr	1,00,000.00	404	Receipt
+15-Jan-26 	Cr 	Sales Account 	12,14,179.10 Dr	2,22,390.00	277	Sales 01-Jan-25
+Dr 	HDFC BANK 50200055194435 	10,14,179.10 Dr	2,00,000.00	405	Receipt
+19-Jan-26 	Cr 	Sales Account 	10,26,706.10 Dr	12,527.00	284	Sales 01-Jan-25
+22-Jan-26 	Cr 	Sales Account 	10,34,214.10 Dr	7,508.00	287	Sales 01-Jan-25
+6-Mar-26 	Cr 	Sales Account 	10,41,302.10 Dr	7,088.00	318	Sales 01-Jan-25
+19-Mar-26 	Dr 	HDFC BANK 50200055194435 	9,41,302.10 Dr	1,00,000.00	482	Receipt
+11,58,000.00	20,99,302.10
+Dr 	Closing Balance 	9,41,302.10
+20,99,302.10	20,99,302.10
+1-Apr-26 	Cr 	Opening Balance 	9,41,302.10
+15-Apr-26 	Dr 	HDFC BANK 50200055194435 	7,41,302.10 Dr	2,00,000.00	3	Receipt
+3-May-26 	Cr 	Sales Account 	9,78,235.10 Dr	2,36,933.00	31	Sales 01-Jan-25
+4-May-26 	Dr 	HDFC BANK 50200055194435 	8,78,235.10 Dr	1,00,000.00	9	Receipt
+10-May-26 	Cr 	Sales Account 	9,00,495.10 Dr	22,260.00	38	Sales 01-Jan-25
+1-Jun-26 	Cr 	Sales Account 	10,96,845.10 Dr	1,96,350.00	53	Sales 01-Jan-25
+30-Jun-26 	Dr 	HDFC BANK 50200055194435 	8,96,845.10 Dr	2,00,000.00	114	Receipt
+14-Aug-26 	Dr 	HDFC BANK 50200055194435 	6,96,845.10 Dr	2,00,000.00	136	Receipt
+15-Aug-26 	Cr 	Sales Account 	8,60,645.10 Dr	1,63,800.00	123	Sales 01-Jan-25
+18-Aug-26 	Cr 	Sales Account 	8,64,268.10 Dr	3,623.00	130	Sales 01-Jan-25
+22-Aug-26 	Cr 	Sales Account 	9,38,136.10 Dr	73,868.00	136	Sales 01-Jan-25
+24-Sep-26 	Dr 	HDFC BANK 50200055194435 	9,13,136.10 Dr	25,000.00	187	Receipt
+27-Sep-26 	Cr 	Sales Account 	10,11,154.10 Dr	98,018.00	171	Sales 01-Jan-25
+29-Sep-26 	Cr 	Sales Account 	10,36,154.10 Dr	25,000.00	176	Sales 01-Jan-25
+7,25,000.00	17,61,154.10
+Dr 	Closing Balance 	10,36,154.10
+17,61,154.10	17,61,154.10
+
+-- 4 of 4 --
+
+OM ENTERPRISE
+Survey No.:46,
+Plot No. 33,
+Opp.Ice Factory,
+Near Tulsi Industries,
+Vavdi,
+Rajkot-360005
+Contact : +91-982587886
+E-Mail : om.enterprise@gmail.com
+Earth Ortho Pvt Ltd
+Ledger Account
+25 3rd Floor Shri Siddheshwar Plaza
+Near Sakar Complex Next Sardar Es
+New Vip Road Vadodara
+390022
+1-Apr-20 to 3-Oct-26
+Page 1
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+15-Mar-22 	Cr 	Sales Account 	32,397.74 Dr	32,397.74	476	Sales
+22-Mar-22 	Cr 	Sales Account 	49,591.48 Dr	17,193.74	484	Sales
+49,591.48
+Dr 	Closing Balance 	49,591.48
+49,591.48	49,591.48
+1-Apr-22 	Cr 	Opening Balance 	49,591.48
+22-May-22 	Cr 	Sales Account 	1,04,049.48 Dr	54,458.00	056	Sales
+Cr 	Sales Account 	1,36,263.48 Dr	32,214.00	057	Sales
+23-May-22 	Cr 	Sales Account 	1,49,703.48 Dr	13,440.00	058	Sales
+24-May-22 	Cr 	Sales Account 	1,79,922.48 Dr	30,219.00	060	Sales
+30-May-22 	Cr 	Sales Account 	1,87,309.48 Dr	7,387.00	067	Sales
+6-Jun-22 	Cr 	Sales Account 	2,35,184.48 Dr	47,875.00	074	Sales
+9-Jun-22 	Dr 	Sales Account 	2,32,165.48 Dr	3,019.00	3	Credit Note
+Dr 	HDFC BANK 50200055194435 	1,82,164.48 Dr	50,001.00	39	Receipt
+13-Jun-22 	Cr 	Sales Account 	2,95,874.48 Dr	1,13,710.00	081	Sales
+21-Jun-22 	Cr 	Sales Account 	3,48,201.48 Dr	52,327.00	087	Sales
+8-Jul-22 	Dr 	HDFC BANK 50200055194435 	3,23,201.48 Dr	25,000.00	55	Receipt
+11-Jul-22 	Cr 	Sales Account 	3,51,588.48 Dr	28,387.00	111	Sales
+Cr 	Sales Account 	3,60,100.48 Dr	8,512.00	112	Sales
+16-Jul-22 	Cr 	Sales Account 	3,90,503.48 Dr	30,403.00	129	Sales
+25-Jul-22 	Cr 	Sales Account 	3,94,808.48 Dr	4,305.00	142	Sales
+26-Jul-22 	Cr 	Sales Account 	4,15,708.48 Dr	20,900.00	146	Sales
+1-Aug-22 	Dr 	HDFC BANK 50200055194435 	3,65,708.48 Dr	50,000.00	71	Receipt
+9-Aug-22 	Cr 	Sales Account 	4,41,586.48 Dr	75,878.00	165	Sales
+16-Aug-22 	Dr 	HDFC BANK 50200055194435 	4,01,586.48 Dr	40,000.00	79	Receipt
+22-Aug-22 	Cr 	Sales Account 	4,52,096.48 Dr	50,510.00	175	Sales
+Cr 	Sales Account 	4,72,676.48 Dr	20,580.00	176	Sales
+Cr 	Sales Account 	5,35,393.48 Dr	62,717.00	177	Sales
+25-Aug-22 	Cr 	Sales Account 	5,69,602.48 Dr	34,209.00	182	Sales
+Cr 	Sales Account 	5,80,060.48 Dr	10,458.00	188	Sales
+Dr 	HDFC BANK 50200055194435 	5,30,060.48 Dr	50,000.00	85	Receipt
+Dr 	HDFC BANK 50200055194435 	4,80,060.48 Dr	50,000.00	86	Receipt
+1-Sep-22 	Cr 	Sales Account 	5,00,168.48 Dr	20,108.00	195	Sales
+15-Sep-22 	Cr 	Sales Account 	5,77,240.48 Dr	77,072.00	215	Sales
+29-Sep-22 	Cr 	Sales Account 	5,96,119.48 Dr	18,879.00	235	Sales
+Cr 	Sales Account 	6,09,559.48 Dr	13,440.00	236	Sales
+Carried Over 	2,68,020.00	8,77,579.48
+continued ...
+
+-- 1 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 2
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	2,68,020.00	8,77,579.48
+29-Sep-22 	Dr 	HDFC BANK 50200055194435 	5,59,559.48 Dr	50,000.00	109	Receipt
+30-Sep-22 	Cr 	Sales Account 	5,67,329.48 Dr	7,770.00	237	Sales
+10-Oct-22 	Cr 	Sales Account 	6,10,505.48 Dr	43,176.00	253	Sales
+11-Oct-22 	Dr 	HDFC BANK 50200055194435 	4,10,505.48 Dr	2,00,000.00	119	Receipt
+14-Oct-22 	Cr 	Sales Account 	5,01,078.48 Dr	90,573.00	263	Sales
+Cr 	Sales Account 	5,14,742.48 Dr	13,664.00	264	Sales
+19-Dec-22 	Cr 	Sales Account 	5,64,612.48 Dr	49,870.00	324	Sales
+20-Dec-22 	Cr 	Sales Account 	5,65,242.48 Dr	630.00	325	Sales
+26-Dec-22 	Dr 	HDFC BANK 50200055194435 	5,15,242.48 Dr	50,000.00	170	Receipt
+31-Dec-22 	Cr 	Sales Account 	5,54,176.48 Dr	38,934.00	340	Sales
+3-Jan-23 	Cr 	Sales Account 	6,18,651.48 Dr	64,475.00	345	Sales
+9-Jan-23 	Cr 	Sales Account 	6,62,938.48 Dr	44,287.00	358	Sales
+12-Jan-23 	Dr 	HDFC BANK 50200055194435 	6,12,938.48 Dr	50,000.00	180	Receipt
+16-Jan-23 	Cr 	Sales Account 	6,35,338.48 Dr	22,400.00	362	Sales
+17-Jan-23 	Cr 	Sales Account 	7,22,845.48 Dr	87,507.00	364	Sales
+Cr 	Sales Account 	7,55,400.48 Dr	32,555.00	365	Sales
+2-Feb-23 	Cr 	Sales Account 	7,62,792.48 Dr	7,392.00	390	Sales
+9-Feb-23 	Cr 	Sales Account 	7,64,908.48 Dr	2,116.00	399	Sales
+24-Feb-23 	Cr 	Sales Account 	7,67,874.48 Dr	2,966.00	411	Sales
+1-Mar-23 	Dr 	Sales Account 	7,66,721.48 Dr	1,153.00	11	Credit Note
+Dr 	Purchase 	7,65,568.48 Dr	1,153.00	220	Purchase
+6,20,326.00	13,85,894.48
+Dr 	Closing Balance 	7,65,568.48
+13,85,894.48	13,85,894.48
+1-Apr-23 	Cr 	Opening Balance 	7,65,568.48
+23-May-23 	Dr 	HDFC BANK 50200055194435 	7,15,568.48 Dr	50,000.00	30	Receipt
+26-May-23 	Cr 	Sales Account 	7,43,766.48 Dr	28,198.00	075	Sales
+30-May-23 	Cr 	Sales Account 	7,51,158.48 Dr	7,392.00	079	Sales
+2-Jun-23 	Cr 	Sales Account 	7,52,523.48 Dr	1,365.00	087	Sales
+6-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,96,523.48 Dr	56,000.00	37	Receipt
+8-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,36,523.48 Dr	60,000.00	38	Receipt
+Cr 	Sales Account 	6,47,338.48 Dr	10,815.00	099	Sales
+Cr 	Sales Account 	6,71,418.48 Dr	24,080.00	100	Sales
+10-Jun-23 	Cr 	Sales Account 	6,97,806.48 Dr	26,388.00	103	Sales
+13-Jun-23 	Cr 	Sales Account 	7,21,956.48 Dr	24,150.00	110	Sales
+15-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,71,956.48 Dr	50,000.00	42	Receipt
+17-Jun-23 	Cr 	Sales Account 	6,94,673.48 Dr	22,717.00	113	Sales
+Cr 	Sales Account 	7,03,297.48 Dr	8,624.00	114	Sales
+18-Jun-23 	Cr 	Sales Account 	7,07,907.48 Dr	4,610.00	120	Sales
+20-Jun-23 	Cr 	Sales Account 	7,39,050.48 Dr	31,143.00	122	Sales
+24-Jul-23 	Dr 	Sales Account 	7,34,430.48 Dr	4,620.00	5	Credit Note
+18-Aug-23 	Dr 	HDFC BANK 50200055194435 	7,09,430.48 Dr	25,000.00	84	Receipt
+1-Sep-23 	Dr 	HDFC BANK 50200055194435 	7,01,660.48 Dr	7,770.00	98	Receipt
+7-Feb-24 	Dr 	HDFC BANK 50200055194435 	6,96,660.48 Dr	5,000.00	220	Receipt
+2,58,390.00	9,55,050.48
+Dr 	Closing Balance 	6,96,660.48
+9,55,050.48	9,55,050.48
+1-Apr-24 	Cr 	Opening Balance 	6,96,660.48
+1-Jan-25 	Dr 	Cash 	6,88,660.48 Dr	8,000.00	256	Receipt
+31-Jan-25 	Dr 	Cash 	6,80,660.48 Dr	8,000.00	257	Receipt
+Carried Over 	16,000.00	6,96,660.48
+continued ...
+
+-- 2 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 3
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	16,000.00	6,96,660.48
+1-Feb-25 	Dr 	Cash 	6,70,660.48 Dr	10,000.00	258	Receipt
+22-Feb-25 	Cr 	Sales Account 	7,34,847.48 Dr	64,187.00	319	Sales 01-Jan-25
+28-Feb-25 	Dr 	Cash 	7,26,847.48 Dr	8,000.00	262	Receipt
+11-Mar-25 	Cr 	Sales Account 	8,20,815.48 Dr	93,968.00	340	Sales 01-Jan-25
+28-Mar-25 	Dr 	HDFC BANK 50200055194435 	7,20,815.48 Dr	1,00,000.00	199	Receipt
+31-Mar-25 	Dr 	Cash 	7,12,815.48 Dr	8,000.00	263	Receipt
+1,42,000.00	8,54,815.48
+Dr 	Closing Balance 	7,12,815.48
+8,54,815.48	8,54,815.48
+1-Apr-25 	Cr 	Opening Balance 	7,12,815.48
+1-Apr-25 	Dr 	Cash 	7,02,815.48 Dr	10,000.00	202	Receipt
+1-May-25 	Dr 	Cash 	6,92,815.48 Dr	10,000.00	203	Receipt
+21-May-25 	Dr 	Cash 	6,84,815.48 Dr	8,000.00	207	Receipt
+1-Jun-25 	Dr 	Cash 	6,74,815.48 Dr	10,000.00	204	Receipt
+1-Jul-25 	Dr 	Cash 	6,64,815.48 Dr	10,000.00	205	Receipt
+1-Aug-25 	Dr 	Cash 	6,54,815.48 Dr	10,000.00	206	Receipt
+14-Aug-25 	Dr 	HDFC BANK 50200055194435 	5,54,815.48 Dr	1,00,000.00	166	Receipt
+22-Aug-25 	Cr 	Sales Account 	6,42,724.48 Dr	87,909.00	115	Sales 01-Jan-25
+Cr 	Sales Account 	6,55,881.48 Dr	13,157.00	116	Sales 01-Jan-25
+Cr 	Sales Account 	6,87,959.48 Dr	32,078.00	117	Sales 01-Jan-25
+Cr 	Sales Account 	7,10,751.48 Dr	22,792.00	118	Sales 01-Jan-25
+23-Aug-25 	Cr 	Sales Account 	7,15,712.48 Dr	4,961.00	119	Sales 01-Jan-25
+Cr 	Sales Account 	7,45,716.48 Dr	30,004.00	120	Sales 01-Jan-25
+29-Aug-25 	Cr 	Sales Account 	7,85,380.48 Dr	39,664.00	126	Sales 01-Jan-25
+Cr 	Sales Account 	8,84,694.48 Dr	99,314.00	128	Sales 01-Jan-25
+1-Sep-25 	Cr 	Sales Account 	9,35,204.48 Dr	50,510.00	138	Sales 01-Jan-25
+4-Sep-25 	Dr 	HDFC BANK 50200055194435 	8,85,204.48 Dr	50,000.00	208	Receipt
+16-Sep-25 	Cr 	Sales Account 	9,12,110.48 Dr	26,906.00	157	Sales 01-Jan-25
+Cr 	Sales Account 	9,76,108.48 Dr	63,998.00	158	Sales 01-Jan-25
+Cr 	Sales Account 	9,97,134.80 Dr	21,026.32	156	Sales 01-Jan-25
+19-Sep-25 	Cr 	Sales Account 	9,99,602.80 Dr	2,468.00	164	Sales 01-Jan-25
+23-Sep-25 	Dr 	HDFC BANK 50200055194435 	9,49,602.80 Dr	50,000.00	217	Receipt
+26-Sep-25 	Cr 	Sales Account 	9,77,375.80 Dr	27,773.00	172	Sales 01-Jan-25
+Cr 	Sales Account 	10,11,500.80 Dr	34,125.00	173	Sales 01-Jan-25
+29-Sep-25 	Cr 	Sales Account 	10,17,170.80 Dr	5,670.00	175	Sales 01-Jan-25
+3-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,67,170.80 Dr	1,50,000.00	219	Receipt
+4-Oct-25 	Cr 	Sales Account 	9,01,216.80 Dr	34,046.00	183	Sales 01-Jan-25
+6-Oct-25 	Cr 	Sales Account 	9,35,845.80 Dr	34,629.00	187	Sales 01-Jan-25
+11-Oct-25 	Cr 	Sales Account 	9,50,167.80 Dr	14,322.00	190	Sales 01-Jan-25
+15-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,50,167.80 Dr	1,00,000.00	256	Receipt
+16-Oct-25 	Cr 	Sales Account 	9,09,933.80 Dr	59,766.00	192	Sales 01-Jan-25
+Cr 	Sales Account 	9,12,380.80 Dr	2,447.00	193	Sales 01-Jan-25
+Cr 	Sales Account 	9,21,095.84 Dr	8,715.04	194	Sales 01-Jan-25
+30-Oct-25 	Cr 	Sales Account 	10,06,696.84 Dr	85,601.00	199	Sales 01-Jan-25
+31-Oct-25 	Cr 	Sales Account 	10,57,201.84 Dr	50,505.00	201	Sales 01-Jan-25
+1-Nov-25 	Cr 	Sales Account 	10,78,516.84 Dr	21,315.00	203	Sales 01-Jan-25
+6-Nov-25 	Cr 	Sales Account 	10,87,021.84 Dr	8,505.00	205	Sales 01-Jan-25
+28-Nov-25 	Cr 	Sales Account 	11,23,362.84 Dr	36,341.00	221	Sales 01-Jan-25
+1-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,73,362.84 Dr	50,000.00	323	Receipt
+4-Dec-25 	Cr 	Sales Account 	11,02,127.84 Dr	28,765.00	228	Sales 01-Jan-25
+Cr 	Sales Account 	11,25,590.10 Dr	23,462.26	229	Sales 01-Jan-25
+Carried Over 	5,58,000.00	16,83,590.10
+continued ...
+
+-- 3 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 4
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	5,58,000.00	16,83,590.10
+5-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,25,590.10 Dr	1,00,000.00	326	Receipt
+8-Dec-25 	Cr 	Sales Account 	10,28,026.10 Dr	2,436.00	235	Sales 01-Jan-25
+23-Dec-25 	Dr 	HDFC BANK 50200055194435 	9,28,026.10 Dr	1,00,000.00	348	Receipt
+26-Dec-25 	Cr 	Sales Account 	10,07,222.10 Dr	79,196.00	261	Sales 01-Jan-25
+27-Dec-25 	Cr 	Sales Account 	10,20,641.10 Dr	13,419.00	265	Sales 01-Jan-25
+1-Jan-26 	Cr 	Sales Account 	10,91,789.10 Dr	71,148.00	268	Sales 01-Jan-25
+13-Jan-26 	Dr 	HDFC BANK 50200055194435 	9,91,789.10 Dr	1,00,000.00	404	Receipt
+15-Jan-26 	Cr 	Sales Account 	12,14,179.10 Dr	2,22,390.00	277	Sales 01-Jan-25
+Dr 	HDFC BANK 50200055194435 	10,14,179.10 Dr	2,00,000.00	405	Receipt
+19-Jan-26 	Cr 	Sales Account 	10,26,706.10 Dr	12,527.00	284	Sales 01-Jan-25
+22-Jan-26 	Cr 	Sales Account 	10,34,214.10 Dr	7,508.00	287	Sales 01-Jan-25
+6-Mar-26 	Cr 	Sales Account 	10,41,302.10 Dr	7,088.00	318	Sales 01-Jan-25
+19-Mar-26 	Dr 	HDFC BANK 50200055194435 	9,41,302.10 Dr	1,00,000.00	482	Receipt
+11,58,000.00	20,99,302.10
+Dr 	Closing Balance 	9,41,302.10
+20,99,302.10	20,99,302.10
+1-Apr-26 	Cr 	Opening Balance 	9,41,302.10
+15-Apr-26 	Dr 	HDFC BANK 50200055194435 	7,41,302.10 Dr	2,00,000.00	3	Receipt
+3-May-26 	Cr 	Sales Account 	9,78,235.10 Dr	2,36,933.00	31	Sales 01-Jan-25
+4-May-26 	Dr 	HDFC BANK 50200055194435 	8,78,235.10 Dr	1,00,000.00	9	Receipt
+10-May-26 	Cr 	Sales Account 	9,00,495.10 Dr	22,260.00	38	Sales 01-Jan-25
+1-Jun-26 	Cr 	Sales Account 	10,96,845.10 Dr	1,96,350.00	53	Sales 01-Jan-25
+30-Jun-26 	Dr 	HDFC BANK 50200055194435 	8,96,845.10 Dr	2,00,000.00	114	Receipt
+14-Aug-26 	Dr 	HDFC BANK 50200055194435 	6,96,845.10 Dr	2,00,000.00	136	Receipt
+15-Aug-26 	Cr 	Sales Account 	8,60,645.10 Dr	1,63,800.00	123	Sales 01-Jan-25
+18-Aug-26 	Cr 	Sales Account 	8,64,268.10 Dr	3,623.00	130	Sales 01-Jan-25
+22-Aug-26 	Cr 	Sales Account 	9,38,136.10 Dr	73,868.00	136	Sales 01-Jan-25
+24-Sep-26 	Dr 	HDFC BANK 50200055194435 	9,13,136.10 Dr	25,000.00	187	Receipt
+27-Sep-26 	Cr 	Sales Account 	10,11,154.10 Dr	98,018.00	171	Sales 01-Jan-25
+29-Sep-26 	Cr 	Sales Account 	10,36,154.10 Dr	25,000.00	176	Sales 01-Jan-25
+7,25,000.00	17,61,154.10
+Dr 	Closing Balance 	10,36,154.10
+17,61,154.10	17,61,154.10
+
+-- 4 of 4 --
+
+OM ENTERPRISE
+Survey No.:46,
+Plot No. 33,
+Opp.Ice Factory,
+Near Tulsi Industries,
+Vavdi,
+Rajkot-360005
+Contact : +91-982587886
+E-Mail : om.enterprise@gmail.com
+Earth Ortho Pvt Ltd
+Ledger Account
+25 3rd Floor Shri Siddheshwar Plaza
+Near Sakar Complex Next Sardar Es
+New Vip Road Vadodara
+390022
+1-Apr-20 to 3-Oct-26
+Page 1
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+15-Mar-22 	Cr 	Sales Account 	32,397.74 Dr	32,397.74	476	Sales
+22-Mar-22 	Cr 	Sales Account 	49,591.48 Dr	17,193.74	484	Sales
+49,591.48
+Dr 	Closing Balance 	49,591.48
+49,591.48	49,591.48
+1-Apr-22 	Cr 	Opening Balance 	49,591.48
+22-May-22 	Cr 	Sales Account 	1,04,049.48 Dr	54,458.00	056	Sales
+Cr 	Sales Account 	1,36,263.48 Dr	32,214.00	057	Sales
+23-May-22 	Cr 	Sales Account 	1,49,703.48 Dr	13,440.00	058	Sales
+24-May-22 	Cr 	Sales Account 	1,79,922.48 Dr	30,219.00	060	Sales
+30-May-22 	Cr 	Sales Account 	1,87,309.48 Dr	7,387.00	067	Sales
+6-Jun-22 	Cr 	Sales Account 	2,35,184.48 Dr	47,875.00	074	Sales
+9-Jun-22 	Dr 	Sales Account 	2,32,165.48 Dr	3,019.00	3	Credit Note
+Dr 	HDFC BANK 50200055194435 	1,82,164.48 Dr	50,001.00	39	Receipt
+13-Jun-22 	Cr 	Sales Account 	2,95,874.48 Dr	1,13,710.00	081	Sales
+21-Jun-22 	Cr 	Sales Account 	3,48,201.48 Dr	52,327.00	087	Sales
+8-Jul-22 	Dr 	HDFC BANK 50200055194435 	3,23,201.48 Dr	25,000.00	55	Receipt
+11-Jul-22 	Cr 	Sales Account 	3,51,588.48 Dr	28,387.00	111	Sales
+Cr 	Sales Account 	3,60,100.48 Dr	8,512.00	112	Sales
+16-Jul-22 	Cr 	Sales Account 	3,90,503.48 Dr	30,403.00	129	Sales
+25-Jul-22 	Cr 	Sales Account 	3,94,808.48 Dr	4,305.00	142	Sales
+26-Jul-22 	Cr 	Sales Account 	4,15,708.48 Dr	20,900.00	146	Sales
+1-Aug-22 	Dr 	HDFC BANK 50200055194435 	3,65,708.48 Dr	50,000.00	71	Receipt
+9-Aug-22 	Cr 	Sales Account 	4,41,586.48 Dr	75,878.00	165	Sales
+16-Aug-22 	Dr 	HDFC BANK 50200055194435 	4,01,586.48 Dr	40,000.00	79	Receipt
+22-Aug-22 	Cr 	Sales Account 	4,52,096.48 Dr	50,510.00	175	Sales
+Cr 	Sales Account 	4,72,676.48 Dr	20,580.00	176	Sales
+Cr 	Sales Account 	5,35,393.48 Dr	62,717.00	177	Sales
+25-Aug-22 	Cr 	Sales Account 	5,69,602.48 Dr	34,209.00	182	Sales
+Cr 	Sales Account 	5,80,060.48 Dr	10,458.00	188	Sales
+Dr 	HDFC BANK 50200055194435 	5,30,060.48 Dr	50,000.00	85	Receipt
+Dr 	HDFC BANK 50200055194435 	4,80,060.48 Dr	50,000.00	86	Receipt
+1-Sep-22 	Cr 	Sales Account 	5,00,168.48 Dr	20,108.00	195	Sales
+15-Sep-22 	Cr 	Sales Account 	5,77,240.48 Dr	77,072.00	215	Sales
+29-Sep-22 	Cr 	Sales Account 	5,96,119.48 Dr	18,879.00	235	Sales
+Cr 	Sales Account 	6,09,559.48 Dr	13,440.00	236	Sales
+Carried Over 	2,68,020.00	8,77,579.48
+continued ...
+
+-- 1 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 2
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	2,68,020.00	8,77,579.48
+29-Sep-22 	Dr 	HDFC BANK 50200055194435 	5,59,559.48 Dr	50,000.00	109	Receipt
+30-Sep-22 	Cr 	Sales Account 	5,67,329.48 Dr	7,770.00	237	Sales
+10-Oct-22 	Cr 	Sales Account 	6,10,505.48 Dr	43,176.00	253	Sales
+11-Oct-22 	Dr 	HDFC BANK 50200055194435 	4,10,505.48 Dr	2,00,000.00	119	Receipt
+14-Oct-22 	Cr 	Sales Account 	5,01,078.48 Dr	90,573.00	263	Sales
+Cr 	Sales Account 	5,14,742.48 Dr	13,664.00	264	Sales
+19-Dec-22 	Cr 	Sales Account 	5,64,612.48 Dr	49,870.00	324	Sales
+20-Dec-22 	Cr 	Sales Account 	5,65,242.48 Dr	630.00	325	Sales
+26-Dec-22 	Dr 	HDFC BANK 50200055194435 	5,15,242.48 Dr	50,000.00	170	Receipt
+31-Dec-22 	Cr 	Sales Account 	5,54,176.48 Dr	38,934.00	340	Sales
+3-Jan-23 	Cr 	Sales Account 	6,18,651.48 Dr	64,475.00	345	Sales
+9-Jan-23 	Cr 	Sales Account 	6,62,938.48 Dr	44,287.00	358	Sales
+12-Jan-23 	Dr 	HDFC BANK 50200055194435 	6,12,938.48 Dr	50,000.00	180	Receipt
+16-Jan-23 	Cr 	Sales Account 	6,35,338.48 Dr	22,400.00	362	Sales
+17-Jan-23 	Cr 	Sales Account 	7,22,845.48 Dr	87,507.00	364	Sales
+Cr 	Sales Account 	7,55,400.48 Dr	32,555.00	365	Sales
+2-Feb-23 	Cr 	Sales Account 	7,62,792.48 Dr	7,392.00	390	Sales
+9-Feb-23 	Cr 	Sales Account 	7,64,908.48 Dr	2,116.00	399	Sales
+24-Feb-23 	Cr 	Sales Account 	7,67,874.48 Dr	2,966.00	411	Sales
+1-Mar-23 	Dr 	Sales Account 	7,66,721.48 Dr	1,153.00	11	Credit Note
+Dr 	Purchase 	7,65,568.48 Dr	1,153.00	220	Purchase
+6,20,326.00	13,85,894.48
+Dr 	Closing Balance 	7,65,568.48
+13,85,894.48	13,85,894.48
+1-Apr-23 	Cr 	Opening Balance 	7,65,568.48
+23-May-23 	Dr 	HDFC BANK 50200055194435 	7,15,568.48 Dr	50,000.00	30	Receipt
+26-May-23 	Cr 	Sales Account 	7,43,766.48 Dr	28,198.00	075	Sales
+30-May-23 	Cr 	Sales Account 	7,51,158.48 Dr	7,392.00	079	Sales
+2-Jun-23 	Cr 	Sales Account 	7,52,523.48 Dr	1,365.00	087	Sales
+6-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,96,523.48 Dr	56,000.00	37	Receipt
+8-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,36,523.48 Dr	60,000.00	38	Receipt
+Cr 	Sales Account 	6,47,338.48 Dr	10,815.00	099	Sales
+Cr 	Sales Account 	6,71,418.48 Dr	24,080.00	100	Sales
+10-Jun-23 	Cr 	Sales Account 	6,97,806.48 Dr	26,388.00	103	Sales
+13-Jun-23 	Cr 	Sales Account 	7,21,956.48 Dr	24,150.00	110	Sales
+15-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,71,956.48 Dr	50,000.00	42	Receipt
+17-Jun-23 	Cr 	Sales Account 	6,94,673.48 Dr	22,717.00	113	Sales
+Cr 	Sales Account 	7,03,297.48 Dr	8,624.00	114	Sales
+18-Jun-23 	Cr 	Sales Account 	7,07,907.48 Dr	4,610.00	120	Sales
+20-Jun-23 	Cr 	Sales Account 	7,39,050.48 Dr	31,143.00	122	Sales
+24-Jul-23 	Dr 	Sales Account 	7,34,430.48 Dr	4,620.00	5	Credit Note
+18-Aug-23 	Dr 	HDFC BANK 50200055194435 	7,09,430.48 Dr	25,000.00	84	Receipt
+1-Sep-23 	Dr 	HDFC BANK 50200055194435 	7,01,660.48 Dr	7,770.00	98	Receipt
+7-Feb-24 	Dr 	HDFC BANK 50200055194435 	6,96,660.48 Dr	5,000.00	220	Receipt
+2,58,390.00	9,55,050.48
+Dr 	Closing Balance 	6,96,660.48
+9,55,050.48	9,55,050.48
+1-Apr-24 	Cr 	Opening Balance 	6,96,660.48
+1-Jan-25 	Dr 	Cash 	6,88,660.48 Dr	8,000.00	256	Receipt
+31-Jan-25 	Dr 	Cash 	6,80,660.48 Dr	8,000.00	257	Receipt
+Carried Over 	16,000.00	6,96,660.48
+continued ...
+
+-- 2 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 3
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	16,000.00	6,96,660.48
+1-Feb-25 	Dr 	Cash 	6,70,660.48 Dr	10,000.00	258	Receipt
+22-Feb-25 	Cr 	Sales Account 	7,34,847.48 Dr	64,187.00	319	Sales 01-Jan-25
+28-Feb-25 	Dr 	Cash 	7,26,847.48 Dr	8,000.00	262	Receipt
+11-Mar-25 	Cr 	Sales Account 	8,20,815.48 Dr	93,968.00	340	Sales 01-Jan-25
+28-Mar-25 	Dr 	HDFC BANK 50200055194435 	7,20,815.48 Dr	1,00,000.00	199	Receipt
+31-Mar-25 	Dr 	Cash 	7,12,815.48 Dr	8,000.00	263	Receipt
+1,42,000.00	8,54,815.48
+Dr 	Closing Balance 	7,12,815.48
+8,54,815.48	8,54,815.48
+1-Apr-25 	Cr 	Opening Balance 	7,12,815.48
+1-Apr-25 	Dr 	Cash 	7,02,815.48 Dr	10,000.00	202	Receipt
+1-May-25 	Dr 	Cash 	6,92,815.48 Dr	10,000.00	203	Receipt
+21-May-25 	Dr 	Cash 	6,84,815.48 Dr	8,000.00	207	Receipt
+1-Jun-25 	Dr 	Cash 	6,74,815.48 Dr	10,000.00	204	Receipt
+1-Jul-25 	Dr 	Cash 	6,64,815.48 Dr	10,000.00	205	Receipt
+1-Aug-25 	Dr 	Cash 	6,54,815.48 Dr	10,000.00	206	Receipt
+14-Aug-25 	Dr 	HDFC BANK 50200055194435 	5,54,815.48 Dr	1,00,000.00	166	Receipt
+22-Aug-25 	Cr 	Sales Account 	6,42,724.48 Dr	87,909.00	115	Sales 01-Jan-25
+Cr 	Sales Account 	6,55,881.48 Dr	13,157.00	116	Sales 01-Jan-25
+Cr 	Sales Account 	6,87,959.48 Dr	32,078.00	117	Sales 01-Jan-25
+Cr 	Sales Account 	7,10,751.48 Dr	22,792.00	118	Sales 01-Jan-25
+23-Aug-25 	Cr 	Sales Account 	7,15,712.48 Dr	4,961.00	119	Sales 01-Jan-25
+Cr 	Sales Account 	7,45,716.48 Dr	30,004.00	120	Sales 01-Jan-25
+29-Aug-25 	Cr 	Sales Account 	7,85,380.48 Dr	39,664.00	126	Sales 01-Jan-25
+Cr 	Sales Account 	8,84,694.48 Dr	99,314.00	128	Sales 01-Jan-25
+1-Sep-25 	Cr 	Sales Account 	9,35,204.48 Dr	50,510.00	138	Sales 01-Jan-25
+4-Sep-25 	Dr 	HDFC BANK 50200055194435 	8,85,204.48 Dr	50,000.00	208	Receipt
+16-Sep-25 	Cr 	Sales Account 	9,12,110.48 Dr	26,906.00	157	Sales 01-Jan-25
+Cr 	Sales Account 	9,76,108.48 Dr	63,998.00	158	Sales 01-Jan-25
+Cr 	Sales Account 	9,97,134.80 Dr	21,026.32	156	Sales 01-Jan-25
+19-Sep-25 	Cr 	Sales Account 	9,99,602.80 Dr	2,468.00	164	Sales 01-Jan-25
+23-Sep-25 	Dr 	HDFC BANK 50200055194435 	9,49,602.80 Dr	50,000.00	217	Receipt
+26-Sep-25 	Cr 	Sales Account 	9,77,375.80 Dr	27,773.00	172	Sales 01-Jan-25
+Cr 	Sales Account 	10,11,500.80 Dr	34,125.00	173	Sales 01-Jan-25
+29-Sep-25 	Cr 	Sales Account 	10,17,170.80 Dr	5,670.00	175	Sales 01-Jan-25
+3-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,67,170.80 Dr	1,50,000.00	219	Receipt
+4-Oct-25 	Cr 	Sales Account 	9,01,216.80 Dr	34,046.00	183	Sales 01-Jan-25
+6-Oct-25 	Cr 	Sales Account 	9,35,845.80 Dr	34,629.00	187	Sales 01-Jan-25
+11-Oct-25 	Cr 	Sales Account 	9,50,167.80 Dr	14,322.00	190	Sales 01-Jan-25
+15-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,50,167.80 Dr	1,00,000.00	256	Receipt
+16-Oct-25 	Cr 	Sales Account 	9,09,933.80 Dr	59,766.00	192	Sales 01-Jan-25
+Cr 	Sales Account 	9,12,380.80 Dr	2,447.00	193	Sales 01-Jan-25
+Cr 	Sales Account 	9,21,095.84 Dr	8,715.04	194	Sales 01-Jan-25
+30-Oct-25 	Cr 	Sales Account 	10,06,696.84 Dr	85,601.00	199	Sales 01-Jan-25
+31-Oct-25 	Cr 	Sales Account 	10,57,201.84 Dr	50,505.00	201	Sales 01-Jan-25
+1-Nov-25 	Cr 	Sales Account 	10,78,516.84 Dr	21,315.00	203	Sales 01-Jan-25
+6-Nov-25 	Cr 	Sales Account 	10,87,021.84 Dr	8,505.00	205	Sales 01-Jan-25
+28-Nov-25 	Cr 	Sales Account 	11,23,362.84 Dr	36,341.00	221	Sales 01-Jan-25
+1-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,73,362.84 Dr	50,000.00	323	Receipt
+4-Dec-25 	Cr 	Sales Account 	11,02,127.84 Dr	28,765.00	228	Sales 01-Jan-25
+Cr 	Sales Account 	11,25,590.10 Dr	23,462.26	229	Sales 01-Jan-25
+Carried Over 	5,58,000.00	16,83,590.10
+continued ...
+
+-- 3 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 4
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	5,58,000.00	16,83,590.10
+5-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,25,590.10 Dr	1,00,000.00	326	Receipt
+8-Dec-25 	Cr 	Sales Account 	10,28,026.10 Dr	2,436.00	235	Sales 01-Jan-25
+23-Dec-25 	Dr 	HDFC BANK 50200055194435 	9,28,026.10 Dr	1,00,000.00	348	Receipt
+26-Dec-25 	Cr 	Sales Account 	10,07,222.10 Dr	79,196.00	261	Sales 01-Jan-25
+27-Dec-25 	Cr 	Sales Account 	10,20,641.10 Dr	13,419.00	265	Sales 01-Jan-25
+1-Jan-26 	Cr 	Sales Account 	10,91,789.10 Dr	71,148.00	268	Sales 01-Jan-25
+13-Jan-26 	Dr 	HDFC BANK 50200055194435 	9,91,789.10 Dr	1,00,000.00	404	Receipt
+15-Jan-26 	Cr 	Sales Account 	12,14,179.10 Dr	2,22,390.00	277	Sales 01-Jan-25
+Dr 	HDFC BANK 50200055194435 	10,14,179.10 Dr	2,00,000.00	405	Receipt
+19-Jan-26 	Cr 	Sales Account 	10,26,706.10 Dr	12,527.00	284	Sales 01-Jan-25
+22-Jan-26 	Cr 	Sales Account 	10,34,214.10 Dr	7,508.00	287	Sales 01-Jan-25
+6-Mar-26 	Cr 	Sales Account 	10,41,302.10 Dr	7,088.00	318	Sales 01-Jan-25
+19-Mar-26 	Dr 	HDFC BANK 50200055194435 	9,41,302.10 Dr	1,00,000.00	482	Receipt
+11,58,000.00	20,99,302.10
+Dr 	Closing Balance 	9,41,302.10
+20,99,302.10	20,99,302.10
+1-Apr-26 	Cr 	Opening Balance 	9,41,302.10
+15-Apr-26 	Dr 	HDFC BANK 50200055194435 	7,41,302.10 Dr	2,00,000.00	3	Receipt
+3-May-26 	Cr 	Sales Account 	9,78,235.10 Dr	2,36,933.00	31	Sales 01-Jan-25
+4-May-26 	Dr 	HDFC BANK 50200055194435 	8,78,235.10 Dr	1,00,000.00	9	Receipt
+10-May-26 	Cr 	Sales Account 	9,00,495.10 Dr	22,260.00	38	Sales 01-Jan-25
+1-Jun-26 	Cr 	Sales Account 	10,96,845.10 Dr	1,96,350.00	53	Sales 01-Jan-25
+30-Jun-26 	Dr 	HDFC BANK 50200055194435 	8,96,845.10 Dr	2,00,000.00	114	Receipt
+14-Aug-26 	Dr 	HDFC BANK 50200055194435 	6,96,845.10 Dr	2,00,000.00	136	Receipt
+15-Aug-26 	Cr 	Sales Account 	8,60,645.10 Dr	1,63,800.00	123	Sales 01-Jan-25
+18-Aug-26 	Cr 	Sales Account 	8,64,268.10 Dr	3,623.00	130	Sales 01-Jan-25
+22-Aug-26 	Cr 	Sales Account 	9,38,136.10 Dr	73,868.00	136	Sales 01-Jan-25
+24-Sep-26 	Dr 	HDFC BANK 50200055194435 	9,13,136.10 Dr	25,000.00	187	Receipt
+27-Sep-26 	Cr 	Sales Account 	10,11,154.10 Dr	98,018.00	171	Sales 01-Jan-25
+29-Sep-26 	Cr 	Sales Account 	10,36,154.10 Dr	25,000.00	176	Sales 01-Jan-25
+7,25,000.00	17,61,154.10
+Dr 	Closing Balance 	10,36,154.10
+17,61,154.10	17,61,154.10
+
+-- 4 of 4 --
+
+OM ENTERPRISE
+Survey No.:46,
+Plot No. 33,
+Opp.Ice Factory,
+Near Tulsi Industries,
+Vavdi,
+Rajkot-360005
+Contact : +91-982587886
+E-Mail : om.enterprise@gmail.com
+Earth Ortho Pvt Ltd
+Ledger Account
+25 3rd Floor Shri Siddheshwar Plaza
+Near Sakar Complex Next Sardar Es
+New Vip Road Vadodara
+390022
+1-Apr-20 to 3-Oct-26
+Page 1
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+15-Mar-22 	Cr 	Sales Account 	32,397.74 Dr	32,397.74	476	Sales
+22-Mar-22 	Cr 	Sales Account 	49,591.48 Dr	17,193.74	484	Sales
+49,591.48
+Dr 	Closing Balance 	49,591.48
+49,591.48	49,591.48
+1-Apr-22 	Cr 	Opening Balance 	49,591.48
+22-May-22 	Cr 	Sales Account 	1,04,049.48 Dr	54,458.00	056	Sales
+Cr 	Sales Account 	1,36,263.48 Dr	32,214.00	057	Sales
+23-May-22 	Cr 	Sales Account 	1,49,703.48 Dr	13,440.00	058	Sales
+24-May-22 	Cr 	Sales Account 	1,79,922.48 Dr	30,219.00	060	Sales
+30-May-22 	Cr 	Sales Account 	1,87,309.48 Dr	7,387.00	067	Sales
+6-Jun-22 	Cr 	Sales Account 	2,35,184.48 Dr	47,875.00	074	Sales
+9-Jun-22 	Dr 	Sales Account 	2,32,165.48 Dr	3,019.00	3	Credit Note
+Dr 	HDFC BANK 50200055194435 	1,82,164.48 Dr	50,001.00	39	Receipt
+13-Jun-22 	Cr 	Sales Account 	2,95,874.48 Dr	1,13,710.00	081	Sales
+21-Jun-22 	Cr 	Sales Account 	3,48,201.48 Dr	52,327.00	087	Sales
+8-Jul-22 	Dr 	HDFC BANK 50200055194435 	3,23,201.48 Dr	25,000.00	55	Receipt
+11-Jul-22 	Cr 	Sales Account 	3,51,588.48 Dr	28,387.00	111	Sales
+Cr 	Sales Account 	3,60,100.48 Dr	8,512.00	112	Sales
+16-Jul-22 	Cr 	Sales Account 	3,90,503.48 Dr	30,403.00	129	Sales
+25-Jul-22 	Cr 	Sales Account 	3,94,808.48 Dr	4,305.00	142	Sales
+26-Jul-22 	Cr 	Sales Account 	4,15,708.48 Dr	20,900.00	146	Sales
+1-Aug-22 	Dr 	HDFC BANK 50200055194435 	3,65,708.48 Dr	50,000.00	71	Receipt
+9-Aug-22 	Cr 	Sales Account 	4,41,586.48 Dr	75,878.00	165	Sales
+16-Aug-22 	Dr 	HDFC BANK 50200055194435 	4,01,586.48 Dr	40,000.00	79	Receipt
+22-Aug-22 	Cr 	Sales Account 	4,52,096.48 Dr	50,510.00	175	Sales
+Cr 	Sales Account 	4,72,676.48 Dr	20,580.00	176	Sales
+Cr 	Sales Account 	5,35,393.48 Dr	62,717.00	177	Sales
+25-Aug-22 	Cr 	Sales Account 	5,69,602.48 Dr	34,209.00	182	Sales
+Cr 	Sales Account 	5,80,060.48 Dr	10,458.00	188	Sales
+Dr 	HDFC BANK 50200055194435 	5,30,060.48 Dr	50,000.00	85	Receipt
+Dr 	HDFC BANK 50200055194435 	4,80,060.48 Dr	50,000.00	86	Receipt
+1-Sep-22 	Cr 	Sales Account 	5,00,168.48 Dr	20,108.00	195	Sales
+15-Sep-22 	Cr 	Sales Account 	5,77,240.48 Dr	77,072.00	215	Sales
+29-Sep-22 	Cr 	Sales Account 	5,96,119.48 Dr	18,879.00	235	Sales
+Cr 	Sales Account 	6,09,559.48 Dr	13,440.00	236	Sales
+Carried Over 	2,68,020.00	8,77,579.48
+continued ...
+
+-- 1 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 2
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	2,68,020.00	8,77,579.48
+29-Sep-22 	Dr 	HDFC BANK 50200055194435 	5,59,559.48 Dr	50,000.00	109	Receipt
+30-Sep-22 	Cr 	Sales Account 	5,67,329.48 Dr	7,770.00	237	Sales
+10-Oct-22 	Cr 	Sales Account 	6,10,505.48 Dr	43,176.00	253	Sales
+11-Oct-22 	Dr 	HDFC BANK 50200055194435 	4,10,505.48 Dr	2,00,000.00	119	Receipt
+14-Oct-22 	Cr 	Sales Account 	5,01,078.48 Dr	90,573.00	263	Sales
+Cr 	Sales Account 	5,14,742.48 Dr	13,664.00	264	Sales
+19-Dec-22 	Cr 	Sales Account 	5,64,612.48 Dr	49,870.00	324	Sales
+20-Dec-22 	Cr 	Sales Account 	5,65,242.48 Dr	630.00	325	Sales
+26-Dec-22 	Dr 	HDFC BANK 50200055194435 	5,15,242.48 Dr	50,000.00	170	Receipt
+31-Dec-22 	Cr 	Sales Account 	5,54,176.48 Dr	38,934.00	340	Sales
+3-Jan-23 	Cr 	Sales Account 	6,18,651.48 Dr	64,475.00	345	Sales
+9-Jan-23 	Cr 	Sales Account 	6,62,938.48 Dr	44,287.00	358	Sales
+12-Jan-23 	Dr 	HDFC BANK 50200055194435 	6,12,938.48 Dr	50,000.00	180	Receipt
+16-Jan-23 	Cr 	Sales Account 	6,35,338.48 Dr	22,400.00	362	Sales
+17-Jan-23 	Cr 	Sales Account 	7,22,845.48 Dr	87,507.00	364	Sales
+Cr 	Sales Account 	7,55,400.48 Dr	32,555.00	365	Sales
+2-Feb-23 	Cr 	Sales Account 	7,62,792.48 Dr	7,392.00	390	Sales
+9-Feb-23 	Cr 	Sales Account 	7,64,908.48 Dr	2,116.00	399	Sales
+24-Feb-23 	Cr 	Sales Account 	7,67,874.48 Dr	2,966.00	411	Sales
+1-Mar-23 	Dr 	Sales Account 	7,66,721.48 Dr	1,153.00	11	Credit Note
+Dr 	Purchase 	7,65,568.48 Dr	1,153.00	220	Purchase
+6,20,326.00	13,85,894.48
+Dr 	Closing Balance 	7,65,568.48
+13,85,894.48	13,85,894.48
+1-Apr-23 	Cr 	Opening Balance 	7,65,568.48
+23-May-23 	Dr 	HDFC BANK 50200055194435 	7,15,568.48 Dr	50,000.00	30	Receipt
+26-May-23 	Cr 	Sales Account 	7,43,766.48 Dr	28,198.00	075	Sales
+30-May-23 	Cr 	Sales Account 	7,51,158.48 Dr	7,392.00	079	Sales
+2-Jun-23 	Cr 	Sales Account 	7,52,523.48 Dr	1,365.00	087	Sales
+6-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,96,523.48 Dr	56,000.00	37	Receipt
+8-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,36,523.48 Dr	60,000.00	38	Receipt
+Cr 	Sales Account 	6,47,338.48 Dr	10,815.00	099	Sales
+Cr 	Sales Account 	6,71,418.48 Dr	24,080.00	100	Sales
+10-Jun-23 	Cr 	Sales Account 	6,97,806.48 Dr	26,388.00	103	Sales
+13-Jun-23 	Cr 	Sales Account 	7,21,956.48 Dr	24,150.00	110	Sales
+15-Jun-23 	Dr 	HDFC BANK 50200055194435 	6,71,956.48 Dr	50,000.00	42	Receipt
+17-Jun-23 	Cr 	Sales Account 	6,94,673.48 Dr	22,717.00	113	Sales
+Cr 	Sales Account 	7,03,297.48 Dr	8,624.00	114	Sales
+18-Jun-23 	Cr 	Sales Account 	7,07,907.48 Dr	4,610.00	120	Sales
+20-Jun-23 	Cr 	Sales Account 	7,39,050.48 Dr	31,143.00	122	Sales
+24-Jul-23 	Dr 	Sales Account 	7,34,430.48 Dr	4,620.00	5	Credit Note
+18-Aug-23 	Dr 	HDFC BANK 50200055194435 	7,09,430.48 Dr	25,000.00	84	Receipt
+1-Sep-23 	Dr 	HDFC BANK 50200055194435 	7,01,660.48 Dr	7,770.00	98	Receipt
+7-Feb-24 	Dr 	HDFC BANK 50200055194435 	6,96,660.48 Dr	5,000.00	220	Receipt
+2,58,390.00	9,55,050.48
+Dr 	Closing Balance 	6,96,660.48
+9,55,050.48	9,55,050.48
+1-Apr-24 	Cr 	Opening Balance 	6,96,660.48
+1-Jan-25 	Dr 	Cash 	6,88,660.48 Dr	8,000.00	256	Receipt
+31-Jan-25 	Dr 	Cash 	6,80,660.48 Dr	8,000.00	257	Receipt
+Carried Over 	16,000.00	6,96,660.48
+continued ...
+
+-- 2 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 3
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	16,000.00	6,96,660.48
+1-Feb-25 	Dr 	Cash 	6,70,660.48 Dr	10,000.00	258	Receipt
+22-Feb-25 	Cr 	Sales Account 	7,34,847.48 Dr	64,187.00	319	Sales 01-Jan-25
+28-Feb-25 	Dr 	Cash 	7,26,847.48 Dr	8,000.00	262	Receipt
+11-Mar-25 	Cr 	Sales Account 	8,20,815.48 Dr	93,968.00	340	Sales 01-Jan-25
+28-Mar-25 	Dr 	HDFC BANK 50200055194435 	7,20,815.48 Dr	1,00,000.00	199	Receipt
+31-Mar-25 	Dr 	Cash 	7,12,815.48 Dr	8,000.00	263	Receipt
+1,42,000.00	8,54,815.48
+Dr 	Closing Balance 	7,12,815.48
+8,54,815.48	8,54,815.48
+1-Apr-25 	Cr 	Opening Balance 	7,12,815.48
+1-Apr-25 	Dr 	Cash 	7,02,815.48 Dr	10,000.00	202	Receipt
+1-May-25 	Dr 	Cash 	6,92,815.48 Dr	10,000.00	203	Receipt
+21-May-25 	Dr 	Cash 	6,84,815.48 Dr	8,000.00	207	Receipt
+1-Jun-25 	Dr 	Cash 	6,74,815.48 Dr	10,000.00	204	Receipt
+1-Jul-25 	Dr 	Cash 	6,64,815.48 Dr	10,000.00	205	Receipt
+1-Aug-25 	Dr 	Cash 	6,54,815.48 Dr	10,000.00	206	Receipt
+14-Aug-25 	Dr 	HDFC BANK 50200055194435 	5,54,815.48 Dr	1,00,000.00	166	Receipt
+22-Aug-25 	Cr 	Sales Account 	6,42,724.48 Dr	87,909.00	115	Sales 01-Jan-25
+Cr 	Sales Account 	6,55,881.48 Dr	13,157.00	116	Sales 01-Jan-25
+Cr 	Sales Account 	6,87,959.48 Dr	32,078.00	117	Sales 01-Jan-25
+Cr 	Sales Account 	7,10,751.48 Dr	22,792.00	118	Sales 01-Jan-25
+23-Aug-25 	Cr 	Sales Account 	7,15,712.48 Dr	4,961.00	119	Sales 01-Jan-25
+Cr 	Sales Account 	7,45,716.48 Dr	30,004.00	120	Sales 01-Jan-25
+29-Aug-25 	Cr 	Sales Account 	7,85,380.48 Dr	39,664.00	126	Sales 01-Jan-25
+Cr 	Sales Account 	8,84,694.48 Dr	99,314.00	128	Sales 01-Jan-25
+1-Sep-25 	Cr 	Sales Account 	9,35,204.48 Dr	50,510.00	138	Sales 01-Jan-25
+4-Sep-25 	Dr 	HDFC BANK 50200055194435 	8,85,204.48 Dr	50,000.00	208	Receipt
+16-Sep-25 	Cr 	Sales Account 	9,12,110.48 Dr	26,906.00	157	Sales 01-Jan-25
+Cr 	Sales Account 	9,76,108.48 Dr	63,998.00	158	Sales 01-Jan-25
+Cr 	Sales Account 	9,97,134.80 Dr	21,026.32	156	Sales 01-Jan-25
+19-Sep-25 	Cr 	Sales Account 	9,99,602.80 Dr	2,468.00	164	Sales 01-Jan-25
+23-Sep-25 	Dr 	HDFC BANK 50200055194435 	9,49,602.80 Dr	50,000.00	217	Receipt
+26-Sep-25 	Cr 	Sales Account 	9,77,375.80 Dr	27,773.00	172	Sales 01-Jan-25
+Cr 	Sales Account 	10,11,500.80 Dr	34,125.00	173	Sales 01-Jan-25
+29-Sep-25 	Cr 	Sales Account 	10,17,170.80 Dr	5,670.00	175	Sales 01-Jan-25
+3-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,67,170.80 Dr	1,50,000.00	219	Receipt
+4-Oct-25 	Cr 	Sales Account 	9,01,216.80 Dr	34,046.00	183	Sales 01-Jan-25
+6-Oct-25 	Cr 	Sales Account 	9,35,845.80 Dr	34,629.00	187	Sales 01-Jan-25
+11-Oct-25 	Cr 	Sales Account 	9,50,167.80 Dr	14,322.00	190	Sales 01-Jan-25
+15-Oct-25 	Dr 	HDFC BANK 50200055194435 	8,50,167.80 Dr	1,00,000.00	256	Receipt
+16-Oct-25 	Cr 	Sales Account 	9,09,933.80 Dr	59,766.00	192	Sales 01-Jan-25
+Cr 	Sales Account 	9,12,380.80 Dr	2,447.00	193	Sales 01-Jan-25
+Cr 	Sales Account 	9,21,095.84 Dr	8,715.04	194	Sales 01-Jan-25
+30-Oct-25 	Cr 	Sales Account 	10,06,696.84 Dr	85,601.00	199	Sales 01-Jan-25
+31-Oct-25 	Cr 	Sales Account 	10,57,201.84 Dr	50,505.00	201	Sales 01-Jan-25
+1-Nov-25 	Cr 	Sales Account 	10,78,516.84 Dr	21,315.00	203	Sales 01-Jan-25
+6-Nov-25 	Cr 	Sales Account 	10,87,021.84 Dr	8,505.00	205	Sales 01-Jan-25
+28-Nov-25 	Cr 	Sales Account 	11,23,362.84 Dr	36,341.00	221	Sales 01-Jan-25
+1-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,73,362.84 Dr	50,000.00	323	Receipt
+4-Dec-25 	Cr 	Sales Account 	11,02,127.84 Dr	28,765.00	228	Sales 01-Jan-25
+Cr 	Sales Account 	11,25,590.10 Dr	23,462.26	229	Sales 01-Jan-25
+Carried Over 	5,58,000.00	16,83,590.10
+continued ...
+
+-- 3 of 4 --
+
+OM ENTERPRISE
+Earth Ortho Pvt Ltd Ledger Account : 1-Apr-20 to 3-Oct-26 	Page 4
+Date 	Particulars 	Balance	Credit	Debit	Vch No.	Vch Type
+Brought Forward 	5,58,000.00	16,83,590.10
+5-Dec-25 	Dr 	HDFC BANK 50200055194435 	10,25,590.10 Dr	1,00,000.00	326	Receipt
+8-Dec-25 	Cr 	Sales Account 	10,28,026.10 Dr	2,436.00	235	Sales 01-Jan-25
+23-Dec-25 	Dr 	HDFC BANK 50200055194435 	9,28,026.10 Dr	1,00,000.00	348	Receipt
+26-Dec-25 	Cr 	Sales Account 	10,07,222.10 Dr	79,196.00	261	Sales 01-Jan-25
+27-Dec-25 	Cr 	Sales Account 	10,20,641.10 Dr	13,419.00	265	Sales 01-Jan-25
+1-Jan-26 	Cr 	Sales Account 	10,91,789.10 Dr	71,148.00	268	Sales 01-Jan-25
+13-Jan-26 	Dr 	HDFC BANK 50200055194435 	9,91,789.10 Dr	1,00,000.00	404	Receipt
+15-Jan-26 	Cr 	Sales Account 	12,14,179.10 Dr	2,22,390.00	277	Sales 01-Jan-25
+Dr 	HDFC BANK 50200055194435 	10,14,179.10 Dr	2,00,000.00	405	Receipt
+19-Jan-26 	Cr 	Sales Account 	10,26,706.10 Dr	12,527.00	284	Sales 01-Jan-25
+22-Jan-26 	Cr 	Sales Account 	10,34,214.10 Dr	7,508.00	287	Sales 01-Jan-25
+6-Mar-26 	Cr 	Sales Account 	10,41,302.10 Dr	7,088.00	318	Sales 01-Jan-25
+19-Mar-26 	Dr 	HDFC BANK 50200055194435 	9,41,302.10 Dr	1,00,000.00	482	Receipt
+11,58,000.00	20,99,302.10
+Dr 	Closing Balance 	9,41,302.10
+20,99,302.10	20,99,302.10
+1-Apr-26 	Cr 	Opening Balance 	9,41,302.10
+15-Apr-26 	Dr 	HDFC BANK 50200055194435 	7,41,302.10 Dr	2,00,000.00	3	Receipt
+3-May-26 	Cr 	Sales Account 	9,78,235.10 Dr	2,36,933.00	31	Sales 01-Jan-25
+4-May-26 	Dr 	HDFC BANK 50200055194435 	8,78,235.10 Dr	1,00,000.00	9	Receipt
+10-May-26 	Cr 	Sales Account 	9,00,495.10 Dr	22,260.00	38	Sales 01-Jan-25
+1-Jun-26 	Cr 	Sales Account 	10,96,845.10 Dr	1,96,350.00	53	Sales 01-Jan-25
+30-Jun-26 	Dr 	HDFC BANK 50200055194435 	8,96,845.10 Dr	2,00,000.00	114	Receipt
+14-Aug-26 	Dr 	HDFC BANK 50200055194435 	6,96,845.10 Dr	2,00,000.00	136	Receipt
+15-Aug-26 	Cr 	Sales Account 	8,60,645.10 Dr	1,63,800.00	123	Sales 01-Jan-25
+18-Aug-26 	Cr 	Sales Account 	8,64,268.10 Dr	3,623.00	130	Sales 01-Jan-25
+22-Aug-26 	Cr 	Sales Account 	9,38,136.10 Dr	73,868.00	136	Sales 01-Jan-25
+24-Sep-26 	Dr 	HDFC BANK 50200055194435 	9,13,136.10 Dr	25,000.00	187	Receipt
+27-Sep-26 	Cr 	Sales Account 	10,11,154.10 Dr	98,018.00	171	Sales 01-Jan-25
+29-Sep-26 	Cr 	Sales Account 	10,36,154.10 Dr	25,000.00	176	Sales 01-Jan-25
+7,25,000.00	17,61,154.10
+Dr 	Closing Balance 	10,36,154.10
+17,61,154.10	17,61,154.10
+
+-- 4 of 4 --
+
+Tax Invoice
+OM ENTERPRISE
+Survey No.:46,
+Plot No. 33,
+Opp.Ice Factory,
+Near Tulsi Industries,
+Vavdi,
+Rajkot-360005
+GSTIN/UIN: 24ACZPB4166H1ZE
+State Name : Gujarat, Code : 24
+Contact : +91-982587886
+E-Mail : om.enterprise@gmail.com
+Buyer (Bill to)
+A.M.Silver
+Shed No 18 and 7
+Kasturi Industrial Estate
+Opp Gangorti Estate Nr Karam Gas Agency
+Odhav Ring Road
+Ahmedabad
+GSTIN/UIN 	: 24AFGPM1222H1ZX
+State Name 	: Gujarat, Code : 24
+Invoice No. 	e-Way Bill No.
+191
+Delivery Note
+Buyer's Order No.
+Dispatch Doc No.
+Dispatched through
+Dated
+25-Oct-26
+Mode/Terms of Payment
+Dated
+Delivery Note Date
+Destination
+Terms of Delivery
+Sl 	Description of Goods 	Amount	per	Rate	Quantity	GST	HSN/SAC
+No. 	Rate
+1 	1.2MM ALUMINIUM COIL SHEET 	1,56,800.00	KGS	400.00	392.00 KGS	18 %	7220
+CGST 	14,112.00
+SGST 	14,112.00
+Total 	₹ 1,85,024.00	392.00 KGS
+Amount Chargeable (in words)
+INR One Lakh Eighty Five Thousand Twenty
+Four Only
+E. & O.E
+Previous Balance:
+₹ 1,85,024.00 Dr	Current Balance:
+HSN/SAC 	Total	SGST/UTGST	CGST	Taxable
+Tax Amount	Amount	Rate	Amount	Rate	Value
+7220 	28,224.00	14,112.00	9%	14,112.00	9%	1,56,800.00
+Total 	28,224.00	14,112.00	14,112.00	1,56,800.00
+Tax Amount (in words) : 	INR Twenty Eight Thousand Two Hundred Twenty Four Only
+Declaration
+We declare that this invoice shows the actual price of
+the goods described and that all particulars are true
+and correct.
+Company's Bank Details
+A/c Holder's Name 	: 	OM ENTERPRISE
+Bank Name 	: 	Kotak Current A/c 8418
+A/c No. 	: 	4549108418
+Branch & IFS Code 	: 	RAJKOT - MAVDI & KKBK0002803
+for OM ENTERPRISE
+Authorised Signatory
+This is a Computer Generated Invoice
+
+-- 1 of 1 --
+
+Tax Invoice
+Zivott Meditech Pvt Ltd
+Pl. 33, Survey No. 46,
+Opp. IC Nr Falcon Pumps,
+Vavdi, Rajkot
+Drug License No.GJ-RAJ-212817
+GSTIN/UIN: 24AABCZ8764A1ZB
+State Name : Gujarat, Code : 24
+CIN: U33100GJ2021PTC128193
+Buyer (Bill to)
+Maa Healthcare
+353
+1st Floor
+Dinamani Sahoo
+Canal Road, Rasulgarh
+Bhubaneswar
+Khordha
+GSTIN/UIN 	: 21OLLPS6511N1ZE
+State Name 	: Odisha, Code : 21
+Invoice No.
+29
+Delivery Note
+Buyer's Order No.
+Dispatch Doc No.
+Dispatched through
+Dated
+13-Oct-26
+Mode/Terms of Payment
+Dated
+Delivery Note Date
+Destination
+Terms of Delivery
+Sl 	Description of Goods 	Amount	per	Rate	Quantity	GST	HSN/SAC
+No. 	Rate
+1 	1.5MM TITANIUM CRANIAL PLATE 2
+HOLE WITH BAR 10 MM
+5,200.00	Nos	260.00	20 Nos	5 %	9021
+2 	1.5MM TITANIUM CRANIAL PLATE 2
+HOLE WITH BAR 16 MM
+9,300.00	Nos	310.00	30 Nos	5 %	9021
+3 	1.5MM TITANIUM CRANIAL PLATE 6
+HOLE WITH BAR
+6,400.00	Nos	320.00	20 Nos	5 %	9021
+4 	1.5MM TITANIUM CRANIAL 4 HOLE
+PLATE WITH BAR
+2,800.00	Nos	280.00	10 Nos	5 %	9021
+5 	1.5MM TIT. CRANIAL EASY MESH (
+PRE-BENT) 50MMX50MM
+4,750.00	Nos	2,375.00	2 Nos	5 %	9021
+6 	1.5MM TIT. CRANIAL EASY MESH (
+PRE-BENT) 125MMX125MM
+6,375.00	Nos	6,375.00	1 Nos	5 %	9021
+7 	1.5MM TITANIUM CRANIAL EASY
+MESH (STRAIGHT) 50MM X 50MM
+1,900.00	Nos	1,900.00	1 Nos	5 %	9021
+36,725.00
+P & F CHARGES Gst 	1,250.00
+IGST 	1,898.75
+Round Off 	0.25
+Total 	₹ 39,874.00	84 Nos
+Amount Chargeable (in words)
+INR Thirty Nine Thousand Eight Hundred
+Seventy Four Only
+E. & O.E
+₹ 6,08,370.00 Dr	Previous Balance:
+₹ 6,48,244.00 Dr	Current Balance:
+HSN/SAC 	Total	IGST	Taxable
+Tax Amount	Amount	Rate	Value
+9021 	1,898.75	1,898.75	5%	37,975.00
+Total 	1,898.75	1,898.75	37,975.00
+Tax Amount (in words) : 	INR One Thousand Eight Hundred Ninety Eight and Seventy Five paise Only
+Company's PAN 	: 	AABCZ8764A
+Declaration
+1. Goods once sold will not be taken back or
+exchanged 	2. Our responsibility ceases
+when the goods leave our warehouses, regardless of
+the transporter
+3. Payment Due from the date of Invoice, for
+delayed payment Interest at 18% p.a. will be charged
+from the date of Invoice. 	4. Subject to Rajkot Jurisdiction
+Company's Bank Details
+A/c Holder's Name 	: 	Zivott Meditech Pvt Ltd
+Bank Name 	: 	ICICI BANK
+A/c No. 	: 	261405001197
+Branch & IFS Code 	: 	RAJKOT & ICIC0002614
+for Zivott Meditech Pvt Ltd
+Authorised Signatory
+This is a Computer Generated Invoice
+
+-- 1 of 1 --
+
+Tax Invoice
+OM ENTERPRISE
+Survey No.:46,
+Plot No. 33,
+Opp.Ice Factory,
+Near Tulsi Industries,
+Vavdi,
+Rajkot-360005
+GSTIN/UIN: 24ACZPB4166H1ZE
+State Name : Gujarat, Code : 24
+Contact : +91-982587886
+E-Mail : om.enterprise@gmail.com
+Buyer (Bill to)
+A.M.Silver
+Shed No 18 and 7
+Kasturi Industrial Estate
+Opp Gangorti Estate Nr Karam Gas Agency
+Odhav Ring Road
+Ahmedabad
+GSTIN/UIN 	: 24AFGPM1222H1ZX
+State Name 	: Gujarat, Code : 24
+Invoice No. 	e-Way Bill No.
+191
+Delivery Note
+Buyer's Order No.
+Dispatch Doc No.
+Dispatched through
+Dated
+25-Oct-26
+Mode/Terms of Payment
+Dated
+Delivery Note Date
+Destination
+Terms of Delivery
+Sl 	Description of Goods 	Amount	per	Rate	Quantity	GST	HSN/SAC
+No. 	Rate
+1 	1.2MM ALUMINIUM COIL SHEET 	1,56,800.00	KGS	400.00	392.00 KGS	18 %	7220
+CGST 	14,112.00
+SGST 	14,112.00
+Total 	₹ 1,85,024.00	392.00 KGS
+Amount Chargeable (in words)
+INR One Lakh Eighty Five Thousand Twenty
+Four Only
+E. & O.E
+Previous Balance:
+₹ 1,85,024.00 Dr	Current Balance:
+HSN/SAC 	Total	SGST/UTGST	CGST	Taxable
+Tax Amount	Amount	Rate	Amount	Rate	Value
+7220 	28,224.00	14,112.00	9%	14,112.00	9%	1,56,800.00
+Total 	28,224.00	14,112.00	14,112.00	1,56,800.00
+Tax Amount (in words) : 	INR Twenty Eight Thousand Two Hundred Twenty Four Only
+Declaration
+We declare that this invoice shows the actual price of
+the goods described and that all particulars are true
+and correct.
+Company's Bank Details
+A/c Holder's Name 	: 	OM ENTERPRISE
+Bank Name 	: 	Kotak Current A/c 8418
+A/c No. 	: 	4549108418
+Branch & IFS Code 	: 	RAJKOT - MAVDI & KKBK0002803
+for OM ENTERPRISE
+Authorised Signatory
+This is a Computer Generated Invoice
+
+-- 1 of 1 --

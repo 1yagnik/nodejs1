@@ -23,6 +23,9 @@ export async function askOllama(content = "", question = "") {
   const pdfContent = content?.trim()
     ? `PDF ka content:\n\n${content.trim()}`
     : "Koi PDF upload nahi ki gayi.";
+    console.log("this is pdf content",pdfContent);
+  const photo = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRW5vJGLjV_BaDxqp6DMkkezSwROVNBJ__t6SiS3X2w&s=10"
+    
 
   const userQuestion = question?.trim()
     ? `Mera sawaal:\n${question.trim()}`
@@ -52,6 +55,10 @@ Apni taraf se facts mat ghadho.`
         {
           role: "user",
           content: `${pdfContent}\n\n${userQuestion}`
+        },
+        {
+          role: "user",
+          content: `${photo}\n\n${userQuestion}`
         }
       ],
 
