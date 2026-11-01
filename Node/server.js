@@ -3,6 +3,7 @@ import path from 'node:path';
 import { DOMMatrix, ImageData, Path2D } from '@napi-rs/canvas';
 import ProductController from './src/controllers/productController.js';
 import upload from './src/multer.js';
+import expressLayouts from 'express-ejs-layouts'
 import { fileURLToPath } from 'node:url';
 
 globalThis.DOMMatrix ??= DOMMatrix;
@@ -14,6 +15,7 @@ const __dirname = path.dirname(__filename);
 
 const server = express();
 
+
 const productController = new ProductController();
 
 server.use(express.json());
@@ -22,11 +24,21 @@ server.use(express.urlencoded({ extended: true }));
 const viewsPath = path.join(__dirname, 'src', 'views');
 
 server.use(express.static(path.join(__dirname, 'public')));
-
+server.use(expressLayouts);
 server.use(express.static(viewsPath));
 
 server.set('view engine', 'ejs');
 server.set('views', viewsPath);
+
+
+server.get('/orders',productController.getOrder)
+server.get('/admin', productController.getDashboard)
+server.get('/customers', productController.getCustomers)
+server.get('/productsshow', productController.getProductsshow)
+server.get('/setting', productController.getSetting)
+
+
+
 
 server.get('/', productController.getProducts);
 

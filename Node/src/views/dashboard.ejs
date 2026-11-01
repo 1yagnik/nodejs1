@@ -1,0 +1,353 @@
+<link rel="stylesheet" href="/css/dashboards.css">
+
+
+<header class="header">
+
+            <h1>Dashboard</h1>
+
+            <div class="header-right">
+
+                <div class="search-box">
+                    <input type="text" placeholder="Search stock, order, etc">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <i class="fa-regular fa-message header-icon"></i>
+
+                <div class="notification">
+                    <i class="fa-regular fa-bell header-icon"></i>
+                    <span></span>
+                </div>
+
+                <div class="profile">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="Admin">
+                    <div>
+                        <h4>Marcus George</h4>
+                        <small>Admin</small>
+                    </div>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+            </div>
+        </header>
+
+
+        <!-- TOP STATS -->
+        <section class="stats-grid">
+
+            <div class="stat-card sales-card">
+                <div class="stat-top">
+                    <span>Total Sales</span>
+                    <div class="stat-icon orange">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                </div>
+
+                <h2>$983,410</h2>
+
+                <div class="growth positive">
+                    +3.34%
+                    <small>vs last week</small>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Total Orders</span>
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+
+                <h2>58,375</h2>
+
+                <div class="growth negative">
+                    -2.89%
+                    <small>vs last week</small>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Total Visitors</span>
+                    <div class="stat-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+
+                <h2>237,782</h2>
+
+                <div class="growth positive">
+                    +8.02%
+                    <small>vs last week</small>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ANALYTICS GRID -->
+        <section class="analytics-grid">
+
+            <!-- REVENUE ANALYTICS -->
+            <div class="card revenue-card">
+
+                <div class="card-header">
+                    <h3>Revenue Analytics</h3>
+                    <button class="orange-button">Last 8 Days <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+
+                <div class="chart-legend">
+                    <span><i class="legend-line"></i> Revenue</span>
+                    <span><i class="legend-dashed"></i> Order</span>
+                </div>
+
+                <div class="chart-container">
+
+                    <div class="y-labels">
+                        <span>16K</span>
+                        <span>12K</span>
+                        <span>8K</span>
+                        <span>4K</span>
+                        <span>0</span>
+                    </div>
+
+                    <div class="chart-area">
+
+                        <div class="chart-grid-lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <svg viewBox="0 0 600 220" preserveAspectRatio="none">
+
+                            <defs>
+                                <linearGradient id="revenueFill" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#ff8800" stop-opacity=".12"/>
+                                    <stop offset="100%" stop-color="#ff8800" stop-opacity="0"/>
+                                </linearGradient>
+                            </defs>
+
+                            <path class="revenue-fill"
+                                d="M0 105 C40 75 55 80 90 91 S150 100 180 72 S250 75 290 78 S340 35 380 49 S430 55 465 75 S510 95 540 65 S575 60 600 70 L600 220 L0 220 Z"/>
+
+                            <path class="revenue-line"
+                                d="M0 105 C40 75 55 80 90 91 S150 100 180 72 S250 75 290 78 S340 35 380 49 S430 55 465 75 S510 95 540 65 S575 60 600 70"/>
+
+                            <path class="order-line"
+                                d="M0 150 C40 180 55 160 90 135 S150 150 180 140 S250 150 290 120 S340 90 380 130 S430 135 465 160 S510 175 540 140 S575 145 600 160"/>
+
+                            <circle cx="380" cy="49" r="5" class="chart-dot"/>
+                        </svg>
+
+                        <div class="chart-tooltip">
+                            <small>Revenue</small>
+                            <strong>$14,521</strong>
+                        </div>
+
+                        <div class="x-labels">
+                            <span>12 Aug</span>
+                            <span>13 Aug</span>
+                            <span>14 Aug</span>
+                            <span>15 Aug</span>
+                            <span>16 Aug</span>
+                            <span>17 Aug</span>
+                            <span>18 Aug</span>
+                            <span>19 Aug</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- MONTHLY TARGET -->
+            <div class="card target-card">
+
+                <div class="card-header">
+                    <h3>Monthly Target</h3>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="gauge">
+                    <div class="gauge-inner">
+                        <h2>85%</h2>
+                        <p><span>+8.02%</span> from last month</p>
+                    </div>
+                </div>
+
+                <div class="target-message">
+                    <h4>Great Progress! 🎉</h4>
+                    <p>Our achievement increased by <b>$200,000</b>, let's reach 100% next month.</p>
+                </div>
+
+                <div class="target-footer">
+                    <div>
+                        <small>Target</small>
+                        <strong>$600,000</strong>
+                    </div>
+                    <div>
+                        <small>Revenue</small>
+                        <strong>$510,000</strong>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- TOP CATEGORIES -->
+            <div class="card categories-card">
+
+                <div class="card-header">
+                    <h3>Top Categories</h3>
+                    <a href="#">See All</a>
+                </div>
+
+                <div class="donut-wrapper">
+                    <div class="donut">
+                        <div class="donut-center">
+                            <small>Total Sales</small>
+                            <h2>$3,400,000</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-list">
+                    <div><span><i class="dot dot-1"></i> Electronics</span><strong>$1,200,000</strong></div>
+                    <div><span><i class="dot dot-2"></i> Fashion</span><strong>$950,000</strong></div>
+                    <div><span><i class="dot dot-3"></i> Home & Kitchen</span><strong>$750,000</strong></div>
+                    <div><span><i class="dot dot-4"></i> Beauty & Personal Care</span><strong>$500,000</strong></div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BOTTOM GRID -->
+        <section class="bottom-grid">
+
+            <!-- ACTIVE USERS -->
+            <div class="card users-card">
+
+                <div class="card-header">
+                    <h3>Active User</h3>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="users-number">
+                    <h2>2,758</h2>
+                    <span>+8.02%</span>
+                </div>
+
+                <div class="users-subtitle">
+                    <small>Users</small>
+                    <small>from last month</small>
+                </div>
+
+                <div class="country">
+                    <div><span>United States</span><b>36%</b></div>
+                    <div class="progress"><span style="width:36%"></span></div>
+                </div>
+
+                <div class="country">
+                    <div><span>United Kingdom</span><b>24%</b></div>
+                    <div class="progress"><span style="width:24%"></span></div>
+                </div>
+
+                <div class="country">
+                    <div><span>Indonesia</span><b>17.5%</b></div>
+                    <div class="progress"><span style="width:17.5%"></span></div>
+                </div>
+
+                <div class="country">
+                    <div><span>Russia</span><b>15%</b></div>
+                    <div class="progress"><span style="width:15%"></span></div>
+                </div>
+
+            </div>
+
+
+            <!-- CONVERSION RATE -->
+            <div class="card conversion-card">
+
+                <div class="card-header">
+                    <h3>Conversion Rate</h3>
+                    <button class="orange-button">This Week <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+
+                <div class="conversion-stats">
+
+                    <div class="conversion-item">
+                        <small>Product<br>Views</small>
+                        <h2>25,000</h2>
+                        <span class="green-tag">+9%</span>
+                        <div class="bar bar-1"></div>
+                    </div>
+
+                    <div class="conversion-item">
+                        <small>Add to<br>Cart</small>
+                        <h2>12,000</h2>
+                        <span class="green-tag">+6%</span>
+                        <div class="bar bar-2"></div>
+                    </div>
+
+                    <div class="conversion-item">
+                        <small>Proceed to<br>Checkout</small>
+                        <h2>8,500</h2>
+                        <span class="green-tag">+4%</span>
+                        <div class="bar bar-3"></div>
+                    </div>
+
+                    <div class="conversion-item">
+                        <small>Completed<br>Purchases</small>
+                        <h2>6,200</h2>
+                        <span class="green-tag">+7%</span>
+                        <div class="bar bar-4"></div>
+                    </div>
+
+                    <div class="conversion-item">
+                        <small>Abandoned<br>Carts</small>
+                        <h2>3,000</h2>
+                        <span class="red-tag">-5%</span>
+                        <div class="bar bar-5"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- TRAFFIC SOURCES -->
+            <div class="card traffic-card">
+
+                <div class="card-header">
+                    <h3>Traffic Sources</h3>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <div class="traffic-chart">
+                    <span style="width:40%"></span>
+                    <span style="width:30%"></span>
+                    <span style="width:15%"></span>
+                    <span style="width:10%"></span>
+                    <span style="width:5%"></span>
+                </div>
+
+                <div class="traffic-list">
+                    <div><span><i class="dot dot-4"></i> Direct Traffic</span><strong>40%</strong></div>
+                    <div><span><i class="dot dot-3"></i> Organic Search</span><strong>30%</strong></div>
+                    <div><span><i class="dot dot-2"></i> Social Media</span><strong>15%</strong></div>
+                    <div><span><i class="dot dot-5"></i> Referral Traffic</span><strong>10%</strong></div>
+                    <div><span><i class="dot dot-1"></i> Email Campaigns</span><strong>5%</strong></div>
+                </div>
+
+            </div>
+
+        </section>

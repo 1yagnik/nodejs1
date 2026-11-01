@@ -1,0 +1,436 @@
+
+
+
+
+/* SIDEBAR */
+
+
+
+/* MAIN */
+
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.topbar h1 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-icon {
+    height: 31px;
+    width: 31px;
+    border: 1px solid #dddcd5;
+    border-radius: 9px;
+    background: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 4px;
+}
+
+.user img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user strong {
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.user small {
+    font-size: 9px;
+    color: #686868;
+}
+
+/* CONTENT LAYOUT */
+
+.content-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 205px;
+    gap: 14px;
+    align-items: start;
+}
+
+.orders-section {
+    min-width: 0;
+}
+
+/* FILTERS */
+
+.filters {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 14px;
+}
+
+.filters select {
+    padding: 8px 10px;
+    border: 1px solid #dcdcd5;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #202020;
+    cursor: pointer;
+}
+
+.filters .sort {
+    margin-left: auto;
+}
+
+/* TABLE */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    font-size: 10px;
+}
+
+thead {
+    border-bottom: 1px solid #deded7;
+}
+
+th {
+    text-align: left;
+    font-weight: 500;
+    padding: 9px 5px 12px;
+    font-size: 9px;
+}
+
+td {
+    padding: 8px 5px;
+    border-bottom: 1px solid #eaeae4;
+    height: 38px;
+}
+
+tbody tr {
+    transition: .2s;
+}
+
+tbody tr:hover {
+    background: #eaece5;
+}
+
+tbody tr.selected {
+    background: #fff;
+}
+
+tbody tr.selected td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+tbody tr.selected td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    accent-color: #10191f;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.customer img {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* STATUS */
+
+.status {
+    display: inline-block;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #171717;
+}
+
+.paid {
+    background: #ffeb75;
+}
+
+.delivered {
+    background: #ffc18f;
+}
+
+.completed {
+    background: #a1eeb4;
+}
+
+/* ORDER DETAILS */
+
+.order-details {
+    background: white;
+    border-radius: 13px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,.04);
+}
+
+.detail-header {
+    padding: 14px 11px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eeeeea;
+}
+
+.detail-header h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.paid-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.paid-info small {
+    font-size: 9px;
+    color: #555;
+}
+
+.close {
+    border: none;
+    background: transparent;
+    font-size: 23px;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+/* CUSTOMER PROFILE */
+
+.customer-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.customer-profile img {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.customer-profile strong {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 9px;
+    margin-top: 10px;
+}
+
+.contact-icons button {
+    border: none;
+    background: #f3f3ef;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* PRODUCTS */
+
+.items-section {
+    padding: 15px 11px;
+}
+
+.items-section h4 {
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 11px;
+}
+
+.product-image {
+    width: 39px;
+    height: 40px;
+    background: #f1f1ed;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.product p {
+    font-size: 9px;
+    line-height: 1.5;
+    margin-bottom: 3px;
+}
+
+.product strong {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+/* TOTAL */
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 11px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.total span {
+    font-size: 11px;
+}
+
+.total strong {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* BUTTONS */
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+    padding: 12px 10px;
+}
+
+.action-buttons button {
+    flex: 1;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.track {
+    background: #10191f;
+    color: white;
+}
+
+.refund {
+    background: #ffeb75;
+    color: #171717;
+}
+
+.action-buttons button:hover {
+    transform: translateY(-2px);
+    opacity: .9;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+    .content-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .order-details {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .sidebar {
+        width: 65px;
+        min-width: 65px;
+        padding: 15px 7px;
+    }
+
+    .logo {
+        justify-content: center;
+        font-size: 0;
+    }
+
+    .sidebar nav a {
+        justify-content: center;
+        font-size: 0;
+        padding: 12px 5px;
+    }
+
+    .sidebar nav a span {
+        font-size: 19px;
+    }
+
+    .logout {
+        font-size: 0;
+        text-align: center;
+    }
+
+ 
+    .topbar h1 {
+        font-size: 18px;
+    }
+
+    .user small {
+        display: none;
+    }
+
+    .user strong {
+        display: none;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+    }
+
+    .filters .sort {
+        margin-left: 0;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 570px;
+    }
+}

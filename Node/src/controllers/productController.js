@@ -12,9 +12,31 @@ const aiFilePath = process.env.VERCEL
 
 
 export default class ProductController {
+   getSetting(req,res){
+    res.render('setting')
+  }
+
+   getProductsshow(req,res){
+    res.render('productsshow')
+  }
+   getProductsAdd(req,res){
+    res.render('productsadd')
+  }
+
+   getCustomers(req,res){
+    res.render('customer')
+  }
+
+  getDashboard(req,res){
+    res.render('dashboard')
+  }
+
+  getOrder(req,res){
+    res.render('orders')
+  }
   // Defining getProducts method
   getProducts(req, res) {
-    res.render('products');
+    res.render('products', { layout: false });
   }
 
   async postollama(req, res) {

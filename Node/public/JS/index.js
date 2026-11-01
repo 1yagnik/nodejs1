@@ -272,11 +272,11 @@ async function searchWord(searchText) {
 
           // Black border
           ctx.save();
-          ctx.fillStyle = '#5f7edb5f';
+            ctx.fillStyle = '#5f7edb5f';
 
-          // 2. strokeRect की जगह fillRect का उपयोग करें (ताकि पूरा शेप भर जाए)
+            // 2. strokeRect की जगह fillRect का उपयोग करें (ताकि पूरा शेप भर जाए)
 
-          ctx.fillRect(x - 2, y - 2, Math.max(width, 3) + 4, height + 4);
+            ctx.fillRect(x - 2, y - 2, Math.max(width, 3) + 4, height + 4);
 
           ctx.restore();
 
