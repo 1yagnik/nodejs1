@@ -60,13 +60,42 @@ export default class ProductModel {
     }
   }
 
-
-  static updateForm(object){
-    console.log(object);
-    
-    return object
-    
-
+  static async updateForm(
+    id,
+    name,
+    desc,
+    sku,
+    stock,
+    minStock,
+    price,
+    originalPrice,
+    discount,
+    minOrder,
+    imageUrl,
+  ) {
+    try {
+      const db = getdb();
+      const product = await db.collection('Products').updateOne(
+        { _id: ObjectId(id) },
+        {
+          $set: {
+            name: name,
+            desc: desc,
+            sku: sku,
+            stock: stock,
+            minStock: minStock,
+            price: price,
+            originalPrice: originalPrice,
+            discount: discount,
+            minOrder: minOrder,
+            imageUrl: imageUrl,
+          },
+        },
+      );
+      return product;
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   static async getTotalStock() {

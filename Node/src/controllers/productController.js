@@ -3,9 +3,8 @@ import ProductModel from '../models/product.model.js';
 export default class ProductController {
   async UpdateForm(req, res) {
     const id = req.params.id;
-    
+
     const product = await ProductModel.findOne(id);
-    
 
     res.render('updateForm', {
       product: product,
@@ -13,41 +12,34 @@ export default class ProductController {
   }
 
   async PostUpdateForm(req, res) {
-    
-     console.log("Body:", req.body);
+    console.log('Body:', req.body);
 
-    console.log("Files:", req.files);
+    console.log('Files:', req.files);
 
-    const {
-        id,
-        name,
-        desc,
-        sku,
-        stock,
-        minStock,
-        price,
-        originalPrice,
-        discount,
-        minOrder
-
-        
-    } = req.body;
+    const { id, name, desc, sku, stock, minStock, price, originalPrice, discount, minOrder } =
+      req.body;
 
     const oldImages = req.body.oldImageUrl || [];
 
-    const newImages = req.files
-        ? req.files.map(file => file.path)
-        : [];
+    const newImages = req.files ? req.files.map((file) => file.path) : [];
 
-    const imageUrl = [
-        ...(Array.isArray(oldImages) ? oldImages : [oldImages]),
-        ...newImages
-    ];
+    const imageUrl = [...(Array.isArray(oldImages) ? oldImages : [oldImages]), ...newImages];
 
-    console.log("Final Images:", imageUrl);
-    
-    
-    
+    console.log('Final Images:', imageUrl);
+    await ProductModel.updateForm(
+      id,
+      name,
+      desc,
+      sku,
+      stock,
+      minStock,
+      price,
+      originalPrice,
+      discount,
+      minOrder,
+      imageUrl,
+    );
+
     try {
       // Retrieve products using the ProductModel
       let products = await ProductModel.getAll();
