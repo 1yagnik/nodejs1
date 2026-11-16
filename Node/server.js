@@ -2,9 +2,10 @@ import express from 'express';
 import path from 'node:path';
 import { DOMMatrix, ImageData, Path2D } from '@napi-rs/canvas';
 import ProductController from './src/controllers/productController.js';
-import upload from './src/multer.js';
+import {uploadFile} from './src/multer.js';
 import expressLayouts from 'express-ejs-layouts'
 import { fileURLToPath } from 'node:url';
+import {connectToMongoDB} from './config/mongodb.js';
 
 globalThis.DOMMatrix ??= DOMMatrix;
 globalThis.ImageData ??= ImageData;
@@ -32,18 +33,23 @@ server.set('views', viewsPath);
 
 
 server.get('/orders',productController.getOrder)
-server.get('/admin', productController.getDashboard)
+server.get('/', productController.getDashboard)
 server.get('/customers', productController.getCustomers)
-server.get('/productsshow', productController.getProductsshow)
+server.get('/productsshow', productController.getProducts)
 server.get('/setting', productController.getSetting)
+server.get('/add', productController.getProductsAdd)
+server.get('/productsshow/:id', productController.firstPro)
+server.get('/productsshow/update/:id', productController.UpdateForm)
+server.post('/update', productController.PostUpdateForm)
+server.post('/add',uploadFile.array("images", 5),productController.postAddProduct)
 
 
 
 
-server.get('/', productController.getProducts);
+//server.get('/', productController.getProducts);
 
 // PDF upload aur AI processing
-server.post('/', upload.array('myFiles', 1500), productController.postollama);
+//server.post('/', upload.array('myFiles', 1500), productController.postollama);
 
 // Error handling
 server.use((err, req, res, next) => {
@@ -61,6 +67,8 @@ server.use((err, req, res, next) => {
 if (!process.env.VERCEL) {
   server.listen(3400, () => {
     console.log('Server running at http://localhost:3400');
+    connectToMongoDB()
+  
   });
 }
 

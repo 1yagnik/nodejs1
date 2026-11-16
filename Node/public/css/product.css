@@ -125,10 +125,13 @@
 
 /* ANALYTICS */
 
+.update a{
+    text-decoration: none;
+    color: #3e8b58;
+}
+
 .analytics-grid {
-    display: grid;
-    grid-template-columns: 1.65fr 1fr;
-    gap: 10px;
+    
     margin-bottom: 12px;
 }
 
@@ -249,7 +252,7 @@
 
 .progress-fill {
     height: 100%;
-    width: 75%;
+    width: 0%;
     background: #26869e;
     border-radius: 20px;
 }
@@ -477,6 +480,10 @@ input[type="checkbox"] {
     color: #596b7b;
     letter-spacing: 2px;
     cursor: pointer;
+}
+.more a {
+    text-decoration: none;
+
 }
 
 /* RESPONSIVE */

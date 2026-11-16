@@ -1,52 +1,25 @@
-
-import multer from "multer";
-import path from "node:path";
-import fs from "node:fs";
-
-const isVercel = process.env.VERCEL === "1";
-
-// Vercel par temporary storage; local par project ka uploads folder
-const uploadDir = isVercel
-  ? "/tmp/2"
-  : path.join(process.cwd(), "uploads");
-
-// Folder ko safely create karo
-fs.mkdirSync(uploadDir, { recursive: true });
-
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, uploadDir);
-  },
-
-  filename: function (req, file, cb) {
-    const ext = path.extname(file.originalname).toLowerCase();
-
-    const uniqueSuffix =
-      Date.now() + "-" + Math.round(Math.random() * 1e9);
-
-    cb(null, `${file.fieldname}-${uniqueSuffix}${ext}`);
-  }
+import multer from 'multer';
+const storageConfig = multer.diskStorage({
+destination: (req, file, cb) => {
+cb(null, 'public/images/');
+},
+filename: (req, file, cb) => {
+const name = Date.now() + '-' + file.originalname;
+cb(null, name);
+},
 });
 
-const upload = multer({
-  storage,
+export const uploadFile = multer({
+  storage: storageConfig,
 
   limits: {
     files: 1500,
     fileSize: 20 * 1024 * 1024
   },
 
-  fileFilter: (req, file, cb) => {
-    const ext = path.extname(file.originalname).toLowerCase();
 
-    if (ext !== ".pdf" || file.mimetype !== "application/pdf") {
-      return cb(
-        new Error("Sirf PDF files upload kar sakte hain.")
-      );
-    }
+  
 
-    cb(null, true);
-  }
+  
 });
 
-export default upload;

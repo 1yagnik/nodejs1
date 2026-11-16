@@ -11,7 +11,7 @@
 
             <div class="top-actions">
 
-                <button class="premium">♢ Premium account</button>
+                <button class="premium" href="add" >♢ Premium account</button>
 
                 <button class="top-icon">◴</button>
                 <button class="top-icon">▣</button>
@@ -61,49 +61,23 @@
                     <h3>Products Breakdown</h3>
                 </div>
 
-                <div class="breakdown-content">
-
-                    <div class="breakdown-item">
-
-                        <div class="breakdown-number">
-                            <span class="item-icon cyan-bg">▣</span>
-                            <strong>13.250</strong>
-                            <small>(Items)</small>
-                        </div>
-
-                        <p>Home Living</p>
-
-                    </div>
-
-                    <div class="breakdown-item">
-
-                        <div class="breakdown-number">
-                            <span class="item-icon blue-bg">♙</span>
-                            <strong>24.112</strong>
-                            <small>(Items)</small>
-                        </div>
-
-                        <p>Electronic</p>
-
-                    </div>
-
-                </div>
+               
 
                 <div class="warehouse">
 
                     <div class="warehouse-info">
 
                         <div>
-                            <strong>37.362</strong>
+                            <strong id="texttotl">37.362</strong>
                             <small>(Total Items In Warehouse)</small>
                         </div>
 
-                        <span>75% used of 100% capacity</span>
+                        <span id="progressText">75% used of 100% capacity</span>
 
                     </div>
 
                     <div class="progress">
-                        <div class="progress-fill"></div>
+                        <div class="progress-fill" id="progress-fill"></div>
                     </div>
 
                 </div>
@@ -112,44 +86,7 @@
 
 
             <!-- REJECTION ITEMS -->
-            <div class="analytics-card rejection">
-
-                <h3>210 Rejection Items</h3>
-
-                <div class="rejection-bar">
-                    <div class="website"></div>
-                    <div class="ebay"></div>
-                    <div class="amazon"></div>
-                </div>
-
-                <div class="legend">
-
-                    <span><i class="website-dot"></i> Website</span>
-                    <span><i class="ebay-dot"></i> Ebay</span>
-                    <span><i class="amazon-dot"></i> Amazon</span>
-
-                </div>
-
-                <div class="rejection-numbers">
-
-                    <div>
-                        <strong>100</strong>
-                        <small>Total Items</small>
-                    </div>
-
-                    <div>
-                        <strong>50</strong>
-                        <small>Total Items</small>
-                    </div>
-
-                    <div>
-                        <strong>60</strong>
-                        <small>Total Items</small>
-                    </div>
-
-                </div>
-
-            </div>
+            
 
         </section>
 
@@ -187,142 +124,42 @@
 
                     <thead>
                         <tr>
-                            <th><input type="checkbox"></th>
                             <th>Product</th>
                             <th>ID</th>
-                            <th>Distributor</th>
+                            <th>Brand</th>
                             <th>Qty</th>
                             <th>Fix Price</th>
+                            <th>Update</th>
                             <th></th>
                         </tr>
                     </thead>
 
                     <tbody>
-
+                        <% products.forEach((product) => {%> 
                         <tr>
-                            <td><input type="checkbox"></td>
+                            
 
                             <td>
                                 <div class="product-name">
-                                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=100" alt="Product">
+                                    <img src="<%= product.imageUrl[0]%>" alt="Product">
                                     <div>
-                                        <strong>Philips Hair dryer 200</strong>
-                                        <small>Electronic</small>
+                                        <strong><%= product.name%></strong>
+                                        <small><%= product.category%></small>
                                     </div>
                                 </div>
                             </td>
 
-                            <td><b>#F012214AF</b></td>
-                            <td>Jojo Optima</td>
-                            <td>1.223</td>
-                            <td class="price">$110.00</td>
-                            <td class="more">•••</td>
+                            <td><b><%= product.sku%></b></td>
+                            <td><%= product.brand%></td>
+                            <td><%= product.stock%></td>
+                            <td class="price">$<%= product.price%></td>
+                            <td class="update"><a href="/productsshow/update/<%= product._id %>">UPDATE</a></td>
+                            <td class="more"><a href="/productsshow/<%= product._id %>">•••</a></td>
                         </tr>
+                        <% }) %>
 
 
-                        <tr>
-                            <td><input type="checkbox"></td>
-
-                            <td>
-                                <div class="product-name">
-                                    <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=100" alt="Product">
-                                    <div>
-                                        <strong>HD Smart Tv T4501</strong>
-                                        <small>Electronic</small>
-                                    </div>
-                                </div>
-                            </td>
-
-                            <td><b>#F012214AG</b></td>
-                            <td>Jaya Solusindo</td>
-                            <td>2.412</td>
-                            <td class="price">$1.950.00</td>
-                            <td class="more">•••</td>
-                        </tr>
-
-
-                        <tr>
-                            <td><input type="checkbox"></td>
-
-                            <td>
-                                <div class="product-name">
-                                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=100" alt="Product">
-                                    <div>
-                                        <strong>Smart Indoor CCTV</strong>
-                                        <small>Electronic</small>
-                                    </div>
-                                </div>
-                            </td>
-
-                            <td><b>#F012214AH</b></td>
-                            <td>Bala Bala Komp</td>
-                            <td>2.114</td>
-                            <td class="price">$50.00</td>
-                            <td class="more">•••</td>
-                        </tr>
-
-
-                        <tr>
-                            <td><input type="checkbox"></td>
-
-                            <td>
-                                <div class="product-name">
-                                    <img src="https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=100" alt="Product">
-                                    <div>
-                                        <strong>Mini Blender Juicer</strong>
-                                        <small>Electronic</small>
-                                    </div>
-                                </div>
-                            </td>
-
-                            <td><b>#F012214AI</b></td>
-                            <td>Halimawan Group</td>
-                            <td>1.211</td>
-                            <td class="price">$23.00</td>
-                            <td class="more">•••</td>
-                        </tr>
-
-
-                        <tr>
-                            <td><input type="checkbox"></td>
-
-                            <td>
-                                <div class="product-name">
-                                    <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=100" alt="Product">
-                                    <div>
-                                        <strong>Study Lamp Flexible</strong>
-                                        <small>Electronic</small>
-                                    </div>
-                                </div>
-                            </td>
-
-                            <td><b>#F012214AJ</b></td>
-                            <td>Tara Tekno</td>
-                            <td>3.918</td>
-                            <td class="price">$11.00</td>
-                            <td class="more">•••</td>
-                        </tr>
-
-
-                        <tr>
-                            <td><input type="checkbox"></td>
-
-                            <td>
-                                <div class="product-name">
-                                    <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=100" alt="Product">
-                                    <div>
-                                        <strong>Mic Wireless Clip On</strong>
-                                        <small>Electronic</small>
-                                    </div>
-                                </div>
-                            </td>
-
-                            <td><b>#F012214AK</b></td>
-                            <td>Tara Tekno</td>
-                            <td>521</td>
-                            <td class="price">$921.00</td>
-                            <td class="more">•••</td>
-                        </tr>
+                        
 
                     </tbody>
 
@@ -331,3 +168,4 @@
             </div>
 
         </section>
+         <script src="/JS/progress.js"></script>

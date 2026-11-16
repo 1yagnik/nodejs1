@@ -1,0 +1,197 @@
+<link rel="stylesheet" href="/css/pro-add.css">
+
+<!-- PAGE TITLE -->
+<div class="page-heading">
+    <h1>Update Product</h1>
+    <p>Update product to your store</p>
+</div>
+
+<!-- PRODUCT FORM -->
+<form class="product-form" method="post" action="/update"
+      >
+      <input type="hidden" class="form-control" id="id" name="id" value="<%= product._id %>">
+
+    <div class="form-left">
+
+        <!-- NAME AND DESCRIPTION -->
+        <section class="card">
+            <div class="card-heading">
+                <h3>Name and Description </h3>
+            </div>
+
+            <div class="card-body">
+
+                <div class="form-group">
+                    <label>Product Name</label>
+                    <input type="text" name="name" required value="<%= product.name %>">
+                </div>
+
+                <div class="form-group">
+                    <label>Product Description</label>
+                    <div class="editor">
+                        <textarea name="desc" required><%= product.desc %></textarea>
+
+                        <div class="editor-toolbar">
+                            <button type="button"><b>B</b></button>
+                            <button type="button"><i>I</i></button>
+                            <button type="button"><u>U</u></button>
+                            <button type="button">⌁</button>
+                            <button type="button">☷</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CATEGORY -->
+      
+
+        <!-- MANAGE STOCK -->
+        <section class="card">
+            <div class="card-heading">
+                <h3>Manage Stock</h3>
+            </div>
+
+            <div class="card-body">
+
+                <div class="form-group">
+                    <label>Stock Keeping Unit</label>
+                    <input type="text" name="sku" value="<%= product.sku %>">
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Product Stock</label>
+                        <input type="number" name="stock" min="0" value="<%= product.stock %>">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Minimum Stock</label>
+                        <input type="number" name="minStock" min="0" value="<%= product.minStock %>">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="form-right">
+
+        <!-- PRODUCT DETAILS -->
+        
+
+        <!-- PRICING -->
+        <section class="card">
+            <div class="card-heading">
+                <h3>Product Pricing</h3>
+            </div>
+
+            <div class="card-body">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Price</label>
+                        <div class="price-input">
+                            <span>$</span>
+                            <input type="number" name="price"
+                                   step="0.01" min="0" required value="<%= product.price %>">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Original Price</label>
+                        <div class="price-input">
+                            <span>$</span>
+                            <input type="number" name="originalPrice"
+                                   step="0.01" min="0" value="<%= product.originalPrice %>">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Discount</label>
+                        <select name="discount">
+                            <option value="<%= product.discount %>"><%= product.discount %>%</option>
+                            <option value="10">10%</option>
+                            <option value="20">20%</option>
+                            <option value="25">25%</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Minimum Order</label>
+                        <input type="number" name="minOrder" min="1" value="<%= product.minOrder %>">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PRODUCT IMAGE -->
+        <section class="card">
+            <div class="card-heading">
+                <h3>Product Image <span class="info">ⓘ</span></h3>
+            </div>
+
+            <div class="card-body">
+
+                <div class="image-gallery">
+
+                    <label class="upload-box">
+                        <input type="file" name="imageUrl"
+                               accept="image/*" multiple hidden>
+                        <span>♧</span>
+                        <p>Click to Upload</p>
+                    </label>
+                    <% product.imageUrl.forEach((image, index) => { %>
+
+    <div class="image-preview">
+
+        <img src="/<%= image %>" alt="image">
+
+        <input type="hidden"
+               name="oldImageUrl[]"
+               value="<%= image %>">
+
+        <button type="button" class="remove">
+            Remove
+        </button>
+
+    </div>
+
+<% }) %>
+
+                            
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ACTION BUTTONS -->
+        <div class="form-actions">
+
+            
+
+            <div class="right-actions">
+
+                
+                <button type="submit" class="add-btn">
+                    + &nbsp; Update Product
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+</form>

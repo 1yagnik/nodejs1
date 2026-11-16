@@ -1,0 +1,121 @@
+<link rel="stylesheet" href="/css/firstpro.css">
+
+
+<div class="container">
+
+    <div class="breadcrumb">
+        Home / Products / Men's Clothes / Adidas Shirt
+    </div>
+
+    <div class="product-wrapper">
+
+        <!-- Product Images -->
+        <div class="gallery">
+
+            <div class="main-image">
+                <img src="/<%= product.imageUrl[0] %>" alt="Adidas Shirt">
+            </div>
+
+            <div class="thumbnails">
+                <% product.imageUrl.forEach((image, index) => { %>
+                <img src="/<%= image %>" alt="Image">
+                 <% }) %>
+                
+            </div>
+
+        </div>
+
+
+        <!-- Product Details -->
+        <div class="details">
+
+            <span class="category"><%= product.category %> / <%= product.subCategory %></span>
+
+            <h1><%= product.name %></h1>
+
+            <p class="description">
+                <%= product.desc %>
+            </p>
+
+            <!-- Price -->
+            <div class="price">
+                <h2><%= product.price %></h2>
+                <del><%= product.originalPrice %></del>
+                <span class="discount"><%= product.discount %>% OFF</span>
+            </div>
+
+            <div class="stock">
+                <span class="available">● In Stock</span>
+                <span><%= product.stock %> Units Available</span>
+            </div>
+
+            <hr>
+
+            <h3>Product Information</h3>
+
+            <div class="info-grid">
+
+                <div class="info-item">
+                    <span>SKU</span>
+                    <strong><%= product.sku %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Brand</span>
+                    <strong><%= product.brand %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Category</span>
+                    <strong><%= product.category %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Sub Category</span>
+                    <strong><%= product.subCategory %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Stock</span>
+                    <strong><%= product.stock %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Minimum Stock</span>
+                    <strong><%= product.minStock %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Size</span>
+                    <strong><%= product.size %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Color</span>
+                    <strong><%= product.color %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Original Price</span>
+                    <strong>₹<%= product.originalPrice %></strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Minimum Order</span>
+                    <strong><%= product.minOrder %> Units</strong>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="buttons">
+                <button class="back-btn">Back to Products</button>
+                <button class="edit-btn">Edit Product</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

@@ -32,7 +32,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 13px;
-    max-width: 1000px;
+    max-width: 1600px;
 }
 
 .form-left,
