@@ -1,171 +1,251 @@
-
 <link rel="stylesheet" href="/css/product.css">
 
-<header class="topbar">
-
-            <div class="breadcrumb">
-                <span>⌂</span>
-                <span>›</span>
-                <strong>Product</strong>
-            </div>
-
-            <div class="top-actions">
-
-                <button class="premium" href="add" >♢ Premium account</button>
-
-                <button class="top-icon">◴</button>
-                <button class="top-icon">▣</button>
-                <button class="top-icon">⚙</button>
-
-            </div>
-
-        </header>
 
 
-        <!-- PAGE HEADING -->
-        <div class="page-heading">
 
-            <div>
-                <h1>Product List</h1>
-                <p>Real-time insights on sales performance and stock status</p>
-            </div>
+<!-- PAGE HEADING -->
+<div class="page-heading">
 
-            <div class="page-tools">
+    <div>
+        <h1>Product List</h1>
+        <p>Real-time insights on sales performance and stock status</p>
+    </div>
 
-                <div class="search-box">
-                    <span>⌕</span>
-                    <input type="text" placeholder="Search">
-                    <small>⌘ F</small>
+    <div class="page-tools">
+
+        <div class="search-box">
+            <span>⌕</span>
+            <input type="text" placeholder="Search">
+            <small>⌘ F</small>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+<!-- ANALYTICS SECTION -->
+<section class="analytics-grid">
+
+    <!-- PRODUCTS BREAKDOWN -->
+    <div class="analytics-card breakdown">
+
+        <div class="card-title">
+            <span class="card-icon">⬡</span>
+            <h3>Products Breakdown</h3>
+        </div>
+
+
+
+        <div class="warehouse">
+
+            <div class="warehouse-info">
+
+                <div>
+                    <strong id="texttotl">37.362</strong>
+                    <small>(Total Items In Warehouse)</small>
                 </div>
 
-                <select>
-                    <option>Last month</option>
-                    <option>Last week</option>
-                    <option>Today</option>
-                    <option>This year</option>
-                </select>
+                <span id="progressText">75% used of 100% capacity</span>
 
+            </div>
+
+            <div class="progress">
+                <div class="progress-fill" id="progress-fill"></div>
             </div>
 
         </div>
 
-
-        <!-- ANALYTICS SECTION -->
-        <section class="analytics-grid">
-
-            <!-- PRODUCTS BREAKDOWN -->
-            <div class="analytics-card breakdown">
-
-                <div class="card-title">
-                    <span class="card-icon">⬡</span>
-                    <h3>Products Breakdown</h3>
-                </div>
-
-               
-
-                <div class="warehouse">
-
-                    <div class="warehouse-info">
-
-                        <div>
-                            <strong id="texttotl">37.362</strong>
-                            <small>(Total Items In Warehouse)</small>
-                        </div>
-
-                        <span id="progressText">75% used of 100% capacity</span>
-
-                    </div>
-
-                    <div class="progress">
-                        <div class="progress-fill" id="progress-fill"></div>
-                    </div>
-
-                </div>
-
-            </div>
+    </div>
 
 
-            <!-- REJECTION ITEMS -->
-            
-
-        </section>
+    <!-- REJECTION ITEMS -->
 
 
-        <!-- SALES RECAP -->
-        <section class="sales-card">
-
-            <div class="sales-header">
-
-                <h3>
-                    <span>🛒</span>
-                    Sales Recap
-                </h3>
-
-                <div class="sales-actions">
-
-                    <button title="Download">⇩</button>
-                    <button title="Sort">☷</button>
-
-                    <select>
-                        <option>Filter</option>
-                        <option>Electronics</option>
-                        <option>Home Living</option>
-                    </select>
-
-                </div>
-
-            </div>
+</section>
 
 
-            <!-- PRODUCT TABLE -->
-            <div class="table-wrapper">
+<!-- SALES RECAP -->
+<section class="sales-card">
 
-                <table>
+    <div class="sales-header">
 
-                    <thead>
-                        <tr>
-                            <th>Product</th>
-                            <th>ID</th>
-                            <th>Brand</th>
-                            <th>Qty</th>
-                            <th>Fix Price</th>
-                            <th>Update</th>
-                            <th></th>
-                        </tr>
-                    </thead>
+        <h3>
+            <span>🛒</span>
+            Sales Recap
+        </h3>
 
-                    <tbody>
-                        <% products.forEach((product) => {%> 
-                        <tr>
-                            
+        <div class="sales-actions">
 
-                            <td>
-                                <div class="product-name">
-                                    <img src="<%= product.imageUrl[0]%>" alt="Product">
-                                    <div>
-                                        <strong><%= product.name%></strong>
-                                        <small><%= product.category%></small>
-                                    </div>
-                                </div>
-                            </td>
+            <button title="Download">⇩</button>
 
-                            <td><b><%= product.sku%></b></td>
-                            <td><%= product.brand%></td>
-                            <td><%= product.stock%></td>
-                            <td class="price">$<%= product.price%></td>
-                            <td class="update"><a href="/productsshow/update/<%= product._id %>">UPDATE</a></td>
-                            <td class="more"><a href="/productsshow/<%= product._id %>">•••</a></td>
-                        </tr>
+
+
+
+            <select id="brandFilter">
+                <option value="all">All Brands</option>
+
+                <% if (cate && cate.brand && cate.brand.length> 0) { %>
+
+                    <% cate.brand.forEach((item)=> { %>
+
+                        <option value="<%= item.brand %>">
+                            <%= item.brand %>
+                        </option>
+
                         <% }) %>
 
+                            <% } %>
 
-                        
+            </select>
 
-                    </tbody>
+        </div>
 
-                </table>
+    </div>
 
-            </div>
 
-        </section>
-         <script src="/JS/progress.js"></script>
+    <!-- PRODUCT TABLE -->
+    <div class="table-wrapper">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>ID</th>
+                    <th>Brand</th>
+                    <th>Qty</th>
+                    <th>Fix Price</th>
+                    <th>Update</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody id="productTable">
+
+                <% products.forEach((product)=> { %>
+
+                    <tr data-brand="<%= product.brand %>">
+
+                        <td>
+                            <div class="product-name">
+                                <img src="<%= product.imageUrl[0] %>" alt="Product">
+
+                                <div>
+                                    <strong>
+                                        <%= product.name %>
+                                    </strong>
+                                    <small>
+                                        <%= product.category %>
+                                    </small>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td><b>
+                                <%= product.sku %>
+                            </b></td>
+
+                        <td>
+                            <%= product.brand %>
+                        </td>
+
+                        <td>
+                            <%= product.stock %>
+                        </td>
+
+                        <td class="price">$<%= product.price %>
+                        </td>
+
+                        <td class="update">
+                            <a href="/productsshow/update/<%= product._id %>">UPDATE</a>
+                        </td>
+
+                        <td class="more">
+                            <a href="/productsshow/<%= product._id %>">•••</a>
+                        </td>
+
+                    </tr>
+
+                    <% }) %>
+
+                        <tr id="noProducts" style="display:none;">
+                            <td colspan="7" style="text-align:center;">
+                                No Products Found
+                            </td>
+                        </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+<script>
+    const totalItems = 100000; // 1 Lac
+    const availableItems = Number("<%= totalProducts%>");
+
+    const brandFilter = document.getElementById("brandFilter");
+
+    const productRows = document.querySelectorAll(
+        "#productTable tr[data-brand]"
+    );
+
+    const noProducts = document.getElementById("noProducts");
+
+    brandFilter.addEventListener("change", function () {
+
+        const selectedBrand = this.value.toLowerCase();
+
+        let visibleCount = 0;
+
+        productRows.forEach(row => {
+
+            const brand = row.dataset.brand.toLowerCase();
+
+            if (
+                selectedBrand === "all" ||
+                brand === selectedBrand
+            ) {
+
+                row.style.display = "";
+
+                visibleCount++;
+
+            } else {
+
+                row.style.display = "none";
+
+            }
+
+        });
+
+        noProducts.style.display =
+            visibleCount === 0 ? "" : "none";
+
+    });
+
+
+
+    function updateProgress(available, total) {
+        // Percentage calculate karein
+        const percentage = (available / total) * 100;
+
+        // Bar ki width set karein
+        const bar = document.getElementById('progress-fill');
+        bar.style.width = percentage + '%';
+
+        // Text ko bar ke bahar dikhayein (kyunki 0.4% bar ke andar text fit nahi hoga)
+        const text = document.getElementById('progressText');
+        text.textContent = `${available.toLocaleString('en-IN')} / ${total.toLocaleString('en-IN')} items available (${percentage.toFixed(2)}%)`;
+
+        const TotalText = document.getElementById('texttotl');
+        TotalText.textContent = `${availableItems}`;
+    }
+
+    // Function call karein
+    updateProgress(availableItems, totalItems);
+</script>

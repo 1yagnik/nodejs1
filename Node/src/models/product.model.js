@@ -3,7 +3,7 @@ import { ObjectId } from 'mongodb';
 
 export default class ProductModel {
   constructor(
-    id,
+
     name,
     desc,
     category,
@@ -19,8 +19,10 @@ export default class ProductModel {
     discount,
     minOrder,
     imageUrl,
+    date
+
   ) {
-    this.id = id++;
+
     this.name = name;
     this.desc = desc;
     this.category = category;
@@ -36,9 +38,14 @@ export default class ProductModel {
     this.discount = discount;
     this.minOrder = minOrder;
 
+
     // Multiple images
     this.imageUrl = imageUrl;
+    this.date = date;
   }
+
+
+  
 
   static async getAll() {
     const db = getdb();
@@ -60,6 +67,7 @@ export default class ProductModel {
     }
   }
 
+
   static async updateForm(
     id,
     name,
@@ -71,32 +79,39 @@ export default class ProductModel {
     originalPrice,
     discount,
     minOrder,
-    imageUrl,
+    imageUrl
   ) {
     try {
       const db = getdb();
+
       const product = await db.collection('Products').updateOne(
-        { _id: ObjectId(id) },
+        { _id: new ObjectId(id) },
         {
           $set: {
-            name: name,
-            desc: desc,
-            sku: sku,
-            stock: stock,
-            minStock: minStock,
-            price: price,
-            originalPrice: originalPrice,
-            discount: discount,
-            minOrder: minOrder,
-            imageUrl: imageUrl,
+            name,
+            desc,
+            sku,
+            stock,
+            minStock,
+            price,
+            originalPrice,
+            discount,
+            minOrder,
+            imageUrl,
           },
-        },
+        }
       );
+      console.log(product);
+
+
       return product;
+
     } catch (err) {
-      console.log(err);
+      console.log("Update Product Error:", err);
+      throw err;
     }
   }
+
 
   static async getTotalStock() {
     try {
@@ -154,6 +169,9 @@ export default class ProductModel {
         minOrder,
         imageUrl,
       );
+
+      newProducts.date = Date()
+
 
       const result = await Collection.insertOne(newProducts);
 

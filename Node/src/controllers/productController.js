@@ -1,6 +1,10 @@
 import ProductModel from '../models/product.model.js';
+import OneModel from '../models/one.model.js';
 
 export default class ProductController {
+
+
+
   async UpdateForm(req, res) {
     const id = req.params.id;
 
@@ -21,7 +25,9 @@ export default class ProductController {
 
     const oldImages = req.body.oldImageUrl || [];
 
-    const newImages = req.files ? req.files.map((file) => file.path) : [];
+    const newImages = req.files
+      ? req.files.map((file) => 'images/' + file.filename)
+      : [];
 
     const imageUrl = [...(Array.isArray(oldImages) ? oldImages : [oldImages]), ...newImages];
 
@@ -43,9 +49,11 @@ export default class ProductController {
     try {
       // Retrieve products using the ProductModel
       let products = await ProductModel.getAll();
+      const cate = await OneModel.getAllExtraForm();
       let totalProducts = await ProductModel.getTotalStock();
 
       res.render('productsshow', {
+        cate: cate,
         products: products,
         totalProducts: totalProducts,
       });
@@ -68,9 +76,12 @@ export default class ProductController {
     try {
       // Retrieve products using the ProductModel
       let products = await ProductModel.getAll();
+      const cate = await OneModel.getAllExtraForm();
+
       let totalProducts = await ProductModel.getTotalStock();
 
       res.render('productsshow', {
+        cate:cate,
         products: products,
         totalProducts: totalProducts,
       });
@@ -124,9 +135,12 @@ export default class ProductController {
         imageUrl,
       );
 
-      console.log(result);
+      const cate = await OneModel.getAllExtraForm();
+
+
 
       res.render('productsadd', {
+        cate: cate,
         message: result.message,
       });
     } catch (error) {
@@ -140,8 +154,9 @@ export default class ProductController {
     res.render('setting');
   }
 
-  getProductsAdd(req, res) {
-    res.render('productsadd');
+  async getProductsAdd(req, res) {
+    const cate = await OneModel.getAllExtraForm();
+    res.render('productsadd', { cate: cate });
   }
 
   getCustomers(req, res) {
@@ -155,5 +170,6 @@ export default class ProductController {
   getOrder(req, res) {
     res.render('orders');
   }
+
   // Defining getProducts method
 }

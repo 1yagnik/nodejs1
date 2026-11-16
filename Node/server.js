@@ -3,6 +3,8 @@ import path from 'node:path';
 import { DOMMatrix, ImageData, Path2D } from '@napi-rs/canvas';
 import ProductController from './src/controllers/productController.js';
 import {uploadFile} from './src/multer.js';
+import OneController from './src/controllers/oneController.js';
+
 import expressLayouts from 'express-ejs-layouts'
 import { fileURLToPath } from 'node:url';
 import {connectToMongoDB} from './config/mongodb.js';
@@ -18,6 +20,7 @@ const server = express();
 
 
 const productController = new ProductController();
+const oneController = new OneController();
 
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
@@ -40,7 +43,10 @@ server.get('/setting', productController.getSetting)
 server.get('/add', productController.getProductsAdd)
 server.get('/productsshow/:id', productController.firstPro)
 server.get('/productsshow/update/:id', productController.UpdateForm)
-server.post('/update', productController.PostUpdateForm)
+
+server.get('/form', oneController.getExtraForm)
+server.post('/form',oneController.PostForm)
+server.post('/update', uploadFile.array("imageUrl", 5),productController.PostUpdateForm)
 server.post('/add',uploadFile.array("images", 5),productController.postAddProduct)
 
 

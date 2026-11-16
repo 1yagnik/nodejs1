@@ -1,0 +1,143 @@
+<link rel="stylesheet" href="/css/ectraForm.css">
+
+<form action="/form" method="post" >
+
+    <div class="main-layout">
+
+        <!-- LEFT SIDE FORM -->
+        <div class="left-form">
+
+            <!-- Category -->
+            <div class="form-card">
+                <h3>Category</h3>
+
+                <div class="card-body">
+
+                    <div class="form-group">
+                        <label>Product Category</label>
+                        <input type="text" name="category" placeholder="Enter Product Category">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Product Sub-Category</label>
+                        <input type="text" name="subCategory" placeholder="Enter Product Sub-Category">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="form-card">
+                <h3>Product Details</h3>
+
+                <div class="card-body">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label>Brand Name</label>
+                            <input type="text" name="brand" placeholder="Enter Brand Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Product Size</label>
+                            <input type="text" name="size" placeholder="Enter Product Size">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>Product Colors</label>
+                        <input type="text" name="color" placeholder="Enter Product Colors">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Discount -->
+            <div class="form-card">
+                <h3>Discount Details</h3>
+
+                <div class="card-body">
+
+                    <div class="form-group">
+                        <label>Discount (%)</label>
+                        <input type="number" name="discount" placeholder="Enter Discount">
+                    </div>
+
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Submit
+            </button>
+
+        </div>
+</form>
+
+
+
+<!-- RIGHT SIDE TABLE -->
+<div class="right-table">
+
+    <div class="form-card">
+
+        <h3>Product Details List</h3>
+
+        <div class="table-container">
+
+            <table class="product-table">
+
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Sub-Category</th>
+                        <th>Brand</th>
+                        <th>Size</th>
+                        <th>Color</th>
+                        <th>Discount</th>
+                    </tr>
+                </thead>
+
+                 <tbody>
+
+                        <% if (products && products.category && products.category.length > 0) { %>
+
+                            <% products.category.forEach((item, index) => { %>
+
+                                <tr>
+                                    <td><%= item.category %></td>
+
+                                    <td><%= products.subCategory[index]?.subCategory || '-' %></td>
+
+                                    <td><%= products.brand[index]?.brand || '-' %></td>
+
+                                    <td><%= products.size[index]?.size || '-' %></td>
+
+                                    <td><%= products.color[index]?.color || '-' %></td>
+
+                                    <td><%= products.discount[index]?.discount || 0 %>%</td>
+                                </tr>
+
+                            <% }) %>
+
+                        <% } else { %>
+
+                            <tr>
+                                <td colspan="6">No Data Found</td>
+                            </tr>
+
+                        <% } %>
+
+                    </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+

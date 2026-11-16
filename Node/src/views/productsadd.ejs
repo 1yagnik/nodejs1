@@ -7,8 +7,7 @@
 </div>
 
 <!-- PRODUCT FORM -->
-<form class="product-form" method="post" action="/add"
-      enctype="multipart/form-data">
+<form class="product-form" method="post" action="/add" enctype="multipart/form-data">
 
     <div class="form-left">
 
@@ -54,21 +53,50 @@
                 <div class="form-group">
                     <label>Product Category</label>
                     <select name="category" required>
-                        <option value="Men's Clothes">Men's Clothes</option>
-                        <option value="Women's Clothes">Women's Clothes</option>
-                        <option value="Electronics">Electronics</option>
-                        <option value="Home & Kitchen">Home & Kitchen</option>
-                        <option value="Footwear">Footwear</option>
+
+                        <option value="">Select Category</option>
+
+                        <% if (cate && cate.category && cate.category.length> 0) { %>
+
+                            <% cate.category.forEach((item)=> { %>
+
+                                <option value="<%= item.category %>">
+                                    <%= item.category %>
+                                </option>
+
+                                <% }) %>
+
+                            <% } else { %>
+
+                                        <option value="">No Data Found</option>
+
+                                <% } %>
+
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label>Product Sub-Category</label>
                     <select name="subCategory" required>
-                        <option value="Men's Tops & T-Shirts">Men's Tops & T-Shirts</option>
-                        <option value="Shirts">Shirts</option>
-                        <option value="Jeans">Jeans</option>
-                        <option value="Jackets">Jackets</option>
+
+                        <option value="">Select Category</option>
+
+                        <% if (cate && cate.subCategory && cate.subCategory.length> 0) { %>
+
+                            <% cate.subCategory.forEach((item)=> { %>
+
+                                <option value="<%= item.subcategory %>">
+                                    <%= item.subCategory %>
+                                </option>
+
+                                <% }) %>
+
+                                    <% } else { %>
+
+                                        <option value="">No Data Found</option>
+
+                                        <% } %>
+
                     </select>
                 </div>
 
@@ -122,35 +150,78 @@
 
                     <div class="form-group">
                         <label>Brand Name</label>
-                        <select name="brand">
-                            <option value="Adidas">Adidas</option>
-                            <option value="Nike">Nike</option>
-                            <option value="Puma">Puma</option>
-                            <option value="Reebok">Reebok</option>
-                        </select>
+                        <select name="brand" required>
+
+                        <option value="">Select Category</option>
+
+                        <% if (cate && cate.brand && cate.brand.length> 0) { %>
+
+                            <% cate.brand.forEach((item)=> { %>
+
+                                <option value="<%= item.brand %>">
+                                    <%= item.brand %>
+                                </option>
+
+                                <% }) %>
+
+                                    <% } else { %>
+
+                                        <option value="">No Data Found</option>
+
+                                        <% } %>
+
+                    </select>
                     </div>
 
                     <div class="form-group">
                         <label>Product Size</label>
-                        <select name="size">
-                            <option value="Medium">Medium</option>
-                            <option value="Small">Small</option>
-                            <option value="Large">Large</option>
-                            <option value="XL">XL</option>
-                            <option value="XXL">XXL</option>
-                        </select>
+                        <select name="size" required>
+
+                        <option value="">Select Category</option>
+
+                        <% if (cate && cate.size && cate.size.length> 0) { %>
+
+                            <% cate.size.forEach((item)=> { %>
+
+                                <option value="<%= item.size %>">
+                                    <%= item.size %>
+                                </option>
+
+                                <% }) %>
+
+                                    <% } else { %>
+
+                                        <option value="">No Data Found</option>
+
+                                        <% } %>
+
+                    </select>
                     </div>
 
                 </div>
 
                 <div class="form-group">
                     <label>Product Colors</label>
-                    <select name="color">
-                        <option value="Black and White">Black and White</option>
-                        <option value="Black">Black</option>
-                        <option value="White">White</option>
-                        <option value="Blue">Blue</option>
-                        <option value="Red">Red</option>
+                    <select name="color" required>
+
+                        <option value="">Select Category</option>
+
+                        <% if (cate && cate.color && cate.color.length> 0) { %>
+
+                            <% cate.color.forEach((item)=> { %>
+
+                                <option value="<%= item.color %>">
+                                    <%= item.color %>
+                                </option>
+
+                                <% }) %>
+
+                                    <% } else { %>
+
+                                        <option value="">No Data Found</option>
+
+                                        <% } %>
+
                     </select>
                 </div>
 
@@ -171,8 +242,7 @@
                         <label>Price</label>
                         <div class="price-input">
                             <span>$</span>
-                            <input type="number" name="price"
-                                   step="0.01" min="0" required>
+                            <input type="number" name="price" step="0.01" min="0" required>
                         </div>
                     </div>
 
@@ -180,8 +250,7 @@
                         <label>Original Price</label>
                         <div class="price-input">
                             <span>$</span>
-                            <input type="number" name="originalPrice"
-                                   step="0.01" min="0">
+                            <input type="number" name="originalPrice" step="0.01" min="0">
                         </div>
                     </div>
 
@@ -191,12 +260,27 @@
 
                     <div class="form-group">
                         <label>Discount</label>
-                        <select name="discount">
-                            <option value="15">15%</option>
-                            <option value="10">10%</option>
-                            <option value="20">20%</option>
-                            <option value="25">25%</option>
-                        </select>
+                        <select name="discount" required>
+
+                        <option value="">Select Category</option>
+
+                        <% if (cate && cate.discount && cate.discount.length> 0) { %>
+
+                            <% cate.discount.forEach((item)=> { %>
+
+                                <option value="<%= item.discount %>">
+                                    <%= item.discount %>
+                                </option>
+
+                                <% }) %>
+
+                                    <% } else { %>
+
+                                        <option value="">No Data Found</option>
+
+                                        <% } %>
+
+                    </select>
                     </div>
 
                     <div class="form-group">
@@ -220,26 +304,10 @@
                 <div class="image-gallery">
 
                     <label class="upload-box">
-                        <input type="file" name="images"
-                               accept="image/*" multiple hidden>
+                        <input id="imageFiles" type="file" name="images" accept="image/*" multiple hidden>
                         <span>♧</span>
                         <p>Click to Upload</p>
                     </label>
-
-                            <div class="image-preview">
-                                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300" alt="T-shirt">
-                                <button type="button" class="remove">Remove</button>
-                            </div>
-
-                            <div class="image-preview">
-                                <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=300" alt="T-shirt">
-                                <button type="button" class="remove">Remove</button>
-                            </div>
-
-                            <div class="image-preview">
-                                <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=300" alt="T-shirt">
-                                <button type="button" class="remove">Remove</button>
-                            </div>
 
                 </div>
 
@@ -249,11 +317,11 @@
         <!-- ACTION BUTTONS -->
         <div class="form-actions">
 
-           
+
 
             <div class="right-actions">
 
-               
+
 
                 <button type="submit" class="add-btn">
                     + &nbsp; Add Product
@@ -264,3 +332,4 @@
 
     </div>
 </form>
+<script src="/JS/addForm.js"></script>

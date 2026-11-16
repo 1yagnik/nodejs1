@@ -7,7 +7,7 @@
 </div>
 
 <!-- PRODUCT FORM -->
-<form class="product-form" method="post" action="/update"
+<form class="product-form" method="post" action="/update" enctype="multipart/form-data"
       >
       <input type="hidden" class="form-control" id="id" name="id" value="<%= product._id %>">
 
@@ -148,7 +148,7 @@
                 <div class="image-gallery">
 
                     <label class="upload-box">
-                        <input type="file" name="imageUrl"
+                        <input id="imageFiles" type="file" name="imageUrl"
                                accept="image/*" multiple hidden>
                         <span>♧</span>
                         <p>Click to Upload</p>
@@ -158,9 +158,10 @@
     <div class="image-preview">
 
         <img src="/<%= image %>" alt="image">
+        
 
         <input type="hidden"
-               name="oldImageUrl[]"
+               name="oldImageUrl"
                value="<%= image %>">
 
         <button type="button" class="remove">
@@ -195,3 +196,5 @@
 
     </div>
 </form>
+
+<script src="/JS/updateform.js"></script>
