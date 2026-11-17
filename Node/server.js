@@ -4,6 +4,7 @@ import { DOMMatrix, ImageData, Path2D } from '@napi-rs/canvas';
 import ProductController from './src/controllers/productController.js';
 import {uploadFile} from './src/multer.js';
 import OneController from './src/controllers/oneController.js';
+import MainController from './src/controllers/mainController.js';
 
 import expressLayouts from 'express-ejs-layouts'
 import { fileURLToPath } from 'node:url';
@@ -21,6 +22,7 @@ const server = express();
 
 const productController = new ProductController();
 const oneController = new OneController();
+const mainController = new MainController();
 
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
@@ -35,14 +37,24 @@ server.set('view engine', 'ejs');
 server.set('views', viewsPath);
 
 
+server.get('/',mainController.getMainPage)
+server.get('/products',mainController.getProductsPage)
+server.get('/products/:id',mainController.getOneproducts)
+
+
+
+
 server.get('/orders',productController.getOrder)
-server.get('/', productController.getDashboard)
+server.get('/admin', productController.getDashboard)
 server.get('/customers', productController.getCustomers)
 server.get('/productsshow', productController.getProducts)
 server.get('/setting', productController.getSetting)
 server.get('/add', productController.getProductsAdd)
 server.get('/productsshow/:id', productController.firstPro)
 server.get('/productsshow/update/:id', productController.UpdateForm)
+server.get('/productsshow/delete/:id',productController.deleteProducts)
+server.get('/form/delete/:collection/:id',oneController.deleteOne)
+
 
 server.get('/form', oneController.getExtraForm)
 server.post('/form',oneController.PostForm)

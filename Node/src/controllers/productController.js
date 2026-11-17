@@ -4,6 +4,22 @@ import OneModel from '../models/one.model.js';
 export default class ProductController {
 
 
+  async deleteProducts(req, res) {
+    const id = req.params.id
+    console.log(id);
+
+
+    const result = await ProductModel.deleteOne(id);
+
+    if (result.deletedCount === 1) {
+      return res.redirect('/productsshow');
+    } else {
+      return res.status(404).send("Product Not Found");
+    }
+
+  }
+
+
 
   async UpdateForm(req, res) {
     const id = req.params.id;
@@ -66,6 +82,8 @@ export default class ProductController {
     const id = req.params.id;
 
     const product = await ProductModel.findOne(id);
+    
+    
 
     res.render('firstproducts', {
       product: product,
@@ -81,7 +99,7 @@ export default class ProductController {
       let totalProducts = await ProductModel.getTotalStock();
 
       res.render('productsshow', {
-        cate:cate,
+        cate: cate,
         products: products,
         totalProducts: totalProducts,
       });
@@ -108,6 +126,8 @@ export default class ProductController {
         discount,
         minOrder,
       } = req.body;
+      console.log(req.body);
+      
 
       // Multiple images get
       const imageUrl = req.files.map((file) => {

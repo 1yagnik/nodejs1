@@ -44,8 +44,18 @@ export default class ProductModel {
     this.date = date;
   }
 
+  static async deleteOne(id) {
+    try {
+      const db = getdb();
+      const product = await db.collection('Products').deleteOne({
+        _id: new ObjectId(id)
+      });
+      return product;
+    } catch (err) {
+      console.log(err);
+    }
+  }
 
-  
 
   static async getAll() {
     const db = getdb();

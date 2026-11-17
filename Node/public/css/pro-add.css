@@ -8,7 +8,27 @@
     padding: 17px 32px 30px;
 }
 
+.label-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
 
+.label-row label {
+    margin: 0;
+}
+
+.add-category {
+    color: #2563eb;
+    font-size: 9px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.add-category:hover {
+    text-decoration: none;
+}
 
 
 .page-heading {

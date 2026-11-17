@@ -1,0 +1,347 @@
+<link rel="stylesheet" href="/css/oneproducts.css">
+
+<div class="product-page">
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="/">Home</a>
+        <span>›</span>
+        <a href="#">Shop</a>
+        <span>›</span>
+        <a href="#">Men</a>
+        <span>›</span>
+        <span>T-shirts</span>
+    </div>
+
+
+    <!-- Product Details -->
+    <section class="product-details">
+
+        <!-- Product Images -->
+        <div class="product-gallery">
+
+            <div class="thumbnail-images">
+                <% product.imageUrl.forEach((image, index) => { %>
+                <img class="active"
+                src="/<%= image %>"
+                alt="Product thumbnail">
+                 <% }) %>
+
+               
+            </div>
+
+            <div class="main-product-image">
+                <img
+                src="/<%= product.imageUrl[0] %>"
+                alt="One Life Graphic T-shirt">
+            </div>
+
+        </div>
+
+
+        <!-- Product Information -->
+        <div class="product-info">
+
+            <h1><%= product.name %></h1>
+
+            <div class="product-rating">
+                <span>★★★★★</span>
+                <small>4.5/5</small>
+            </div>
+
+            <div class="product-price">
+                <strong>$<%= product.price %></strong>
+                <del>$<%= product.originalPrice %></del>
+                <span class="discount">-<%= product.discount %>%</span>
+            </div>
+
+            <p class="product-description">
+                <%= product.desc %>
+            </p>
+
+
+            <!-- Select Color -->
+            <div class="product-option">
+
+                <h4>Select Colors</h4>
+
+                <div class="color-options">
+                    <button class="color olive active"></button>
+                    <button class="color dark"></button>
+                    <button class="color navy"></button>
+                </div>
+
+            </div>
+
+
+            <!-- Select Size -->
+            <div class="product-option">
+
+                <h4>Choose Size</h4>
+
+                <div class="size-options">
+                    <button>Small</button>
+                    <button>Medium</button>
+                    <button class="active">Large</button>
+                    <button>X-Large</button>
+                </div>
+
+            </div>
+
+
+            <!-- Quantity and Cart -->
+            <div class="cart-actions">
+
+                <div class="quantity">
+                    <button type="button">−</button>
+                    <span>1</span>
+                    <button type="button">+</button>
+                </div>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Product Tabs -->
+    <section class="product-tabs">
+
+        <button>Product Details</button>
+
+        <button class="active">Rating & Reviews</button>
+
+        <button>FAQs</button>
+
+    </section>
+
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+
+        <div class="reviews-heading">
+
+            <h2>All Reviews <span>(451)</span></h2>
+
+            <div class="review-actions">
+
+                <button class="filter-btn">
+                    <i class="fa-solid fa-sliders"></i>
+                </button>
+
+                <select>
+                    <option>Latest</option>
+                    <option>Oldest</option>
+                    <option>Highest Rating</option>
+                </select>
+
+                <button class="write-review">
+                    Write a Review
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Review Cards -->
+        <div class="review-grid">
+
+
+            <div class="review-card">
+
+                <div class="review-top">
+                    <div>
+                        <div class="review-stars">★★★★★</div>
+                        <h3>Samantha D. <i class="fa-solid fa-circle-check"></i></h3>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <p>
+                    "I absolutely love this t-shirt! The design is unique
+                    and the fabric feels so comfortable. A real fashion
+                    upgrade."
+                </p>
+
+                <small>Posted on August 14, 2023</small>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="review-top">
+                    <div>
+                        <div class="review-stars">★★★★★</div>
+                        <h3>Alex M. <i class="fa-solid fa-circle-check"></i></h3>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <p>
+                    "The t-shirt exceeded my expectations! The quality
+                    and fit are perfect. Highly recommend this product."
+                </p>
+
+                <small>Posted on August 15, 2023</small>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="review-top">
+                    <div>
+                        <div class="review-stars">★★★★★</div>
+                        <h3>Eth an R. <i class="fa-solid fa-circle-check"></i></h3>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <p>
+                    "This t-shirt is a must-have for anyone who
+                    appreciates good design. The material is soft
+                    and comfortable."
+                </p>
+
+                <small>Posted on August 16, 2023</small>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="review-top">
+                    <div>
+                        <div class="review-stars">★★★★★</div>
+                        <h3>Olivia P. <i class="fa-solid fa-circle-check"></i></h3>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <p>
+                    "Absolutely love this product! The quality is
+                    excellent and the design looks amazing."
+                </p>
+
+                <small>Posted on August 17, 2023</small>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="review-top">
+                    <div>
+                        <div class="review-stars">★★★★☆</div>
+                        <h3>Liam K. <i class="fa-solid fa-circle-check"></i></h3>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <p>
+                    "This t-shirt is a fantastic choice. The fabric
+                    quality and overall design are really impressive."
+                </p>
+
+                <small>Posted on August 18, 2023</small>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="review-top">
+                    <div>
+                        <div class="review-stars">★★★★★</div>
+                        <h3>Noah W. <i class="fa-solid fa-circle-check"></i></h3>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+
+                <p>
+                    "I'm very happy with this purchase. It fits
+                    perfectly and the material feels premium."
+                </p>
+
+                <small>Posted on August 19, 2023</small>
+
+            </div>
+
+        </div>
+
+
+        <div class="load-reviews">
+            <button>Load More Reviews</button>
+        </div>
+
+    </section>
+
+
+    <!-- Related Products -->
+    <section class="related-products">
+
+        <h2>YOU MIGHT ALSO LIKE</h2>
+
+        <div class="related-grid">
+
+
+            <div class="related-card">
+                <div class="related-image">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400" alt="Polo">
+                </div>
+                <h3>Polo with Contrast Trims</h3>
+                <div class="related-rating">★★★★★ <small>4.5/5</small></div>
+                <div class="related-price">$212 <del>$242</del> <span>-20%</span></div>
+            </div>
+
+
+            <div class="related-card">
+                <div class="related-image">
+                    <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400" alt="Graphic T-shirt">
+                </div>
+                <h3>Gradient Graphic T-shirt</h3>
+                <div class="related-rating">★★★★★ <small>3.5/5</small></div>
+                <div class="related-price">$145</div>
+            </div>
+
+
+            <div class="related-card">
+                <div class="related-image">
+                    <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400" alt="Polo shirt">
+                </div>
+                <h3>Polo with Tipping Details</h3>
+                <div class="related-rating">★★★★☆ <small>4.5/5</small></div>
+                <div class="related-price">$180</div>
+            </div>
+
+
+            <div class="related-card">
+                <div class="related-image">
+                    <img src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400" alt="Striped T-shirt">
+                </div>
+                <h3>Black Striped T-shirt</h3>
+                <div class="related-rating">★★★★☆ <small>4.5/5</small></div>
+                <div class="related-price">$120 <del>$150</del> <span>-30%</span></div>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>

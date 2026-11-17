@@ -1,8 +1,30 @@
 import { getdb } from '../../config/mongodb.js';
+import { ObjectId } from 'mongodb';
 export default class OneModel {
     constructor(name) {
         this.name = name;
     }
+
+
+    static async deleteOne(collection,id) {
+        try {
+          const db = getdb();
+          const product = await db.collection(collection).deleteOne({
+            _id: new ObjectId(id)
+          });
+          return product;
+        } catch (err) {
+          console.log(err);
+        }
+      }
+
+
+
+
+
+
+
+
 
     static async getExtraForm(
         category,
@@ -15,39 +37,45 @@ export default class OneModel {
         try {
             const db = getdb();
 
-            // 1. Category Collection
-            await db.collection('category').insertOne({
-                category: category
-            });
+            if (category?.trim()) {
+                await db.collection('category').insertOne({
+                    category: category.trim()
+                });
+            }
 
-            // 2. SubCategory Collection
-            await db.collection('subCategory').insertOne({
-                subCategory: subCategory
-            });
+            if (subCategory?.trim()) {
+                await db.collection('subCategory').insertOne({
+                    subCategory: subCategory.trim()
+                });
+            }
 
-            // 3. Brand Collection
-            await db.collection('brand').insertOne({
-                brand: brand
-            });
+            if (brand?.trim()) {
+                await db.collection('brand').insertOne({
+                    brand: brand.trim()
+                });
+            }
 
-            // 4. Size Collection
-            await db.collection('size').insertOne({
-                size: size
-            });
+            if (size?.trim()) {
+                await db.collection('size').insertOne({
+                    size: size.trim()
+                });
+            }
 
-            // 5. Color Collection
-            await db.collection('color').insertOne({
-                color: color
-            });
+            if (color?.trim()) {
+                await db.collection('color').insertOne({
+                    color: color.trim()
+                });
+            }
 
-            // 6. Discount Collection
-            await db.collection('discount').insertOne({
-                discount: discount
-            });
+            if (discount?.trim()) {
+                await db.collection('discount').insertOne({
+                    discount: discount.trim()
+                });
+            }
 
             return {
                 success: true,
-                message: "All Data Inserted Successfully"
+                message: "Data Inserted Successfully"
             };
 
         } catch (error) {
@@ -55,35 +83,34 @@ export default class OneModel {
             throw error;
         }
     }
-
     static async getAllExtraForm() {
-    try {
-        const db = getdb();
+        try {
+            const db = getdb();
 
-        const category = await db.collection('category').find().toArray();
+            const category = await db.collection('category').find().toArray();
 
-        const subCategory = await db.collection('subCategory').find().toArray();
+            const subCategory = await db.collection('subCategory').find().toArray();
 
-        const brand = await db.collection('brand').find().toArray();
+            const brand = await db.collection('brand').find().toArray();
 
-        const size = await db.collection('size').find().toArray();
+            const size = await db.collection('size').find().toArray();
 
-        const color = await db.collection('color').find().toArray();
+            const color = await db.collection('color').find().toArray();
 
-        const discount = await db.collection('discount').find().toArray();
+            const discount = await db.collection('discount').find().toArray();
 
-        return {
-            category,
-            subCategory,
-            brand,
-            size,
-            color,
-            discount
-        };
+            return {
+                category,
+                subCategory,
+                brand,
+                size,
+                color,
+                discount
+            };
 
-    } catch (error) {
-        console.log("Fetch Extra Form Error:", error);
-        throw error;
+        } catch (error) {
+            console.log("Fetch Extra Form Error:", error);
+            throw error;
+        }
     }
-}
 }

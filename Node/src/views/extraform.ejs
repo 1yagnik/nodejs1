@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/css/ectraForm.css">
 
-<form action="/form" method="post" >
+<form action="/form" method="post">
 
     <div class="main-layout">
 
@@ -99,37 +99,85 @@
                     </tr>
                 </thead>
 
-                 <tbody>
+                <tbody>
+                    <% const maxLength=Math.max( products.category.length, products.subCategory.length,
+                        products.brand.length, products.size.length, products.color.length, products.discount.length );
+                        %>
 
-                        <% if (products && products.category && products.category.length > 0) { %>
-
-                            <% products.category.forEach((item, index) => { %>
-
-                                <tr>
-                                    <td><%= item.category %></td>
-
-                                    <td><%= products.subCategory[index]?.subCategory || '-' %></td>
-
-                                    <td><%= products.brand[index]?.brand || '-' %></td>
-
-                                    <td><%= products.size[index]?.size || '-' %></td>
-
-                                    <td><%= products.color[index]?.color || '-' %></td>
-
-                                    <td><%= products.discount[index]?.discount || 0 %>%</td>
-                                </tr>
-
-                            <% }) %>
-
-                        <% } else { %>
+                        <% for (let index=0; index < maxLength; index++) { %>
 
                             <tr>
-                                <td colspan="6">No Data Found</td>
+
+                                <!-- Category -->
+                                <td>
+                                    <%= products.category[index]?.category || '-' %>
+
+                                        <% if (products.category[index]) { %>
+                                            <a href="/form/delete/category/<%= products.category[index]._id %>">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                            <% } %>
+                                </td>
+
+                                <!-- SubCategory -->
+                                <td>
+                                    <%= products.subCategory[index]?.subCategory || '-' %>
+
+                                        <% if (products.subCategory[index]) { %>
+                                            <a href="/form/delete/subCategory/<%= products.subCategory[index]._id %>">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                            <% } %>
+                                </td>
+
+                                <!-- Brand -->
+                                <td>
+                                    <%= products.brand[index]?.brand || '-' %>
+
+                                        <% if (products.brand[index]) { %>
+                                            <a href="/form/delete/brand/<%= products.brand[index]._id %>">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                            <% } %>
+                                </td>
+
+                                <!-- Size -->
+                                <td>
+                                    <%= products.size[index]?.size || '-' %>
+
+                                        <% if (products.size[index]) { %>
+                                            <a href="/form/delete/size/<%= products.size[index]._id %>">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                            <% } %>
+                                </td>
+
+                                <!-- Color -->
+                                <td>
+                                    <%= products.color[index]?.color || '-' %>
+
+                                        <% if (products.color[index]) { %>
+                                            <a href="/form/delete/color/<%= products.color[index]._id %>">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                            <% } %>
+                                </td>
+
+                                <!-- Discount -->
+                                <td>
+                                    <%= products.discount[index]?.discount || 0 %>%
+
+                                        <% if (products.discount[index]) { %>
+                                            <a href="/form/delete/discount/<%= products.discount[index]._id %>">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </a>
+                                            <% } %>
+                                </td>
+
                             </tr>
 
-                        <% } %>
-
-                    </tbody>
+                            <% } %>
+                </tbody>
 
             </table>
 
@@ -140,4 +188,3 @@
 </div>
 
 </div>
-

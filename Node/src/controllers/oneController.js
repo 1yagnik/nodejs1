@@ -2,9 +2,26 @@ import OneModel from '../models/one.model.js';
 
 export default class OneController {
 
-     async PostForm(req, res) {
-        try {
 
+    async deleteOne(req,res){
+         const {collection,id} = req.params 
+         console.log(collection,id);
+
+         const result = await OneModel.deleteOne(collection,id);
+         
+             if (result.deletedCount === 1) {
+               return res.redirect('/form');
+             } else {
+               return res.status(404).send("Product Not Found");
+             }
+         
+         
+    }
+
+
+
+    async PostForm(req, res) {
+        try {
             const {
                 category,
                 subCategory,
@@ -31,11 +48,11 @@ export default class OneController {
         }
     }
 
-     async getExtraForm(req, res) {
+    async getExtraForm(req, res) {
         try {
             const products = await OneModel.getAllExtraForm();
-            
-            res.render("extraform", { products:products });
+
+            res.render("extraform", { products: products });
 
         } catch (error) {
             console.log(error);

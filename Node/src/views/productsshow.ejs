@@ -120,6 +120,7 @@
                     <th>Fix Price</th>
                     <th>Update</th>
                     <th></th>
+                    <th>DELETE</th>
                 </tr>
             </thead>
 
@@ -165,6 +166,9 @@
 
                         <td class="more">
                             <a href="/productsshow/<%= product._id %>">•••</a>
+                        </td>
+                        <td class="update">
+                            <a href="/productsshow/delete/<%= product._id %>">DELETE</a>
                         </td>
 
                     </tr>

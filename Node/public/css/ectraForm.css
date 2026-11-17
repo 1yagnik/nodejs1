@@ -147,3 +147,13 @@
         grid-template-columns: 1fr;
     }
 }
+
+td a {
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+td a .fa-trash {
+    color: #e53935;
+    cursor: pointer;
+}

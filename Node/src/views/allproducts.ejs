@@ -1,0 +1,205 @@
+
+ <link rel="stylesheet" href="/css/allproducts.css">
+    <!-- Main Container -->
+    
+
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="/">Home</a>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Casual</span>
+        </div>
+
+
+        <div class="shop-layout">
+
+
+            <!-- Sidebar Filters -->
+            <aside class="filter-sidebar">
+
+                <div class="filter-heading">
+                    <h3>Filters</h3>
+                    <i class="fa-solid fa-sliders"></i>
+                </div>
+
+
+                <!-- Categories -->
+                <div class="filter-group">
+
+                    <a href="#">T-shirts <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Shorts <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Shirts <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Hoodie <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Jeans <i class="fa-solid fa-chevron-right"></i></a>
+
+                </div>
+
+
+                <!-- Price -->
+                <div class="filter-section">
+
+                    <div class="filter-title">
+                        <h4>Price</h4>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="price-slider">
+
+                        <input type="range" min="50" max="200" value="150">
+
+                        <div class="price-values">
+                            <span>$50</span>
+                            <span>$200</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Colors -->
+                <div class="filter-section">
+
+                    <div class="filter-title">
+                        <h4>Colors</h4>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="color-options">
+
+                        <button class="color green"></button>
+                        <button class="color red"></button>
+                        <button class="color yellow"></button>
+                        <button class="color orange"></button>
+                        <button class="color cyan"></button>
+                        <button class="color blue"></button>
+                        <button class="color purple"></button>
+                        <button class="color pink"></button>
+                        <button class="color white"></button>
+                        <button class="color black"></button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Size -->
+                <div class="filter-section">
+
+                    <div class="filter-title">
+                        <h4>Size</h4>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="size-options">
+
+                        <button>XX-Small</button>
+                        <button>X-Small</button>
+                        <button>Small</button>
+                        <button>Medium</button>
+                        <button class="active">Large</button>
+                        <button>X-Large</button>
+                        <button>XX-Large</button>
+                        <button>3X-Large</button>
+                        <button>4X-Large</button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Dress Style -->
+                <div class="filter-section">
+
+                    <div class="filter-title">
+                        <h4>Dress Style</h4>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="filter-group style-filter">
+                        <a href="#">Casual <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="#">Formal <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="#">Party <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="#">Gym <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+
+                </div>
+
+
+                <button class="apply-filter">Apply Filter</button>
+
+            </aside>
+
+
+
+            <!-- Products Content -->
+            <section class="products-content">
+
+                <div class="products-heading">
+
+                    <h1>Casual</h1>
+
+                    <div class="sort-options">
+                        <span>Showing 1-10 of 100 Products</span>
+
+                        <label>
+                            Sort by:
+                            <select>
+                                <option>Most Popular</option>
+                                <option>Newest</option>
+                                <option>Price Low to High</option>
+                                <option>Price High to Low</option>
+                            </select>
+                        </label>
+                    </div>
+
+                </div>
+
+
+                <!-- Product Grid -->
+                <div class="product-grid">
+
+                    <% products.forEach((product)=> { %>
+                    <!-- Product 1 -->
+                     <a href="/products/<%= product._id %>" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="product-card">
+
+                        <div class="product-image">
+                            <img src="<%= product.imageUrl[0] %>" alt="Graphic T-shirt">
+                        </div>
+
+                        <h3><%= product.name %></h3>
+
+                        <div class="rating">
+                            <span>★★★★★</span>
+                            <small>3.5/5</small>
+                        </div>
+
+                        <div class="price">$<%= product.price %></div>
+
+                    </div>
+                    </a>
+                    <% }) %>
+
+                    
+
+
+                    
+
+                </div>
+
+
+                <!-- Pagination -->
+              
+
+            </section>
+
+        </div>
+
+
+
+    <!-- Newsletter -->
+    
+
+
+    <!-- Footer -->
