@@ -1,0 +1,455 @@
+<link rel="stylesheet" href="/css/or-man.css">
+
+<div class="topbar">
+    <h1>Orders</h1>
+
+    <div class="profile">
+        <button class="top-icon">✉</button>
+        <button class="top-icon">⌕</button>
+
+        <div class="user">
+            <img src="https://i.pravatar.cc/100?img=47" alt="Profile">
+            <div>
+                <strong>Kristina Evans</strong>
+                <small>kris.evans@gmail.com</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-layout">
+
+    <!-- LEFT SIDE ORDERS -->
+    <section class="orders-section">
+
+        <div class="filters">
+            <select>
+                <option>Any status</option>
+                <option>Paid</option>
+                <option>Delivered</option>
+                <option>Completed</option>
+            </select>
+
+            <select>
+                <option>$100—$1500</option>
+                <option>$0—$500</option>
+                <option>$500—$1000</option>
+            </select>
+
+            <select class="sort">
+                <option>Sort by Date</option>
+                <option>Newest</option>
+                <option>Oldest</option>
+            </select>
+        </div>
+
+        <div class="table-wrapper">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Customer</th>
+                        <th>Status</th>
+                        <th>Total</th>
+                        <th>Products</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody id="ordersTable">
+
+                    <% if (orders && orders.length> 0) { %>
+
+                        <% orders.forEach((order, index)=> { %>
+
+                            <tr class="order-row" data-index="<%= index %>"
+                                data-status="<%= (order.status || 'pending').toLowerCase() %>"
+                                onclick="selectOrder(this.dataset.index)">
+
+                                <td>#<%= index + 1 %>
+                                </td>
+
+                                <td>
+                                    <div class="customer">
+                                        <img src="https://i.pravatar.cc/40?img=47">
+                                        <%= order.email %>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <span class="status paid">
+                                        <%= order.status || 'Pending' %>
+                                    </span>
+                                </td>
+
+                                <td>
+                                    ₹<%= order.products.reduce((sum, p)=>
+                                        sum + (Number(p.price) * Number(p.quantity)), 0
+                                        ) + Number(order.shipping || 0) %>
+                                </td>
+
+                                <td>
+                                    <%= order.products.length %> Items
+                                </td>
+
+                                <td>···</td>
+
+                            </tr>
+
+                            <% }) %>
+
+                                <% } else { %>
+
+                                    <tr>
+                                        <td colspan="6">No orders found.</td>
+                                    </tr>
+
+                                    <% } %>
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- RIGHT SIDE ORDER DETAILS -->
+    <aside class="order-details" id="orderDetails">
+
+        <div class="detail-header">
+            <div>
+                <h3>Order Details</h3>
+
+                <div class="paid-info">
+                    <span id="detailStatus" class="status pending">Pending</span>
+                </div>
+            </div>
+
+            <button class="close" onclick="closeDetails()">×</button>
+        </div>
+
+        <div class="customer-profile">
+
+            <img src="https://i.pravatar.cc/100?img=11">
+
+            <strong id="customerEmail">Select an Order</strong>
+            <div class="contact-icons">
+                <button>✉</button>
+                <button>☎</button>
+                <button>◉</button>
+            </div>
+
+        </div>
+
+        <div class="items-section">
+
+            <h4>Order Items</h4>
+
+            <div id="productsContainer">
+                <p>Select an order to see products.</p>
+            </div>
+
+        </div>
+
+        <div class="total">
+            <span>Total</span>
+            <strong id="orderTotal">₹0</strong>
+        </div>
+
+        <div class="action-buttons">
+            <select class="track" id="orderStatus">
+                <option value="pending">pending</option>
+                <option value="delivered">delivered</option>
+                <option value="completed">completed</option>
+            </select>
+            <button class="refund">Refund ↩</button>
+        </div>
+
+    </aside>
+
+</div>
+
+
+<!-- ORDERS DATA -->
+<script id="ordersData" type="application/json">
+    <%- JSON.stringify(orders || []).replace(/</g, '\\u003c') %>
+</script>
+
+
+<script>
+
+    const orders = JSON.parse(
+        document.getElementById("ordersData").textContent
+    );
+
+    let selectedOrderIndex = 0;
+
+
+    // SELECT ORDER
+    function selectOrder(index) {
+
+
+        const order = orders[index];
+
+        if (!order) return;
+
+        selectedOrderIndex = index;
+
+        // Active row
+        document.querySelectorAll(".order-row").forEach(row => {
+            row.classList.remove("active");
+        });
+
+
+        const selectedRow = document.querySelector(
+            `.order-row[data-index="${index}"]`
+        );
+
+        if (selectedRow) {
+            selectedRow.classList.add("active");
+        }
+
+
+        // Customer Email
+        document.getElementById("customerEmail").textContent =
+            order.email || "No Email";
+
+        const statusDropdown = document.getElementById("orderStatus");
+
+        statusDropdown.value = (order.status || "pending").trim().toLowerCase();
+     
+
+
+        // Order Status
+        const statusElement = document.getElementById("detailStatus");
+
+        const status = (order.status || "Pending").toLowerCase();
+
+        statusElement.textContent = order.status || "Pending";
+
+        statusElement.className = "status " + status;
+
+
+        // Products
+        const productsContainer =
+            document.getElementById("productsContainer");
+
+        productsContainer.innerHTML = "";
+
+        let total = 0;
+
+        if (order.products && order.products.length > 0) {
+
+            order.products.forEach(product => {
+
+                const price = Number(product.price) || 0;
+
+                const quantity = Number(product.quantity) || 0;
+
+                const productTotal = price * quantity;
+
+                total += productTotal;
+
+                const productDiv = document.createElement("div");
+
+                productDiv.className = "product";
+
+                const image = document.createElement("img");
+
+                image.className = "product-image";
+
+                image.src = "/" + (product.image || "").replace(/^\/+/, "");
+
+                image.alt = product.name || "Product";
+
+                image.onerror = function () {
+                    this.style.display = "none";
+                };
+
+                const info = document.createElement("div");
+
+                info.className = "product-info";
+
+                const name = document.createElement("p");
+                name.textContent = product.name
+                    .split(" ")
+                    .slice(0, 2)
+                    .join(" ") + (product.name.split(" ").length > 2 ? "..." : "");
+
+                const priceText = document.createElement("strong");
+
+                priceText.textContent = "₹" + price.toLocaleString("en-IN");
+
+                const quantityText = document.createElement("strong");
+
+                quantityText.textContent =
+                    "Qty: " + quantity;
+
+                const subtotal = document.createElement("strong");
+
+                subtotal.textContent =
+                    "Subtotal: ₹" + productTotal.toLocaleString("en-IN");
+
+                info.append(name, priceText, quantityText, subtotal);
+
+                productDiv.append(image, info);
+
+                productsContainer.appendChild(productDiv);
+
+            });
+
+        } else {
+
+            productsContainer.innerHTML = "<p>No products found.</p>";
+
+        }
+
+
+        // Shipping
+        total += Number(order.shipping) || 0;
+
+
+        // Total Amount
+        document.getElementById("orderTotal").textContent =
+            "₹" + total.toLocaleString("en-IN");
+
+
+        // Show details
+        document.getElementById("orderDetails").style.display = "block";
+
+    }
+    const statusDropdown = document.getElementById("orderStatus");
+
+    statusDropdown.addEventListener("change", async function name () {
+
+        const newStatus = this.value;
+        console.log(newStatus);
+        
+
+        const order = orders[selectedOrderIndex];
+
+        if (!order) return;
+
+        try {
+
+            const response = await fetch(`/orders/${order._id}/${order.userId}/status`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    status: newStatus
+                })
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+
+                // Update frontend array
+                order.status = newStatus;
+
+                // Update order details status
+                const statusElement = document.getElementById("detailStatus");
+
+                statusElement.textContent = newStatus;
+
+                statusElement.className = "status " + newStatus.toLowerCase();
+
+                // Update table status
+                const row = document.querySelector(
+                    `.order-row[data-index="${selectedOrderIndex}"]`
+                );
+
+                if (row) {
+
+                    row.dataset.status = newStatus.toLowerCase();
+
+                    const badge = row.querySelector(".status");
+
+                    badge.textContent = newStatus;
+
+                    badge.className = "status " + newStatus.toLowerCase();
+
+                }
+
+                alert("Order status updated successfully!");
+
+            } else {
+
+                alert(result.message || "Status update failed!");
+
+            }
+
+        } catch (error) {
+
+            console.log(error);
+
+            alert("Something went wrong!");
+
+        }
+
+    });
+
+
+
+    // CLOSE DETAILS
+    function closeDetails() {
+
+        document.getElementById("orderDetails").style.display = "none";
+
+    }
+
+
+    // STATUS FILTER
+    document.getElementById("statusFilter").addEventListener("change", function () {
+
+        const filter = this.value;
+
+        document.querySelectorAll(".order-row").forEach(row => {
+
+            const status = row.dataset.status;
+
+            row.style.display =
+                filter === "all" || status === filter ? "" : "none";
+
+        });
+
+    });
+
+
+    // SORT ORDERS
+    document.getElementById("sortFilter").addEventListener("change", function () {
+
+        const tbody = document.getElementById("ordersTable");
+
+        const rows = Array.from(tbody.querySelectorAll(".order-row"));
+
+        rows.sort((a, b) => {
+
+            const first = Number(a.dataset.index);
+
+            const second = Number(b.dataset.index);
+
+            return this.value === "newest"
+                ? first - second
+                : second - first;
+
+        });
+
+        rows.forEach(row => tbody.appendChild(row));
+
+    });
+     
+
+    
+
+
+    // FIRST ORDER AUTOMATICALLY SELECT
+    if (orders.length > 0) {
+        selectOrder(0);
+    }
+
+</script>

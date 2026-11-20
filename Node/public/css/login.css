@@ -1,0 +1,337 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* BACKGROUND */
+
+.background {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        radial-gradient(ellipse at 50% 15%, #b64eae 0%, transparent 38%),
+        linear-gradient(180deg, #48206f 0%, #36205f 40%, #8d7bb6 100%);
+}
+
+/* MOUNTAINS */
+
+.mountains {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
+    border-bottom: 300px solid #30245d;
+}
+
+.m1 {
+    left: -100px;
+}
+
+.m2 {
+    left: 30%;
+    border-left-width: 280px;
+    border-right-width: 280px;
+    border-bottom-width: 350px;
+    border-bottom-color: #38215f;
+}
+
+.m3 {
+    right: -100px;
+    border-bottom-color: #281c53;
+}
+
+/* SNOW */
+
+.mountain::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: -65px;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 100px solid #b8b2dc;
+    transform: translateX(-50%);
+}
+
+/* TREES */
+
+.trees {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+}
+
+.tree {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 130px solid #19204e;
+    filter: drop-shadow(8px 12px 0 #30346f);
+}
+
+.tree::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: -28px;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-bottom: 95px solid #243a76;
+}
+
+.tree::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: -20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 65px solid #42649c;
+}
+
+.tree1 {
+    left: 8%;
+    transform: scale(1.5);
+}
+
+.tree2 {
+    left: 25%;
+    transform: scale(1.1);
+}
+
+.tree3 {
+    left: 45%;
+    transform: scale(1.4);
+}
+
+.tree4 {
+    right: 20%;
+    transform: scale(0.9);
+}
+
+.tree5 {
+    right: 7%;
+    transform: scale(1.3);
+}
+
+/* CABIN */
+
+.cabin {
+    position: absolute;
+    right: 8%;
+    bottom: 27%;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+}
+
+.house {
+    position: absolute;
+    bottom: 0;
+    width: 115px;
+    height: 75px;
+    background: #3a2358;
+    border: 3px solid #65518c;
+}
+
+.roof {
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 135px;
+    height: 60px;
+    background: linear-gradient(135deg, #aaa0d2, #30205d);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.window {
+    position: absolute;
+    bottom: 22px;
+    left: 20px;
+    width: 22px;
+    height: 20px;
+    background: #ffb34b;
+    box-shadow: 0 0 15px #ffb34b;
+}
+
+.door {
+    position: absolute;
+    bottom: 0;
+    right: 18px;
+    width: 22px;
+    height: 40px;
+    background: #211638;
+}
+
+.smoke {
+    position: absolute;
+    top: -55px;
+    right: 10px;
+    width: 25px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(210, 195, 220, 0.25);
+    filter: blur(8px);
+}
+
+/* LOGIN CARD */
+
+.login-card {
+    position: relative;
+    z-index: 5;
+    width: 355px;
+    padding: 22px 25px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 13px;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    box-shadow: 0 10px 40px rgba(20, 10, 50, 0.15);
+    color: white;
+}
+
+.login-card h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 27px;
+    font-weight: 700;
+}
+
+/* INPUT */
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 9px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 27px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 13px;
+}
+
+.form-group input:focus {
+    border-bottom: 2px solid #fff;
+}
+
+/* OPTIONS */
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 25px;
+    font-size: 10px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.remember input {
+    width: 11px;
+    height: 11px;
+    accent-color: #fff;
+}
+
+.form-options a {
+    color: white;
+    text-decoration: none;
+}
+
+/* BUTTON */
+
+.login-btn {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 25px;
+    background: white;
+    color: #222;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #e4d9f4;
+    transform: translateY(-2px);
+}
+
+/* REGISTER */
+
+.register-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+.register-text a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 500px) {
+
+    .login-card {
+        width: calc(100% - 40px);
+        max-width: 355px;
+        padding: 25px;
+    }
+
+    .cabin {
+        right: -20px;
+        transform: scale(0.7);
+    }
+
+    .tree {
+        transform: scale(0.7);
+    }
+
+}

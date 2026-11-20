@@ -211,7 +211,7 @@ a {
     gap: 10px;
 }
 
-.size-options button {
+.size-options label {
     border: none;
     background: #f0f0f0;
     color: #777;
@@ -220,8 +220,8 @@ a {
     font-size: 13px;
 }
 
-.size-options button.active,
-.size-options button:hover {
+.size-options label.active,
+.size-options label:hover {
     background: #000;
     color: #fff;
 }
@@ -251,7 +251,7 @@ a {
     font-size: 19px;
 }
 
-.quantity span {
+.myquantity  {
     font-size: 14px;
     font-weight: 600;
 }
@@ -436,7 +436,19 @@ a {
     background: #000;
     color: #fff;
 }
+.color-options input,
+.size-options input {
+    display: none;
+}
 
+.size-options label {
+    cursor: pointer;
+}
+
+.size-options input:checked + span {
+    background: black;
+    color: white;
+}
 
 /* Related Products */
 

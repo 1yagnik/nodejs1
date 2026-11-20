@@ -2,13 +2,17 @@ import express from 'express';
 import path from 'node:path';
 import { DOMMatrix, ImageData, Path2D } from '@napi-rs/canvas';
 import ProductController from './src/controllers/productController.js';
-import {uploadFile} from './src/multer.js';
+import { uploadFile } from './src/multer.js';
 import OneController from './src/controllers/oneController.js';
 import MainController from './src/controllers/mainController.js';
+import CartController from './src/controllers/cartconstroller.js';
+import orderController from './src/controllers/orderController.js';
+import MyAccountController from './src/controllers/myAccoutncontroller.js';
+import session from 'express-session';
 
 import expressLayouts from 'express-ejs-layouts'
 import { fileURLToPath } from 'node:url';
-import {connectToMongoDB} from './config/mongodb.js';
+import { connectToMongoDB } from './config/mongodb.js';
 
 globalThis.DOMMatrix ??= DOMMatrix;
 globalThis.ImageData ??= ImageData;
@@ -23,11 +27,21 @@ const server = express();
 const productController = new ProductController();
 const oneController = new OneController();
 const mainController = new MainController();
+const cartController = new CartController();
+const orderconstroller = new orderController();
+const myaccountcontroller = new MyAccountController();
 
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
 const viewsPath = path.join(__dirname, 'src', 'views');
+server.use(
+  session({
+    secret: 'SecretKey',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false },
+  }));
 
 server.use(express.static(path.join(__dirname, 'public')));
 server.use(expressLayouts);
@@ -36,15 +50,36 @@ server.use(express.static(viewsPath));
 server.set('view engine', 'ejs');
 server.set('views', viewsPath);
 
+server.get('/login', mainController.login)
+server.post('/login', mainController.postlogin)
 
-server.get('/',mainController.getMainPage)
-server.get('/products',mainController.getProductsPage)
-server.get('/products/:id',mainController.getOneproducts)
+server.get('/signin', mainController.signin)
+server.post('/signin', mainController.postsignin)
+
+server.post('/orders/:id/:userId/status',productController.postStatus)
+
+
+server.get('/', mainController.getMainPage)
+server.get('/products', mainController.getProductsPage)
+server.get('/products/:id', mainController.getOneproducts)
+server.post('/products', mainController.postProducts)
 
 
 
 
-server.get('/orders',productController.getOrder)
+server.get('/cart', cartController.getCart)
+server.post('/cart', cartController.postcart)
+
+server.get('/order',orderconstroller.getOrders)
+
+server.get('/account',myaccountcontroller.getaccount)
+
+
+
+
+
+
+server.get('/orders', productController.getOrder)
 server.get('/admin', productController.getDashboard)
 server.get('/customers', productController.getCustomers)
 server.get('/productsshow', productController.getProducts)
@@ -52,14 +87,14 @@ server.get('/setting', productController.getSetting)
 server.get('/add', productController.getProductsAdd)
 server.get('/productsshow/:id', productController.firstPro)
 server.get('/productsshow/update/:id', productController.UpdateForm)
-server.get('/productsshow/delete/:id',productController.deleteProducts)
-server.get('/form/delete/:collection/:id',oneController.deleteOne)
+server.get('/productsshow/delete/:id', productController.deleteProducts)
+server.get('/form/delete/:collection/:id', oneController.deleteOne)
 
 
 server.get('/form', oneController.getExtraForm)
-server.post('/form',oneController.PostForm)
-server.post('/update', uploadFile.array("imageUrl", 5),productController.PostUpdateForm)
-server.post('/add',uploadFile.array("images", 5),productController.postAddProduct)
+server.post('/form', oneController.PostForm)
+server.post('/update', uploadFile.array("imageUrl", 5), productController.PostUpdateForm)
+server.post('/add', uploadFile.array("images", 5), productController.postAddProduct)
 
 
 
@@ -86,7 +121,7 @@ if (!process.env.VERCEL) {
   server.listen(3400, () => {
     console.log('Server running at http://localhost:3400');
     connectToMongoDB()
-  
+
   });
 }
 

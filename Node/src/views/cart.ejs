@@ -1,0 +1,135 @@
+<link rel="stylesheet" href="/css/cart.css">
+
+<div class="cart-container">
+
+    <!-- LEFT CART SECTION -->
+    <div class="cart-left">
+
+        <div class="cart-header">
+            <h2>Shopping Cart</h2>
+
+        </div>
+
+        <div class="table-heading">
+            <span>PRODUCT DETAILS</span>
+            <span>QUANTITY</span>
+            <span>PRICE</span>
+            <span>TOTAL</span>
+        </div>
+
+        <!-- COMPLETE CART FORM -->
+        <form action="/cart" method="POST">
+            <% if (user && user.cart && user.cart.length> 0) { %>
+
+                <input type="hidden" name="userid" value="<%= user._id %>">
+                <% } %>
+
+                    <% if (user && user.cart && user.cart.length> 0) { %>
+
+
+
+
+
+                        <% user.cart.forEach((cart, index)=> { %>
+
+                            <input type="hidden" name="cart[<%= index %>][productID]" value="<%= cart.productId %>">
+
+
+                            <input type="hidden" name="cart[<%= index %>][name]" value="<%= cart.name %>">
+
+                            <input type="hidden" name="cart[<%= index %>][price]" value="<%= cart.price %>">
+
+                            <input type="hidden" name="cart[<%= index %>][image]" value="<%= cart.image %>">
+
+                            <div class="cart-item">
+
+                                <div class="product-details">
+
+                                    <img src="/<%= cart.image %>" alt="<%= cart.name %>">
+
+                                    <div class="product-info">
+                                        <h4>
+                                            <%= cart.name %>
+                                        </h4>
+                                        <p>PS4</p>
+                                        <a href="#">Remove</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="quantity">
+                                    <button type="button">-</button>
+
+                                    <input type="number" name="cart[<%= index %>][quantity]"
+                                        value="<%= cart.quantity %>" min="1" readonly>
+
+                                    <button type="button">+</button>
+                                </div>
+
+                                <div class="price">
+                                    ₹<%= cart.price %>
+                                </div>
+
+                                <div class="total">
+                                    ₹<%= Number(cart.price) * Number(cart.quantity) %>
+                                </div>
+
+                            </div>
+
+                            <% }); %>
+
+                                <% } else { %>
+
+                                    <p>Your cart is empty.</p>
+
+                                    <% } %>
+
+                                        <a href="/products" class="continue-shopping">
+                                            ← Continue Shopping
+                                        </a>
+
+    </div>
+
+
+    <!-- RIGHT ORDER SUMMARY -->
+    <div class="cart-right">
+
+        <h2>Order Summary</h2>
+
+
+
+        <div class="shipping-section">
+
+            <h4>SHIPPING</h4>
+
+            <select name="shipping">
+                <option value="5">Standard Delivery - ₹5.00</option>
+                <option value="10">Express Delivery - ₹10.00</option>
+            </select>
+
+        </div>
+
+        <div class="promo-section">
+
+            <h4>PROMO CODE</h4>
+
+            <input type="text" name="promo" placeholder="Enter your code">
+
+            <button type="button" class="apply-btn">APPLY</button>
+
+        </div>
+
+        <div class="summary-total">
+            <span>TOTAL COST</span>
+            <strong>£462.98</strong>
+        </div>
+
+        <button type="submit" class="checkout-btn">
+            CHECKOUT
+        </button>
+
+    </div>
+
+    </form>
+
+</div>

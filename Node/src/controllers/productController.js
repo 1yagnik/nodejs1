@@ -1,5 +1,8 @@
 import ProductModel from '../models/product.model.js';
 import OneModel from '../models/one.model.js';
+import { getdb } from '../../config/mongodb.js';
+import { ObjectId } from 'mongodb';
+import CartModel from '../models/cartmodel.js';
 
 export default class ProductController {
 
@@ -82,8 +85,8 @@ export default class ProductController {
     const id = req.params.id;
 
     const product = await ProductModel.findOne(id);
-    
-    
+
+
 
     res.render('firstproducts', {
       product: product,
@@ -127,7 +130,7 @@ export default class ProductController {
         minOrder,
       } = req.body;
       console.log(req.body);
-      
+
 
       // Multiple images get
       const imageUrl = req.files.map((file) => {
@@ -179,16 +182,110 @@ export default class ProductController {
     res.render('productsadd', { cate: cate });
   }
 
-  getCustomers(req, res) {
-    res.render('customer');
+  async getCustomers(req, res) {
+    const db = getdb();
+
+    const customers = await db.collection('users').find({}).toArray();
+
+
+
+    res.render('customer', { customers: customers });
   }
 
   getDashboard(req, res) {
     res.render('dashboard');
   }
 
-  getOrder(req, res) {
-    res.render('orders');
+
+
+  async postStatus(req, res) {
+    try {
+
+      const { id, userId } = req.params;
+
+
+
+      const { status } = req.body;
+
+      const allowedStatus = [
+        "pending",
+        "delivered",
+        "completed"
+      ];
+
+      if (!ObjectId.isValid(id)) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid order ID"
+        });
+      }
+
+      if (!allowedStatus.includes(status)) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid status"
+        });
+      }
+
+      const db = getdb();
+
+      const user = await CartModel.finduser(userId)
+
+
+      const results = await db.collection("users").updateOne(
+        {
+          _id: new ObjectId(userId),
+          "order.orderId": new ObjectId(id)
+        },
+        {
+          $set: {
+            "order.$.status": status
+          }
+        }
+      );
+
+
+      const result = await db.collection("orders").updateOne(
+        {
+          _id: new ObjectId(id)
+        },
+        {
+          $set: {
+            status: status
+          }
+        }
+      );
+
+      if (result.matchedCount === 0) {
+        return res.status(404).json({
+          success: false,
+          message: "Order not found"
+        });
+      }
+
+      res.json({
+        success: true,
+        message: "Order status updated"
+      });
+
+    } catch (error) {
+
+      console.log(error);
+
+      res.status(500).json({
+        success: false,
+        message: "Server error"
+      });
+
+    }
+  }
+
+  async getOrder(req, res) {
+    const db = getdb();
+
+    const orders = await db.collection('orders').find({}).toArray();
+
+    res.render('adminorders', { orders: orders });
   }
 
   // Defining getProducts method

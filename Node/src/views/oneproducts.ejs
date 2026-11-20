@@ -17,96 +17,132 @@
     <!-- Product Details -->
     <section class="product-details">
 
-        <!-- Product Images -->
         <div class="product-gallery">
 
             <div class="thumbnail-images">
-                <% product.imageUrl.forEach((image, index) => { %>
-                <img class="active"
-                src="/<%= image %>"
-                alt="Product thumbnail">
-                 <% }) %>
-
-               
+                <% product.imageUrl.forEach((image, index)=> { %>
+                    <img class="active" src="/<%= image %>" alt="Product thumbnail">
+                    <% }) %>
             </div>
 
             <div class="main-product-image">
-                <img
-                src="/<%= product.imageUrl[0] %>"
-                alt="One Life Graphic T-shirt">
+                <img src="/<%= product.imageUrl[0] %>" alt="Product">
             </div>
 
         </div>
 
 
-        <!-- Product Information -->
         <div class="product-info">
 
-            <h1><%= product.name %></h1>
+            <form action="/products" method="POST">
 
-            <div class="product-rating">
-                <span>★★★★★</span>
-                <small>4.5/5</small>
-            </div>
+                <input type="hidden" name="productId" value="<%= product._id %>">
 
-            <div class="product-price">
-                <strong>$<%= product.price %></strong>
-                <del>$<%= product.originalPrice %></del>
-                <span class="discount">-<%= product.discount %>%</span>
-            </div>
+                <h1>
+                    <%= product.name %>
+                </h1>
 
-            <p class="product-description">
-                <%= product.desc %>
-            </p>
-
-
-            <!-- Select Color -->
-            <div class="product-option">
-
-                <h4>Select Colors</h4>
-
-                <div class="color-options">
-                    <button class="color olive active"></button>
-                    <button class="color dark"></button>
-                    <button class="color navy"></button>
+                <div class="product-rating">
+                    <span>★★★★★</span>
+                    <small>4.5/5</small>
                 </div>
 
-            </div>
-
-
-            <!-- Select Size -->
-            <div class="product-option">
-
-                <h4>Choose Size</h4>
-
-                <div class="size-options">
-                    <button>Small</button>
-                    <button>Medium</button>
-                    <button class="active">Large</button>
-                    <button>X-Large</button>
+                <div class="product-price">
+                    <strong>$<%= product.price %></strong>
+                    <del>$<%= product.originalPrice %></del>
+                    <span class="discount">-<%= product.discount %>%</span>
                 </div>
 
-            </div>
+                <p class="product-description">
+                    <%= product.desc %>
+                </p>
 
 
-            <!-- Quantity and Cart -->
-            <div class="cart-actions">
+                <!-- Select Color -->
+                <div class="product-option">
 
-                <div class="quantity">
-                    <button type="button">−</button>
-                    <span>1</span>
-                    <button type="button">+</button>
+                    <h4>Select Colors</h4>
+
+                    <div class="color-options">
+
+                        <label>
+                            <input type="radio" name="color" value="Olive" checked>
+                            <button type="button" class="color olive active"></button>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="color" value="Dark">
+                            <button type="button" class="color dark"></button>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="color" value="Navy">
+                            <button type="button" class="color navy"></button>
+                        </label>
+
+                    </div>
+
                 </div>
 
-                <button class="add-cart">
-                    Add to Cart
-                </button>
 
-            </div>
+                <!-- Select Size -->
+                <div class="product-option">
+
+                    <h4>Choose Size</h4>
+
+                    <div class="size-options">
+
+                        <label>
+                            <input type="radio" name="size" value="Small">
+                            <span>Small</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="size" value="Medium">
+                            <span>Medium</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="size" value="Large" checked>
+                            <span class="active">Large</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="size" value="X-Large">
+                            <span>X-Large</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quantity and Cart -->
+                <div class="cart-actions">
+
+                    <div class="quantity">
+
+                        <button type="button" id="minus">−</button>
+
+                        <input type="number" name="quantity" id="quantity" value="1" min="1" max="<%= product.stock %>">
+
+                        <button type="button" id="plus">+</button>
+
+                    </div>
+
+                    <button type="submit" class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </form>
 
         </div>
 
     </section>
+
+
 
 
     <!-- Product Tabs -->
@@ -343,5 +379,24 @@
 
 </div>
 
-</body>
-</html>
+<script>
+
+    const quantity = document.getElementById("quantity");
+
+    document.getElementById("plus").addEventListener("click", () => {
+
+        if (Number(quantity.value) < Number(quantity.max)) {
+            quantity.value = Number(quantity.value) + 1;
+        }
+
+    });
+
+    document.getElementById("minus").addEventListener("click", () => {
+
+        if (Number(quantity.value) > 1) {
+            quantity.value = Number(quantity.value) - 1;
+        }
+
+    });
+
+</script>

@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="/css/order.css">
+
+<div class="orders-container">
+
+    <!-- PAGE HEADER -->
+    <div class="orders-heading">
+        <h2>My Orders</h2>
+        <p>View and edit all your pending, delivered,<br>
+            and returned orders here.</p>
+    </div>
+
+    <!-- ORDER CARD -->
+
+    <% if (user && user.order && user.order.length> 0) { %>
+
+        <% user.order.forEach((order, index)=> { %>
+
+            <div class="order-card">
+
+                <!-- ORDER HEADER -->
+                <div class="order-header">
+
+                    <div class="order-meta">
+                        <span class="order-number">
+                            Order <strong>
+                                <%= order.orderId %>
+                            </strong>
+                        </span>
+
+                        <span class="order-date">
+                            Order Placed, Thu, 17th Nov'16
+                        </span>
+                    </div>
+
+                    <button class="track-btn" type="button">
+                        <span>➜</span> TRACK ORDER
+                    </button>
+
+                </div>
+
+
+
+
+                <!-- ORDER PRODUCT 1 -->
+                <% order.orders.forEach((orders, index)=> { %>
+                    <div class="order-product">
+
+                        <div class="product-details">
+
+                            <img src="https://placehold.co/100x120/e8e8e8/555?text=Dress" alt="Product">
+
+                            <div class="product-info">
+                                <h3>
+                                    <%= orders.name %>
+                                </h3>
+                                <p>By: Milly Thomas</p>
+
+                                <div class="product-options">
+                                    <span>Size: S</span>
+                                    <span>Qty: 1</span>
+                                    <strong>Rs. 1250</strong>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="product-status">
+                            <small>Status</small>
+                            <strong>
+                                <%= order.status %>
+                            </strong>
+                        </div>
+
+                        <div class="delivery-date">
+                            <small>Delivery Expected by</small>
+                            <strong>24 December 2016</strong>
+                        </div>
+
+                    </div>
+
+
+                    <!-- ORDER PRODUCT 2 -->
+
+                    <% }); %>
+
+
+                        <!-- ORDER FOOTER -->
+                        <div class="order-footer">
+
+                            <button type="button" class="cancel-btn">
+                                × CANCEL ORDER
+                            </button>
+
+                            <span class="payment-info">
+                                Paid using credit card ending with 7345
+                            </span>
+
+                            <strong class="order-total">
+                                Rs. 3,010
+                            </strong>
+
+                        </div>
+
+            </div>
+            <% }); %>
+
+                <% } else { %>
+
+                    <p>Your cart is empty.</p>
+
+
+
+
+                    <% } %>
+
+</div>
